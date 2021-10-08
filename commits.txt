@@ -5,5 +5,5 @@ worklab:
 C:\Users\Lap126\Documents\GitHub\SeleniumPython
 
 0810 init
-
 1340 nochmal
+von shell: git commit -m vonshell
