@@ -1,0 +1,7 @@
+﻿privlab:
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+
+worklab:
+C:\Users\Lap126\Documents\GitHub\SeleniumPython
+
+0810 init
