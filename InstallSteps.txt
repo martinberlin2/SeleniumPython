@@ -1,0 +1,13 @@
+InstallSteps
+
+https://www.youtube.com/watch?v=57pjD89IFXA
+Selenium with Python | Hybrid Framework Design from scratch | PyTest, POM & HTML Reports
+POM Page Object Model
+
+FRamework = Verzwichnisstruktur
+Dateien sind verlinkt 
+
+Entwurf als data driven 
+
+z.B. User, PW 
+
