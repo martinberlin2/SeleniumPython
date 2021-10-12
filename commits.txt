@@ -16,3 +16,4 @@ von shell: git commit -a -m vonshell
 1210 1245 von worklab: nach git clone https://github.com/martinberlin2/SeleniumPython wird es in neues Subverz geladen
 commit von da aus
 
+1340 neu geklont
