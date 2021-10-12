@@ -17,3 +17,5 @@ von shell: git commit -a -m vonshell
 commit von da aus
 
 1340 neu geklont
+main.py erstellt, mit Natali
+walterschreiber Platz auf dem Bahnsteig, in Rictung wo es zum Einkaufszentrum geht
