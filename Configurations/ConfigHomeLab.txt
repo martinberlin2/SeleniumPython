@@ -1,0 +1,7 @@
+geckodriver
+https://github.com/mozilla/geckodriver/releases -->
+C:\Users\laoch\OneDrive\Dokumente\Meins\AndereProgramme_G\Work\Drivers
+
+später:
+https://selenium-python.readthedocs.io/installation.html
+1.6. Downloading Selenium server

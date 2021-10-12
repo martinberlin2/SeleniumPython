@@ -1,0 +1,4 @@
+auf priv selenium ohne webdriver installiert
+
+weiter
+https://selenium-python.readthedocs.io/api.html

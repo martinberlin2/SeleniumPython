@@ -8,3 +8,7 @@ C:\Users\Lap126\Documents\GitHub\SeleniumPython
 1340 nochmal
 von shell: git commit -a -m vonshell
 (committed alles geänderte)
+
+1110 Unterverz. für selenium projekt
+
+1210 nur home: selenium installiert 
