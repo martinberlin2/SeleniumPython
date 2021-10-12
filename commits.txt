@@ -12,3 +12,7 @@ von shell: git commit -a -m vonshell
 1110 Unterverz. für selenium projekt
 
 1210 nur home: selenium installiert 
+
+1210 1245 von worklab: nach git clone https://github.com/martinberlin2/SeleniumPython wird es in neues Subverz geladen
+commit von da aus
+
