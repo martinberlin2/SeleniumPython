@@ -1,1 +1,7 @@
 git commit -m "Why commit before pull?"
+
+neue sitzung:
+wen pull fails:
+
+erst commit, KEIN push, 
+dann pull der sagt conflicts an
