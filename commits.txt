@@ -18,4 +18,5 @@ commit von da aus
 
 1340 neu geklont
 main.py erstellt, mit Natali
-walterschreiber Platz auf dem Bahnsteig, in Rictung wo es zum Einkaufszentrum geht
+
+1410 title geht; keine globale Variable: driver muss immer Parameter sein

@@ -1,6 +1,6 @@
 
 
-# main für selenium python Test
+# start für selenium python Test
 # evalTC(3, "len1", execFuncWithExc(lcs, ["abc", "daf"]) ,[1,"a"]) 
 # geht das in Selenium ?
 
