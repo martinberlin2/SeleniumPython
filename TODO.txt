@@ -2,3 +2,16 @@ auf priv selenium ohne webdriver installiert
 
 weiter
 https://selenium-python.readthedocs.io/api.html
+
+find element
+	name
+	class
+	...
+
+Actions
+	mouse over 
+	left click 
+	right click
+	wait 
+	
+

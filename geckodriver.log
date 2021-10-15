@@ -101,3 +101,93 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1634151554702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1634151558446	Marionette	INFO	Stopped listening on port 53376
 JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1634233685894	geckodriver	INFO	Listening on 127.0.0.1:56488
+1634233688948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofile0vdGvr"
+1634233689492	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofile0vdGvr\\search.json.mozlz4", (void 0)))
+1634233691297	Marionette	INFO	Listening on port 56496
+1634233691614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634234180267	Marionette	INFO	Stopped listening on port 56496
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofilefcL642\\search.json.mozlz4", (void 0)))
+1634233769636	Marionette	INFO	Listening on port 56584
+1634233769674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634234068735	Marionette	INFO	Stopped listening on port 56584
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+\Temp\\rust_mozprofileHk0Nuh\\search.json.mozlz4", (void 0)))
+1634233901872	Marionette	INFO	Listening on port 56673
+1634233902082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634233906864	Marionette	INFO	Stopped listening on port 56673
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634234035328	geckodriver	INFO	Listening on 127.0.0.1:56757
+1634234038387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofileQJUsEm"
+1634234038673	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofileQJUsEm\\search.json.mozlz4", (void 0)))
+1634234040345	Marionette	INFO	Listening on port 56765
+1634234040444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634234044706	Marionette	INFO	Stopped listening on port 56765
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1634292495490	geckodriver	INFO	Listening on 127.0.0.1:59356
+1634292498539	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofileVdkVVq"
+1634292498830	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofileVdkVVq\\search.json.mozlz4", (void 0)))
+1634292500562	Marionette	INFO	Listening on port 59364
+1634292500598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634292505808	Marionette	INFO	Stopped listening on port 59364
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634297581648	geckodriver	INFO	Listening on 127.0.0.1:59668
+1634297584713	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofileggrNUB"
+1634297584967	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofileggrNUB\\search.json.mozlz4", (void 0)))
+1634297586560	Marionette	INFO	Listening on port 59676
+1634297586788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634297591240	Marionette	INFO	Stopped listening on port 59676
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1634297687405	geckodriver	INFO	Listening on 127.0.0.1:59794
+1634297690458	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofiledCSTYM"
+1634297690709	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofiledCSTYM\\search.json.mozlz4", (void 0)))
+1634297692370	Marionette	INFO	Listening on port 59802
+1634297692511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634297697317	Marionette	INFO	Stopped listening on port 59802
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\laoch\AppData\Local\Temp\rust_mozprofiledCSTYM\protections.sqlite
+1634297710380	geckodriver	INFO	Listening on 127.0.0.1:59880
+1634297713421	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofileJqM7M1"
+1634297713680	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofileJqM7M1\\search.json.mozlz4", (void 0)))
+1634297715288	Marionette	INFO	Listening on port 59888
+1634297715484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://www.gstatic.com/recaptcha/releases/qljbK_DTcvY1PzbR7IG69z1r/styles__ltr.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.1 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/plugins/cryptx/css/cryptx.css?ver=5.8.1 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=5.8.1 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/plugins/mega-addons-for-visual-composer/css/style.css?ver=5.8.1 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/plugins/mega-addons-for-visual-composer/css/font-awesome/css/all.css?ver=5.8.1 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/plugins/simple-membership/css/swpm.common.css?ver=5.8.1 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/plugins/wpcf7-redirect/build/css/wpcf7-redirect-frontend.min.css?ver=5.8.1 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/themes/barletta/css/bootstrap.min.css?ver=5.8.1 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/themes/barletta/css/font-awesome.min.css?ver=5.8.1 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/themes/barletta/style.css?ver=5.8.1 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/uploads/dynamic-mobmenu.css?ver=2.8.2.4-738 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/cache/borlabs-cookie/borlabs-cookie_1_de.css?ver=2.2.35-7 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.7.0 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/plugins/mobile-menu/includes/css/mobmenu-icons.css?ver=5.8.1 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://auticon.de/wp-content/plugins/mobile-menu/includes/css/mobmenu.css?ver=2.8.2.4 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://fonts.googleapis.com/css2?display=swap&family=Source+Sans+Pro:wght@300;700 without a browsingContextID set
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.

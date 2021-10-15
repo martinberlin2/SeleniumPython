@@ -28,9 +28,17 @@ def main():
 	
 	driver.get("https://auticon.de") #  smoke test 
 	# print(driver.title)
-	import TC_1_title(driver)
-
+	from TC_1_title import tc
+	result = tc(driver)
+	print(result)
+	
+	from TC_2_topline import tc
+	result = tc(driver)
+	print(result)
+	
+	
 	# zuletzt
-	driver.close()
+	# driver.close()
+	# driver.quit()
 	 
 start()

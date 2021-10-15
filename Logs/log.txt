@@ -1,2 +1,0 @@
-INFO:root:EXC: name 'logging' is not defined
-INFO:root:EXC TC1: name 'driver' is not defined

@@ -1,0 +1,2529 @@
+
+<!DOCTYPE html>
+<html lang="de-DE">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="auticon">
+		<meta name="twitter:description" content="Another Perspective">
+		<meta name="twitter:image:src" content="/wp-content/uploads/2018/11/twitter_image.jpg">
+
+		<link rel="pingback" href="" />
+
+		<!-- ANALYTICS TRACKING CODE -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131041198-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131041198-1');
+</script>
+
+<style type="text/css">
+
+#cookieChoiceInfo {
+
+display: none;
+
+}
+
+</style>
+
+
+		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" hreflang="de" href="https://auticon.de/" />
+<link rel="alternate" hreflang="en-gb" href="https://auticon.co.uk/" />
+<link rel="alternate" hreflang="fr" href="https://auticonsult.fr/" />
+<link rel="alternate" hreflang="x-default" href="https://auticon.com/" />
+<link rel="alternate" hreflang="it" href="https://auticon.it/" />
+<link rel="alternate" hreflang="de-ch" href="https://auticon.ch/" />
+<link rel="alternate" hreflang="en-us" href="https://auticon.us/" />
+<link rel="alternate" hreflang="en-au" href="https://auticon.com.au/" />
+<link rel="alternate" hreflang="en-ca" href="https://auticon.ca/" />
+<link rel="alternate" hreflang="fr-ca" href="https://auticonsult.ca/" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v17.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Home - auticon</title>
+	<meta name="description" content="Nutzen Sie die einzigartigen Fähigkeiten unserer auticon Consultants für Ihre IT-Projekte oder lernen Sie auticon als Arbeitgeber kennen." />
+	<link rel="canonical" href="https://auticon.de/" />
+	<meta property="og:locale" content="de_DE" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="auticon" />
+	<meta property="og:description" content="Autistic strengths for your IT and data projects" />
+	<meta property="og:url" content="https://auticon.de/" />
+	<meta property="og:site_name" content="auticon" />
+	<meta property="article:modified_time" content="2021-07-06T12:24:22+00:00" />
+	<meta property="og:image" content="https://auticon.de/wp-content/uploads/2018/11/auticon_logo_257px.png" />
+	<meta property="og:image:width" content="257" />
+	<meta property="og:image:height" content="257" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="auticon" />
+	<meta name="twitter:description" content="Autistic strengths for your IT and data projects" />
+	<meta name="twitter:image" content="https://auticon.de/wp-content/uploads/2021/06/Quality_Assurance_new_1024.jpg" />
+	<meta name="twitter:site" content="@auticon" />
+	<meta name="twitter:label1" content="Geschätzte Lesezeit" />
+	<meta name="twitter:data1" content="2 Minuten" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://auticon.com/#organization","name":"auticon","url":"https://auticon.com/","sameAs":["https://www.linkedin.com/company/auticon","https://en.wikipedia.org/wiki/Auticon","https://twitter.com/auticon"],"logo":{"@type":"ImageObject","@id":"https://auticon.com/#logo","inLanguage":"de-DE","url":"https://auticon.de/wp-content/uploads/2020/03/Logo-auticon.png","contentUrl":"https://auticon.de/wp-content/uploads/2020/03/Logo-auticon.png","width":1970,"height":1971,"caption":"auticon"},"image":{"@id":"https://auticon.com/#logo"}},{"@type":"WebSite","@id":"https://auticon.com/#website","url":"https://auticon.com/","name":"auticon","description":"Autistic strengths for your IT and data projects","publisher":{"@id":"https://auticon.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://auticon.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"de-DE"},{"@type":"ImageObject","@id":"https://auticon.de/#primaryimage","inLanguage":"de-DE","url":"https://auticon.de/wp-content/uploads/2018/11/auticon_logo_257px.png","contentUrl":"https://auticon.de/wp-content/uploads/2018/11/auticon_logo_257px.png","width":257,"height":257},{"@type":"WebPage","@id":"https://auticon.de/#webpage","url":"https://auticon.de/","name":"Home - auticon","isPartOf":{"@id":"https://auticon.com/#website"},"about":{"@id":"https://auticon.com/#organization"},"primaryImageOfPage":{"@id":"https://auticon.de/#primaryimage"},"datePublished":"2018-08-30T13:06:16+00:00","dateModified":"2021-07-06T12:24:22+00:00","description":"Nutzen Sie die einzigartigen F\u00e4higkeiten unserer auticon Consultants f\u00fcr Ihre IT-Projekte oder lernen Sie auticon als Arbeitgeber kennen.","breadcrumb":{"@id":"https://auticon.de/#breadcrumb"},"inLanguage":"de-DE","potentialAction":[{"@type":"ReadAction","target":["https://auticon.de/"]}]},{"@type":"BreadcrumbList","@id":"https://auticon.de/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Startseite"}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//js.hs-scripts.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="auticon &raquo; Feed" href="https://auticon.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="auticon &raquo; Kommentar-Feed" href="https://auticon.de/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/auticon.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://auticon.de/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://auticon.de/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cryptx-styles-css'  href='https://auticon.de/wp-content/plugins/cryptx/css/cryptx.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='image-hover-effects-css-css'  href='https://auticon.de/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css-css'  href='https://auticon.de/wp-content/plugins/mega-addons-for-visual-composer/css/style.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-latest-css'  href='https://auticon.de/wp-content/plugins/mega-addons-for-visual-composer/css/font-awesome/css/all.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='swpm.common-css'  href='https://auticon.de/wp-content/plugins/simple-membership/css/swpm.common.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpcf7-redirect-script-frontend-css'  href='https://auticon.de/wp-content/plugins/wpcf7-redirect/build/css/wpcf7-redirect-frontend.min.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-legacy-dropdown-0-css'  href='//auticon.de/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='//fonts.googleapis.com/css?family=Raleway%3A400%2C600%2C400italic%7CLora%3A700%7CRoboto%3A400%7CPlayfair+Display%3A700&#038;subset=latin%2Clatin-ext&#038;ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://auticon.de/wp-content/themes/barletta/css/bootstrap.min.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://auticon.de/wp-content/themes/barletta/css/font-awesome.min.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='barletta-style-css'  href='https://auticon.de/wp-content/themes/barletta/style.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tf-compiled-options-mobmenu-css'  href='https://auticon.de/wp-content/uploads/dynamic-mobmenu.css?ver=2.8.2.4-127' type='text/css' media='all' />
+<link rel='stylesheet' id='tf-google-webfont-dosis-css'  href='//fonts.googleapis.com/css?family=Dosis%3Ainherit%2C400&#038;subset=latin%2Clatin-ext&#038;ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='borlabs-cookie-css'  href='https://auticon.de/wp-content/cache/borlabs-cookie/borlabs-cookie_1_de.css?ver=2.2.35-7' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://auticon.de/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css'  href='//auticon.de/wp-content/uploads/pum/pum-site-styles.css?generated=1628853225&#038;ver=1.16.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cssmobmenu-icons-css'  href='https://auticon.de/wp-content/plugins/mobile-menu/includes/css/mobmenu-icons.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cssmobmenu-css'  href='https://auticon.de/wp-content/plugins/mobile-menu/includes/css/mobmenu.css?ver=2.8.2.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://auticon.de/wp-content/plugins/cryptx/js/cryptx.min.js?ver=5.8.1' id='cryptx-js-js'></script>
+<script type='text/javascript' src='https://auticon.de/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://auticon.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='//auticon.de/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/script.min.js?ver=1' id='wpml-legacy-dropdown-0-js'></script>
+<script type='text/javascript' src='https://auticon.de/wp-content/themes/barletta/js/modernizr.min.js?ver=5.8.1' id='modernizr-js'></script>
+<script type='text/javascript' src='https://auticon.de/wp-content/themes/barletta/js/bootstrap.min.js?ver=5.8.1' id='bootstrap-js'></script>
+<script type='text/javascript' src='https://auticon.de/wp-content/themes/barletta/js/jquery.bxslider.min.js?ver=5.8.1' id='bxslider-js'></script>
+<script type='text/javascript' src='https://auticon.de/wp-content/themes/barletta/js/barletta.scripts.js?ver=5.8.1' id='barletta-js-js'></script>
+<script type='text/javascript' id='borlabs-cookie-prioritize-js-extra'>
+/* <![CDATA[ */
+var borlabsCookiePrioritized = {"domain":"auticon.de","path":"\/","version":"1","bots":"1","optInJS":{"statistics":{"google-analytics":"PCEtLSBHbG9iYWwgc2l0ZSB0YWcgKGd0YWcuanMpIC0gR29vZ2xlIEFuYWx5dGljcyAtLT4NCjxzY3JpcHQgYXN5bmMgc3JjPSJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbS9ndGFnL2pzP2lkPVVBLTEzMTA0MTE5OC0xIj48L3NjcmlwdD4NCjxzY3JpcHQ+DQp3aW5kb3cuZGF0YUxheWVyID0gd2luZG93LmRhdGFMYXllciB8fCBbXTsNCmZ1bmN0aW9uIGd0YWcoKXtkYXRhTGF5ZXIucHVzaChhcmd1bWVudHMpO30NCmd0YWcoImpzIiwgbmV3IERhdGUoKSk7DQoNCmd0YWcoImNvbmZpZyIsICJVQS0xMzEwNDExOTgtMSIsIHsgImFub255bWl6ZV9pcCI6IHRydWUgfSk7DQo8L3NjcmlwdD4="}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://auticon.de/wp-content/plugins/borlabs-cookie/javascript/borlabs-cookie-prioritize.min.js?ver=2.2.35' id='borlabs-cookie-prioritize-js'></script>
+<script type='text/javascript' src='https://auticon.de/wp-content/plugins/mobile-menu/includes/js/mobmenu.js?ver=2.8.2.4' id='mobmenujs-js'></script>
+<script type='text/javascript' id='wpml-xdomain-data-js-extra'>
+/* <![CDATA[ */
+var wpml_xdomain_data = {"css_selector":"wpml-ls-item","ajax_url":"https:\/\/auticon.de\/wp-admin\/admin-ajax.php","current_lang":"de"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://auticon.de/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js?ver=4.4.12' id='wpml-xdomain-data-js'></script>
+<link rel="https://api.w.org/" href="https://auticon.de/wp-json/" /><link rel="alternate" type="application/json" href="https://auticon.de/wp-json/wp/v2/pages/8" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://auticon.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://auticon.de/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.1" />
+<link rel='shortlink' href='https://auticon.de/' />
+<link rel="alternate" type="application/json+oembed" href="https://auticon.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fauticon.de%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://auticon.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fauticon.de%2F&#038;format=xml" />
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.canvas-container {
+    position: relative;
+    padding-bottom: 60%;
+    height: 0;
+    overflow: hidden;
+}
+
+.canvas-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.sub-menu a:hover {
+
+    background-color:#e40138;
+    color: white !important;
+}
+
+.sub-menu .current-menu-item a {
+
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-container .current-menu-ancestor > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-container .current-menu-item > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-enuk-container .current-menu-ancestor > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-enuk-container .current-menu-item > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-enca-container .current-menu-ancestor > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-enca-container .current-menu-item > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+
+.menu-main-menu-frca-container .current-menu-ancestor > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-frca-container .current-menu-item > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-com-container .current-menu-ancestor > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-com-container .current-menu-item > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-ita-container .current-menu-ancestor > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-ita-container .current-menu-item > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-frfr-container .current-menu-ancestor > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+
+.menu-main-menu-frfr-container .current-menu-item > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-enus-container .current-menu-ancestor > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+
+.menu-main-menu-enus-container .current-menu-item > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-ch-de-container .current-menu-item > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+.menu-main-menu-ch-de-container .current-menu-ancestor > a {
+    
+    background-color:#e40138;
+    color: white !important;
+}
+
+
+
+.pum-theme-15694 .pum-container, .pum-theme-lightbox .pum-container {
+  border: 0px !important;
+}
+
+.pum-theme-15694 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close {
+  background-color: #e40138 !important;
+}
+
+.vc_cta3-container.vc_cta3-size-lg {
+  width: 100%;
+}
+
+.mob-menu-header-holder { 
+    background-image: url(https://auticon.de/wp-content/uploads/2018/10/auticon_logo_100.png);
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+.mob-menu-header-holder:lang(fr) { 
+    background-image: url(https://auticon.de/wp-content/uploads//2018/10/auticonsult_logo_Red_100.png);
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60px 46px;
+}
+
+.mob-menu-header-holder:lang(fr-ca) { 
+    background-image: url(https://auticon.de/wp-content/uploads//2018/10/auticonsult_logo_Red_100.png);
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60px 46px;
+}
+
+.mob-menu-header-holder:lang(en-ca) { 
+    background-image: url(https://auticon.de/wp-content/uploads/2018/10/auticon_logo_100.png);
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+.mega-testimonial-4 .tm-profile4 img {
+  border: 0px solid #fff !important;
+  -webkit-box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0) !important;
+  box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0) !important;
+  padding-right: 50px;
+}
+
+.blog-post .entry-header {
+  text-align: right;
+}
+
+
+#cookieChoiceInfo {
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: normal;
+  color: black;
+  font-size: 16px;
+}
+
+#cookieChoiceInfo a {
+  font-weight: 700;
+}
+
+
+.wpb_single_image.vc_align_center h2{
+  color: black !important;
+}
+.wpb_heading.wpb_singleimage_heading {
+    color: #000;
+}
+.blog-post .entry-content a {
+  font-weight: 600;
+}
+
+label {
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: normal;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    font-family: Source Sans Pro, sans-serif;
+  font-weight: 700;
+  color: black;
+}
+input {
+  color: black;
+}
+
+.header {
+  position: absolute;
+  float: right;
+  z-index: 1000;
+  margin: 0px;
+  right: 70px;
+  margin-top: 15px;
+  background: url(https://auticon.de/wp-content/uploads/2018/10/auticon_logo_100.png);
+  background-repeat: no-repeat;
+}
+
+.header:lang(fr) {
+  background: url(https://auticon.de/wp-content/uploads//2018/10/auticonsult_logo_Red_100.png);
+background-repeat: no-repeat;
+    
+}
+
+.header:lang(fr-ca) {
+  background: url(https://auticon.de/wp-content/uploads//2018/10/auticonsult_logo_Red_100.png);
+background-repeat: no-repeat;
+    
+}
+
+.header:lang(en-ca) {
+  background: url((https://auticon.de/wp-content/uploads/2018/10/auticon_logo_100.png);
+background-repeat: no-repeat;
+    
+}
+
+h5 {
+  color: #1d6b86 !important;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.align-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.wpb_content_element {
+  margin-bottom: 80px;
+}
+
+.vc_row-has-fill>.vc_column_container>.vc_column-inner {
+  padding-top: 60px;
+}
+
+body {
+  background-color: white !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+}
+
+p {
+  line-height: 26px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: Source Sans Pro, sans-serif;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 38px;
+}
+
+li {
+  list-style-image: url('https://auticon.de/wp-content/uploads/2018/09/bullet-point.png');
+  line-height: 26px;
+  font-style: normal;
+  padding-bottom: 0px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 20px;
+}
+
+li.white {
+  list-style-image: url('https://auticon.de/wp-content/uploads/2018/10/bullet-point_white.png');
+  line-height: 26px;
+  font-style: normal;
+  padding-bottom: 0px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 20px;
+}
+
+
+.navbar {
+  position: absolute;
+  z-index: 100;
+  text-transform: none;
+  font-size: 14px;
+  font-weight:600;
+  font-family: Source Sans Pro, sans-serif;
+  background-color: transparent;
+  width: 100%;
+  border: 0px;
+  padding-top: 45px;
+}
+
+.globe {
+  position: absolute;
+  z-index: 1000;
+  right: 25px;
+  padding-top: 25px;
+}
+
+.dropdown-menu li {
+  padding-bottom: 0px;
+}
+
+.dropdown-menu {
+  top: 40px;
+}
+
+.dropdown-menu>li>a {
+  text-transform: none;
+  font-size: 14px;
+  font-weight:600;
+  font-family: Source Sans Pro, sans-serif;  
+}
+
+.navbar .navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-header {
+  position: absolute;
+}
+
+.navbar-collapse.in {
+  width: 300px;
+}
+
+
+@media (max-width: 768px) {
+.navbar-collapse {
+  background-color: grey;}
+  }
+
+@media (max-width: 991px) {
+.height-zero {
+  height: 0px;
+  max-height: 0px;
+  display: none !important; }
+}
+
+.navbar .navbar-nav > li > a {
+  color: white;
+  font-size: 16px;
+}
+
+.container {
+  position: relative;
+  margin-top: 0px;
+  left:0;
+  right:0;
+}
+
+.blog-post {
+  padding-top: 0px;
+}
+
+.mz-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  border-top: 0px;
+}
+
+.footer-fullwidth {
+  background-color: #2D2D2D;
+}
+
+.widget {
+  text-align: center;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.widget p {
+  color: white;
+}
+
+.blog-post {
+  padding-bottom: 0px;
+}
+
+.page article {
+  margin-bottom: 0px;
+}
+
+.mega-testimonial-4 p {
+  color: #007096 !important;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.tm-prof4 {
+  color: #007096;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+
+.dropdown-menu>li {
+  list-style-image: none;
+}
+
+.blog-post .entry-content p {
+  color: black;
+}
+
+
+.blog-post .entry-content a {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.footer-fullwidth {
+  background-color: #53565a;
+}
+
+.footer-fullwidth p {
+  font-size: 16px;
+}
+
+.footer-fullwidth a {
+  color: white;
+}
+
+button {
+  text-transform: none;
+  font-family: Source Sans Pro, sans-serif;
+}
+
+.mega-timeline-title {
+   font-family: Source Sans Pro, sans-serif;
+}
+
+.cd-timeline-content h2 {
+  font-size: 30px !important;
+}
+
+.cd-timeline-content p {
+  font-size: 20px !important;
+}
+
+.cd-timeline-content {
+  padding: 15px !important;
+}
+
+.vc_btn3-container {
+  margin: auto;
+  max-width: 750px;
+  margin-bottom: 25px;
+}
+
+.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-size-lg {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.vc_btn3-container.vc_btn3-center a:hover {
+  color: white !important;
+}
+
+.vc_btn3-container a:hover {
+   color: white !important;
+}
+
+.navbar-nav > .active a {
+background-color: transparent !important;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+background-color: #e40138 !important;
+}
+
+.dropdown-menu>li>a:hover {
+  color: white;
+  background-color:  #e40138 !important;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 22px !important;
+  }
+   h2 {
+    font-size: 18px !important;
+  }
+   h5 {
+    font-size: 18px !important;
+  }
+  
+   p {
+    font-size: 16px !important;
+  }
+  
+  li {
+font-size: 16px !important;
+}
+
+li.white {
+font-size: 16px !important;
+}
+}
+
+.wpb_video_widget.vc_video-aspect-ratio-235 .wpb_video_wrapper {
+  padding-top: 10px !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href='https://fonts.googleapis.com/css2?display=swap&family=Source+Sans+Pro:wght@300;700' rel='stylesheet'><meta name="google-site-verification" content="jgrUGGWBLm7dsEyROcXGFIEpzTNk7b9tE43Al6ZlIEs" />			<!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v8.4.90-->
+			<script type="text/javascript">
+				var _hsq = _hsq || [];
+				_hsq.push(["setContentType", "standard-page"]);
+			</script>
+			<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
+						<script>
+				(function() {
+					var hbspt = window.hbspt = window.hbspt || {};
+					hbspt.forms = hbspt.forms || {};
+					hbspt._wpFormsQueue = [];
+					hbspt.enqueueForm = function(formDef) {
+						if (hbspt.forms && hbspt.forms.create) {
+							hbspt.forms.create(formDef);
+						} else {
+							hbspt._wpFormsQueue.push(formDef);
+						}
+					}
+					if (!window.hbspt.forms.create) {
+						Object.defineProperty(window.hbspt.forms, 'create', {
+							configurable: true,
+							get: function() {
+								return hbspt._wpCreateForm;
+							},
+							set: function(value) {
+								hbspt._wpCreateForm = value;
+								while (hbspt._wpFormsQueue.length) {
+									var formDef = hbspt._wpFormsQueue.shift();
+									if (!document.currentScript) {
+										var formScriptId = 'leadin-forms-v2-js';
+										hubspot.utils.currentScript = document.getElementById(formScriptId);
+									}
+									hbspt._wpCreateForm.call(hbspt.forms, formDef);
+								}
+							},
+						});
+					}
+				})();
+			</script>
+		<meta name="generator" content="WPML ver:4.4.12 stt:69,66,68,67,1,4,3,27,64,65;" />
+<style type="text/css" id="barletta-custom-theme-css">a:hover, a:focus, a:active, a.active { color: #e40138; }.list-post-body h2 a:hover { color: #e40138; }.widget_categories a:hover { color: #e40138; }.widget a:hover { color: #e40138; }.widget-post h2 a:hover { color: #e40138; }.page-numbers li a:hover { background-color: #e40138; border-color: #e40138; }.blog-post .entry-tags a:hover { color: #e40138; }.blog-post .entry-content a:hover, a:focus, a:active, a.active { color: #e40138; }#back-top a:hover { background-color: #e40138; }.navbar .navbar-nav > li > a:hover { background-color: #e40138; }.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover { background-color: #e40138; }.widget_tag_cloud a:hover { background-color: #e40138; border-color: #e40138; }.blog-post .entry-meta a:hover { color: #e40138; border-color: #e40138; }.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus { background-color: #e40138; }button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover { background-color: #e40138; border-color: #e40138; }.post-navigation .nav-links .meta-nav span { color: #e40138; }.comment-reply-link, .comment-reply-login { color: #e40138; }.comments-title { color: #e40138; }blockquote:before { color: #e40138; }.blog-post .entry-content a { -webkit-box-shadow: inset 0px -3px 0px 0px #e40138; -moz-box-shadow: inset 0px -3px 0px 0px #e40138; box-shadow: inset 0px -3px 0px 0px #e40138; }.navbar-nav > .active a { background-color: #e40138; }.page-numbers .current { background-color: #e40138; border-color: #e40138; }</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+		<style type="text/css" id="wp-custom-css">
+			@media (max-width: 1280px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display:block !important;
+    }
+}		</style>
+			<style id="egf-frontend-styles" type="text/css">
+		p {color: #ffffff;font-family: 'Source Sans Pro', sans-serif;font-size: 20px;font-style: normal;font-weight: 300;} h1 {color: #ffffff;font-family: 'Source Sans Pro', sans-serif;font-size: 40px;font-style: normal;font-weight: 700;} h2 {color: #ffffff;font-family: 'Source Sans Pro', sans-serif;font-size: 30px;font-style: normal;font-weight: 300;} h3 {} h4 {} h5 {} h6 {} 	</style>
+	<style type="text/css" data-type="vc_custom-css">.container {
+    width: 100%;
+}
+
+.blog-post {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1540401259102{background-color: #e40138 !important;}.vc_custom_1553502196102{margin-bottom: 10px !important;padding-left: 20px !important;}.vc_custom_1540401288541{background-color: #6589a0 !important;}.vc_custom_1539160298762{margin-bottom: 10px !important;padding-left: 20px !important;}.vc_custom_1540401294058{background-color: #71bf8f !important;}.vc_custom_1539160311153{margin-bottom: 10px !important;padding-left: 20px !important;}.vc_custom_1539767070511{background-color: #e40138 !important;}.vc_custom_1539768374384{background-color: #65899f !important;}.vc_custom_1539768385200{background-color: #71bf8f !important;}.vc_custom_1542025788808{margin-bottom: 0px !important;}.vc_custom_1541511305541{margin-bottom: 20px !important;}.vc_custom_1539773148272{margin-top: 0px !important;margin-bottom: 0px !important;}.vc_custom_1539772993534{margin-bottom: 0px !important;}.vc_custom_1541511311748{margin-bottom: 20px !important;}.vc_custom_1539773153179{margin-top: 0px !important;margin-bottom: 0px !important;}.vc_custom_1539772999547{margin-bottom: 0px !important;}.vc_custom_1541511319105{margin-bottom: 20px !important;}.vc_custom_1539773157840{margin-top: 0px !important;margin-bottom: 0px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>	</head>
+	<body class="home page-template page-template-page-fullwidth page-template-page-fullwidth-php page page-id-8 wp-custom-logo mob-menu-slideout-over wpb-js-composer js-comp-ver-6.7.0 vc_responsive">
+
+		<header class="header">
+			<a href="https://auticon.de/" class="custom-logo-link" rel="home" aria-current="page"><img width="100" height="100" src="https://auticon.de/wp-content/uploads/2018/10/auticon_logo_100_empty.png" class="custom-logo" alt="auticon" /></a>
+		</header>
+<div class="globe">
+			<a href="#popmake-15699" class="button"><img border="0" alt="W3Schools" src="/wp-content/uploads/2018/09/globe.png" width="25px" height="25px"></a>
+			</div>
+		<!-- Navigation -->
+		<nav class="navbar" role="navigation">
+			<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		  </div>
+
+		<div class="collapse navbar-collapse navbar-ex1-collapse navbar-center"><ul id="menu-main-menu" class="nav navbar-nav"><li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70 dropdown"><a title="Unsere Leistungen" href="https://auticon.de/projekte-services/">Unsere Leistungen <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-16790" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16790"><a title="Warum auticon" href="https://auticon.de/projekte-services/">Warum auticon</a></li>
+	<li id="menu-item-15841" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15841"><a title="Quality Assurance &#038; Testing" href="https://auticon.de/projekte-services/quality-assurance-testing/">Quality Assurance &#038; Testing</a></li>
+	<li id="menu-item-15840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15840"><a title="Analytics" href="https://auticon.de/projekte-services/analytics/">Analytics</a></li>
+	<li id="menu-item-15839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15839"><a title="Software Development &#038; Migration" href="https://auticon.de/projekte-services/software-development-migration/">Software Development &#038; Migration</a></li>
+	<li id="menu-item-15982" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15982"><a title="Referenzen" href="https://auticon.de/projekte-services/referenzen/">Referenzen</a></li>
+</ul>
+</li>
+<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-69 dropdown"><a title="Karriere" href="https://auticon.de/karriere/">Karriere <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-16791" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16791"><a title="Warum auticon als Arbeitgeber" href="https://auticon.de/karriere/">Warum auticon als Arbeitgeber</a></li>
+	<li id="menu-item-16047" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16047"><a title="Rekrutierungsprozess für Consultants" href="https://auticon.de/karriere/rekrutierungsprozess-fuer-consultants/">Rekrutierungsprozess für Consultants</a></li>
+	<li id="menu-item-16067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16067"><a title="Offene Stellen für IT-Consultants" href="https://auticon.de/karriere/offene-stellen-fuer-it-consultants/">Offene Stellen für IT-Consultants</a></li>
+	<li id="menu-item-16070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16070"><a title="Weitere Stellenausschreibungen" href="https://auticon.de/karriere/weitere-stellenausschreibungen/">Weitere Stellenausschreibungen</a></li>
+</ul>
+</li>
+<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a title="Autismus" href="https://auticon.de/autismus/">Autismus</a></li>
+<li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-67 dropdown"><a title="Unternehmen" href="https://auticon.de/unternehmen/">Unternehmen <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-16792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16792"><a title="Über uns" href="https://auticon.de/unternehmen/">Über uns</a></li>
+	<li id="menu-item-16562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16562"><a title="Ansprechpartner" href="https://auticon.de/unternehmen/ansprechpartner/">Ansprechpartner</a></li>
+	<li id="menu-item-16561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16561"><a title="Awards" href="https://auticon.de/unternehmen/awards/">Awards</a></li>
+	<li id="menu-item-16560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16560"><a title="FAQ" href="https://auticon.de/unternehmen/faq/">FAQ</a></li>
+</ul>
+</li>
+<li id="menu-item-15728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-15728 dropdown"><a title="Neuigkeiten &#038; Presse" href="https://auticon.de/neuigkeiten-presse/">Neuigkeiten &#038; Presse <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-16793" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16793"><a title="Unsere Neuigkeiten auf einen Blick" href="https://auticon.de/neuigkeiten-presse/">Unsere Neuigkeiten auf einen Blick</a></li>
+	<li id="menu-item-16799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16799"><a title="Presseinformationen" href="https://auticon.de/neuigkeiten-presse/presseinformationen/">Presseinformationen</a></li>
+	<li id="menu-item-15719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15719"><a title="auticon in den Medien" href="https://auticon.de/neuigkeiten-presse/auticon-in-den-medien/">auticon in den Medien</a></li>
+	<li id="menu-item-15725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15725"><a title="Veranstaltungen" href="https://auticon.de/neuigkeiten-presse/veranstaltungen/">Veranstaltungen</a></li>
+	<li id="menu-item-15715" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15715"><a title="Archiv" href="https://auticon.de/neuigkeiten-presse/archiv/">Archiv</a></li>
+</ul>
+</li>
+<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a title="Kontakt" href="https://auticon.de/kontakt/">Kontakt</a></li>
+</ul></div>
+		</div>
+		</nav>
+		<!-- End: Navigation -->
+
+		
+	
+		<div id="content" class="container">
+		<section>
+			<div class="row">
+				<div class="col-md-12 mz-full-width">
+
+	<div id="primary" class="content-area">
+
+		<main id="main" class="site-main" role="main">
+
+			
+				
+<article  id="post-8">
+	<div class="blog-post-image">
+
+			
+	</div>
+	<div class="blog-post">
+	<div class="post-cats"></div>
+
+		<div class="post-date">
+					</div>
+
+		<div class="entry-content">
+			<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding vc_row-o-equal-height vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-lg vc_hidden-md vc_col-has-fill"><div class="vc_column-inner vc_custom_1540401259102"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1553502196102" >
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><a href="https://auticon.de/projekte-services/"><span style="color: #000000;"><img loading="lazy" class="wp-image-22215 size-full alignleft" src="https://auticon.de/wp-content/uploads/2018/11/Home_1_DE.png" alt="" width="162" height="162" srcset="https://auticon.de/wp-content/uploads/2018/11/Home_1_DE.png 162w, https://auticon.de/wp-content/uploads/2018/11/Home_1_DE-150x150.png 150w" sizes="(max-width: 162px) 100vw, 162px" /></span></a></p>
+<p style="text-align: center;"><span style="color: #ffffff;">Warum auticon für Sie</span><br />
+<span style="color: #ffffff;">arbeiten sollte</span><br />
+<span style="color: #ffffff;"><strong>Autistische Stärken</strong></span><br />
+<span style="color: #ffffff;"><strong>für Ihre IT- und</strong></span><br />
+<span style="color: #ffffff;"><strong>Daten-Projekte</strong></span></p>
+<p style="text-align: center;"><span style="color: #000000;"> </span></p>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding vc_row-o-equal-height vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-lg vc_hidden-md vc_col-has-fill"><div class="vc_column-inner vc_custom_1540401288541"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1539160298762" >
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><a href="https://auticon.de/karriere/"><span style="color: #000000;"><img loading="lazy" class="wp-image-15811 size-full alignleft" src="https://auticon.de/wp-content/uploads/2018/09/Home_2_DE.png" alt="" width="162" height="162" srcset="https://auticon.de/wp-content/uploads/2018/09/Home_2_DE.png 162w, https://auticon.de/wp-content/uploads/2018/09/Home_2_DE-150x150.png 150w" sizes="(max-width: 162px) 100vw, 162px" /></span></a></p>
+<p style="text-align: center;"><span style="color: #ffffff;">Warum Sie für uns</span><br />
+<span style="color: #ffffff;">arbeiten sollten</span><br />
+<span style="color: #ffffff;"><strong>auticon als</strong></span><br />
+<span style="color: #ffffff;"><strong>Arbeitgeber</strong></span><br />
+<span style="color: #ffffff;"><strong>kennenlernen</strong></span></p>
+<p style="text-align: center;"><span style="color: #ffffff;"> </span></p>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding vc_row-o-equal-height vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-lg vc_hidden-md vc_col-has-fill"><div class="vc_column-inner vc_custom_1540401294058"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1539160311153" >
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><a href="https://auticon.de/neuigkeiten-presse/"><span style="color: #000000;"><img loading="lazy" class="wp-image-15804 size-full alignleft" src="https://auticon.de/wp-content/uploads/2018/09/Home_3_DE.png" alt="" width="162" height="162" srcset="https://auticon.de/wp-content/uploads/2018/09/Home_3_DE.png 162w, https://auticon.de/wp-content/uploads/2018/09/Home_3_DE-150x150.png 150w" sizes="(max-width: 162px) 100vw, 162px" /></span></a></p>
+<p style="text-align: center;"><span style="color: #ffffff;">Warum Sie uns</span><br />
+<span style="color: #ffffff;">folgen sollten</span><br />
+<span style="color: #ffffff;"><strong>Bleiben Sie zu</strong></span><br />
+<span style="color: #ffffff;"><strong>aktuellen Themen</strong></span><br />
+<span style="color: #ffffff;"><strong>auf dem Laufenden</strong></span></p>
+<p style="text-align: center;"><span style="color: #000000;"> </span></p>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid height-zero vc_row-o-full-height vc_row-o-columns-stretch vc_row-o-equal-height vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-4 vc_hidden-xs vc_col-has-fill"><div class="vc_column-inner vc_custom_1539767070511"><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1542025788808">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<a href="https://auticon.de/projekte-services/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="162" height="162" src="https://auticon.de/wp-content/uploads/2018/11/Home_1_DE.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" srcset="https://auticon.de/wp-content/uploads/2018/11/Home_1_DE.png 162w, https://auticon.de/wp-content/uploads/2018/11/Home_1_DE-150x150.png 150w" sizes="(max-width: 162px) 100vw, 162px" /></a>
+		</figure>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element  vc_custom_1541511305541" >
+		<div class="wpb_wrapper">
+			<h2 style="text-align: center;"><span style="color: #ffffff;">Warum wir für Sie</span><br />
+<span style="color: #ffffff;">arbeiten sollten</span></h2>
+<h1 style="text-align: center;"><span style="color: #ffffff;">Autistische Stärken</span><br />
+<span style="color: #ffffff;">für Ihre IT- und</span><br />
+<span style="color: #ffffff;">Daten-Projekte</span></h1>
+
+		</div>
+	</div>
+
+	<div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1539773148272">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<a href="https://auticon.de/projekte-services/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="55" height="53" src="https://auticon.de/wp-content/uploads/2018/09/button_start.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" /></a>
+		</figure>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_hidden-xs vc_col-has-fill"><div class="vc_column-inner vc_custom_1539768374384"><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1539772993534">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<a href="https://auticon.de/Karriere/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="162" height="162" src="https://auticon.de/wp-content/uploads/2018/09/Home_2_DE.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" srcset="https://auticon.de/wp-content/uploads/2018/09/Home_2_DE.png 162w, https://auticon.de/wp-content/uploads/2018/09/Home_2_DE-150x150.png 150w" sizes="(max-width: 162px) 100vw, 162px" /></a>
+		</figure>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element  vc_custom_1541511311748" >
+		<div class="wpb_wrapper">
+			<h2 style="text-align: center;"><span style="color: #ffffff;">Warum Sie für uns</span><br />
+<span style="color: #ffffff;">arbeiten sollten</span></h2>
+<h1 style="text-align: center;"><span style="color: #ffffff;">auticon als</span><br />
+<span style="color: #ffffff;">Arbeitgeber</span><br />
+<span style="color: #ffffff;">kennenlernen</span></h1>
+
+		</div>
+	</div>
+
+	<div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1539773153179">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<a href="https://auticon.de/Karriere/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="55" height="53" src="https://auticon.de/wp-content/uploads/2018/09/button_start.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" /></a>
+		</figure>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_hidden-xs vc_col-has-fill"><div class="vc_column-inner vc_custom_1539768385200"><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1539772999547">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<a href="https://auticon.de/Neuigkeiten-Presse/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="162" height="162" src="https://auticon.de/wp-content/uploads/2018/09/Home_3_DE.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" srcset="https://auticon.de/wp-content/uploads/2018/09/Home_3_DE.png 162w, https://auticon.de/wp-content/uploads/2018/09/Home_3_DE-150x150.png 150w" sizes="(max-width: 162px) 100vw, 162px" /></a>
+		</figure>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element  vc_custom_1541511319105" >
+		<div class="wpb_wrapper">
+			<h2 style="text-align: center;"><span style="color: #ffffff;">Warum Sie uns</span><br />
+<span style="color: #ffffff;">folgen sollten</span></h2>
+<h1 style="text-align: center;"><span style="color: #ffffff;">Bleiben Sie zu</span><br />
+<span style="color: #ffffff;">aktuellen Themen</span><br />
+<span style="color: #ffffff;">auf dem Laufenden</span></h1>
+
+		</div>
+	</div>
+
+	<div  class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1539773157840">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<a href="https://auticon.de/Neuigkeiten-Presse/" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img width="55" height="53" src="https://auticon.de/wp-content/uploads/2018/09/button_start.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" /></a>
+		</figure>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
+					</div>
+	</div>
+</article>
+					
+			
+		</main><!-- #main -->
+
+	</div><!-- #primary -->
+
+
+				</div><!-- /.columns -->
+
+			</div><!-- /.row -->
+		</section><!-- /.container -->
+		</div><!-- /.container -->
+
+		<!-- back to top button -->
+		<p id="back-top" style="display: block;">
+			<a href="#top"><i class="fa fa-angle-up"></i></a>
+		</p>
+
+		<footer class="mz-footer">
+
+			<!-- footer widgets -->
+			<div class="container footer-inner">
+				<div class="row row-gutter">
+					
+					</div>
+			</div>
+
+			<div class="footer-fullwidth">
+					
+	
+	<div class="fullwidth-widgets">
+
+		<!-- left widget -->
+		
+				<div id="text-2" class="widget widget_text">			<div class="textwidget"><p><a href="https://auticon.de/agb/">AGB</a> | <a href="https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/">Datenschutzerklärung nach der DSGVO</a> | <a href="https://auticon.de/nutzungsbedingungen/">Nutzungsbedingungen</a> | <a href="https://auticon.de/impressum/">Impressum</a> | © Copyright 2021</p>
+<p><a href="https://www.facebook.com/auticon/" target="_blank" rel="noopener"><img loading="lazy" class="alignnone wp-image-28933" src="https://auticon.de/wp-content/uploads/2019/08/Facebook.png" alt="" width="30" height="30" srcset="https://auticon.de/wp-content/uploads/2019/08/Facebook.png 256w, https://auticon.de/wp-content/uploads/2019/08/Facebook-150x150.png 150w" sizes="(max-width: 30px) 100vw, 30px" /></a> | <a href="https://twitter.com/auticon" target="_blank" rel="noopener"><img loading="lazy" class="alignnone wp-image-28943" src="https://auticon.de/wp-content/uploads/2019/08/Twitter.png" alt="" width="30" height="30" srcset="https://auticon.de/wp-content/uploads/2019/08/Twitter.png 256w, https://auticon.de/wp-content/uploads/2019/08/Twitter-150x150.png 150w" sizes="(max-width: 30px) 100vw, 30px" /></a> | <a href="https://www.xing.com/companies/auticongmbh" target="_blank" rel="noopener"><img loading="lazy" class="alignnone wp-image-28953" src="https://auticon.de/wp-content/uploads/2019/08/Xing.png" alt="" width="30" height="30" srcset="https://auticon.de/wp-content/uploads/2019/08/Xing.png 256w, https://auticon.de/wp-content/uploads/2019/08/Xing-150x150.png 150w" sizes="(max-width: 30px) 100vw, 30px" /></a> | <a href="https://www.linkedin.com/in/auticon-gmbh-2340a5124/" target="_blank" rel="noopener"><img loading="lazy" class="alignnone wp-image-28963" src="https://auticon.de/wp-content/uploads/2019/08/LinkedIn.png" alt="" width="30" height="30" srcset="https://auticon.de/wp-content/uploads/2019/08/LinkedIn.png 256w, https://auticon.de/wp-content/uploads/2019/08/LinkedIn-150x150.png 150w" sizes="(max-width: 30px) 100vw, 30px" /></a>  | <a href="https://www.instagram.com/auticon_deutschland/" target="_blank" rel="noopener"><img loading="lazy" class="alignnone wp-image-28973" src="https://auticon.de/wp-content/uploads/2021/02/instagram.png" alt="" width="30" height="30" /></a></p>
+</div>
+		</div>
+		
+	</div>			</div>
+
+			
+		</footer>
+
+		<script type="text/javascript">
+_linkedin_partner_id = "3375060";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="text/javascript">
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=3375060&fmt=gif" />
+</noscript><div id="pum-41440" class="pum pum-overlay pum-theme-15694 pum-theme-lightbox popmake-overlay pum-overlay-disabled auto_open click_open" data-popmake="{&quot;id&quot;:41440,&quot;slug&quot;:&quot;auticon-de-jobs&quot;,&quot;theme_id&quot;:15694,&quot;cookies&quot;:[{&quot;event&quot;:&quot;on_popup_open&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-41440&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:true,&quot;path&quot;:true,&quot;time&quot;:&quot;1 month&quot;}}],&quot;triggers&quot;:[{&quot;type&quot;:&quot;auto_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:[&quot;pum-41440&quot;],&quot;delay&quot;:&quot;500&quot;}},{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:true,&quot;tablet_disabled&quot;:true,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:&quot;1&quot;,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;auto&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;right top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;40&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;40&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true" >
+
+	<div id="popmake-41440" class="pum-container popmake theme-15694">
+
+				
+
+				
+
+		
+
+				<div class="pum-content popmake-content" tabindex="0">
+			<h2 style="text-align: center; color: black;"><strong>Wir stellen ein!</strong></h2>
+<h2 style="text-align: center; color: black;"><strong> <img loading="lazy" class=" wp-image-33526 aligncenter" src="https://auticon.ca/wp-content/uploads/2020/03/Logo-auticon-300x300.png" alt="" width="80" height="80" srcset="https://auticon.de/wp-content/uploads/2020/03/Logo-auticon-300x300.png 300w, https://auticon.de/wp-content/uploads/2020/03/Logo-auticon-1024x1024.png 1024w, https://auticon.de/wp-content/uploads/2020/03/Logo-auticon-150x150.png 150w, https://auticon.de/wp-content/uploads/2020/03/Logo-auticon-768x768.png 768w, https://auticon.de/wp-content/uploads/2020/03/Logo-auticon-1536x1536.png 1536w, https://auticon.de/wp-content/uploads/2020/03/Logo-auticon.png 1970w" sizes="(max-width: 80px) 100vw, 80px" /></strong></h2>
+<h3 style="text-align: center;">IT- und BackOffice-Mitarbeiter*innen gesucht!<br />
+<a href="https://auticon.de/karriere/.">Mehr Infos</a></h3>
+<p style="text-align: center;">
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Schließen">
+			X            </button>
+		
+	</div>
+
+</div>
+<div id="pum-15699" class="pum pum-overlay pum-theme-15694 pum-theme-lightbox popmake-overlay pum-overlay-disabled click_open" data-popmake="{&quot;id&quot;:15699,&quot;slug&quot;:&quot;languages-world&quot;,&quot;theme_id&quot;:15694,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:&quot;1&quot;,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;tiny&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;50%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_15699">
+
+	<div id="popmake-15699" class="pum-container popmake theme-15694 pum-responsive pum-responsive-tiny responsive size-tiny">
+
+				
+
+				            <div id="pum_popup_title_15699" class="pum-title popmake-title">
+				Change region			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content" tabindex="0">
+			<p>&nbsp;</p>
+<p><span style="color: #000000;"><a href="https://auticon.de/">Germany</a></span></p>
+<p><span style="color: #000000;"><a href="https://auticon.co.uk/">United Kingdom</a></span></p>
+<p><span style="color: #000000;"><a href="https://auticonsult.fr/">France</a></span></p>
+<p><span style="color: #000000;"><a href="https://auticon.ch/">Switzerland</a></span></p>
+<p><span style="color: #000000;"><a href="https://auticon.it/">Italy</a></span></p>
+<p><span style="color: #000000;"><a href="https://auticon.us">United States</a></span></p>
+<p><span style="color: #000000;">Canada (<a href="https://auticon.ca/">English</a> | <a href="https://auticonsult.ca/">French</a>)</span></p>
+<p><a href="https://auticon.com.au/">Australia</a></p>
+<p>&nbsp;</p>
+<p><a href="https://auticon.com">Group Headquarter</a></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Schließen">
+			X            </button>
+		
+	</div>
+
+</div>
+<!--googleoff: all--><div data-nosnippet><script id="BorlabsCookieBoxWrap" type="text/template"><div
+    id="BorlabsCookieBox"
+    class="BorlabsCookie"
+    role="dialog"
+    aria-labelledby="CookieBoxTextHeadline"
+    aria-describedby="CookieBoxTextDescription"
+    aria-modal="true"
+>
+    <div class="middle-center" style="display: none;">
+        <div class="_brlbs-box-wrap">
+            <div class="_brlbs-box _brlbs-box-advanced">
+                <div class="cookie-box">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="_brlbs-flex-center">
+                                    
+                                    <span role="heading" aria-level="3" class="_brlbs-h3" id="CookieBoxTextHeadline">Datenschutzeinstellungen</span>
+                                </div>
+
+                                <p id="CookieBoxTextDescription">Wir nutzen Cookies auf unserer Website. Einige von ihnen sind essenziell, während andere uns helfen, diese Website und Ihr Benutzererlebnis zu verbessern.</p>
+
+                                                                    <ul>
+                                                                                        <li>
+                                                    <label class="_brlbs-checkbox">
+                                                        Essenziell                                                        <input
+                                                            id="checkbox-essential"
+                                                            tabindex="0"
+                                                            type="checkbox"
+                                                            name="cookieGroup[]"
+                                                            value="essential"
+                                                             checked                                                             disabled                                                            data-borlabs-cookie-checkbox
+                                                        >
+                                                        <span class="_brlbs-checkbox-indicator"></span>
+                                                    </label>
+                                                </li>
+                                                                                            <li>
+                                                    <label class="_brlbs-checkbox">
+                                                        Statistiken                                                        <input
+                                                            id="checkbox-statistics"
+                                                            tabindex="0"
+                                                            type="checkbox"
+                                                            name="cookieGroup[]"
+                                                            value="statistics"
+                                                             checked                                                                                                                        data-borlabs-cookie-checkbox
+                                                        >
+                                                        <span class="_brlbs-checkbox-indicator"></span>
+                                                    </label>
+                                                </li>
+                                                                                            <li>
+                                                    <label class="_brlbs-checkbox">
+                                                        Externe Medien                                                        <input
+                                                            id="checkbox-external-media"
+                                                            tabindex="0"
+                                                            type="checkbox"
+                                                            name="cookieGroup[]"
+                                                            value="external-media"
+                                                             checked                                                                                                                        data-borlabs-cookie-checkbox
+                                                        >
+                                                        <span class="_brlbs-checkbox-indicator"></span>
+                                                    </label>
+                                                </li>
+                                                                                            <li>
+                                                    <label class="_brlbs-checkbox">
+                                                        Einstellungen/Funktionen/Dienste                                                        <input
+                                                            id="checkbox-funktional"
+                                                            tabindex="0"
+                                                            type="checkbox"
+                                                            name="cookieGroup[]"
+                                                            value="funktional"
+                                                                                                                                                                                    data-borlabs-cookie-checkbox
+                                                        >
+                                                        <span class="_brlbs-checkbox-indicator"></span>
+                                                    </label>
+                                                </li>
+                                                                                </ul>
+                                
+                                                                    <p class="_brlbs-accept">
+                                        <a
+                                            href="#"
+                                            tabindex="0"
+                                            role="button"
+                                            class="_brlbs-btn _brlbs-btn-accept-all _brlbs-cursor"
+                                            data-cookie-accept-all
+                                        >
+                                            Alle akzeptieren                                        </a>
+                                    </p>
+
+                                    <p class="_brlbs-accept">
+                                        <a
+                                            href="#"
+                                            tabindex="0"
+                                            role="button"
+                                            id="CookieBoxSaveButton"
+                                            class="_brlbs-btn _brlbs-cursor"
+                                            data-cookie-accept
+                                        >
+                                            Speichern                                        </a>
+                                    </p>
+                                
+                                                                    <p class="_brlbs-refuse-btn">
+                                        <a
+                                            class="_brlbs-btn _brlbs-cursor"
+                                            href="#"
+                                            tabindex="0"
+                                            role="button"
+                                            data-cookie-refuse
+                                        >
+                                            Nur essenzielle Cookies akzeptieren                                        </a>
+                                    </p>
+                                
+                                <p class="_brlbs-manage">
+                                    <a href="#" class="_brlbs-cursor" tabindex="0" role="button" data-cookie-individual>
+                                        Individuelle Datenschutzeinstellungen                                    </a>
+                                </p>
+
+                                <p class="_brlbs-legal">
+                                    <a href="#" class="_brlbs-cursor" tabindex="0" role="button" data-cookie-individual>
+                                        Cookie-Details                                    </a>
+
+                                                                            <span class="_brlbs-separator"></span>
+                                        <a href="https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/" tabindex="0" role="button">
+                                            Datenschutzerklärung                                        </a>
+                                    
+                                                                            <span class="_brlbs-separator"></span>
+                                        <a href="https://auticon.de/impressum/" tabindex="0" role="button">
+                                            Impressum                                        </a>
+                                                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+    class="cookie-preference"
+    aria-hidden="true"
+    role="dialog"
+    aria-describedby="CookiePrefDescription"
+    aria-modal="true"
+>
+    <div class="container not-visible">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="row no-gutters align-items-top">
+                    
+                    <div class="col-12">
+                        <span role="heading" aria-level="3" class="_brlbs-h3">Datenschutzeinstellungen</span>
+
+                        <p id="CookiePrefDescription">
+                            Hier finden Sie eine Übersicht über alle verwendeten Cookies. Sie können Ihre Einwilligung zu ganzen Kategorien geben oder sich weitere Informationen anzeigen lassen und so nur bestimmte Cookies auswählen.                        </p>
+
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-12 col-sm-7">
+                                <p class="_brlbs-accept">
+                                                                            <a
+                                            href="#"
+                                            class="_brlbs-btn _brlbs-btn-accept-all _brlbs-cursor"
+                                            tabindex="0"
+                                            role="button"
+                                            data-cookie-accept-all
+                                        >
+                                            Alle akzeptieren                                        </a>
+                                        
+                                    <a
+                                        href="#"
+                                        id="CookiePrefSave"
+                                        tabindex="0"
+                                        role="button"
+                                        class="_brlbs-btn _brlbs-cursor"
+                                        data-cookie-accept
+                                    >
+                                        Speichern                                    </a>
+                                </p>
+                            </div>
+
+                            <div class="col-12 col-sm-5">
+                                <p class="_brlbs-refuse">
+                                    <a
+                                        href="#"
+                                        class="_brlbs-cursor"
+                                        tabindex="0"
+                                        role="button"
+                                        data-cookie-back
+                                    >
+                                        Zurück                                    </a>
+
+                                                                            <span class="_brlbs-separator"></span>
+                                        <a
+                                            href="#"
+                                            class="_brlbs-cursor"
+                                            tabindex="0"
+                                            role="button"
+                                            data-cookie-refuse
+                                        >
+                                            Nur essenzielle Cookies akzeptieren                                        </a>
+                                                                        </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-cookie-accordion>
+                                                                                                        <div class="bcac-item">
+                                    <div class="d-flex flex-row">
+                                        <label for="borlabs-cookie-group-essential" class="w-75">
+                                            <span role="heading" aria-level="4" class="_brlbs-h4">Essenziell (1)</span>
+                                        </label>
+
+                                        <div class="w-25 text-right">
+                                                                                    </div>
+                                    </div>
+
+                                    <div class="d-block">
+                                        <p>Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich.</p>
+
+                                        <p class="text-center">
+                                            <a
+                                                href="#"
+                                                class="_brlbs-cursor d-block"
+                                                tabindex="0"
+                                                role="button"
+                                                data-cookie-accordion-target="essential"
+                                            >
+                                                <span data-cookie-accordion-status="show">
+                                                    Cookie-Informationen anzeigen                                                </span>
+
+                                                <span data-cookie-accordion-status="hide" class="borlabs-hide">
+                                                    Cookie-Informationen ausblenden                                                </span>
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                    <div
+                                        class="borlabs-hide"
+                                        data-cookie-accordion-parent="essential"
+                                    >
+                                                                                    <table>
+                                                
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-borlabs-cookie">
+                                                            Borlabs Cookie                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>Eigentümer dieser Website</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Speichert die Einstellungen der Besucher, die in der Cookie Box von Borlabs Cookie ausgewählt wurden.</td>
+                                                    </tr>
+                                                    
+                                                
+                                                
+                                                                                                    <tr>
+                                                        <th>Cookie Name</th>
+                                                        <td>borlabs-cookie</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Laufzeit</th>
+                                                        <td>1 Jahr</td>
+                                                    </tr>
+                                                                                                </table>
+                                                                                </div>
+                                </div>
+                                                                                                                        <div class="bcac-item">
+                                    <div class="d-flex flex-row">
+                                        <label for="borlabs-cookie-group-statistics" class="w-75">
+                                            <span role="heading" aria-level="4" class="_brlbs-h4">Statistiken (1)</span>
+                                        </label>
+
+                                        <div class="w-25 text-right">
+                                                                                            <label class="_brlbs-btn-switch">
+                                                    <input
+                                                        tabindex="0"
+                                                        id="borlabs-cookie-group-statistics"
+                                                        type="checkbox"
+                                                        name="cookieGroup[]"
+                                                        value="statistics"
+                                                         checked                                                        data-borlabs-cookie-switch
+                                                    />
+                                                    <span class="_brlbs-slider"></span>
+                                                    <span
+                                                        class="_brlbs-btn-switch-status"
+                                                        data-active="An"
+                                                        data-inactive="Aus">
+                                                    </span>
+                                                </label>
+                                                                                        </div>
+                                    </div>
+
+                                    <div class="d-block">
+                                        <p>Statistik Cookies erfassen Informationen anonym. Diese Informationen helfen uns zu verstehen, wie unsere Besucher unsere Website nutzen.</p>
+
+                                        <p class="text-center">
+                                            <a
+                                                href="#"
+                                                class="_brlbs-cursor d-block"
+                                                tabindex="0"
+                                                role="button"
+                                                data-cookie-accordion-target="statistics"
+                                            >
+                                                <span data-cookie-accordion-status="show">
+                                                    Cookie-Informationen anzeigen                                                </span>
+
+                                                <span data-cookie-accordion-status="hide" class="borlabs-hide">
+                                                    Cookie-Informationen ausblenden                                                </span>
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                    <div
+                                        class="borlabs-hide"
+                                        data-cookie-accordion-parent="statistics"
+                                    >
+                                                                                    <table>
+                                                                                                    <tr>
+                                                        <th>Akzeptieren</th>
+                                                        <td>
+                                                            <label class="_brlbs-btn-switch _brlbs-btn-switch--textRight">
+                                                                <input
+                                                                    id="borlabs-cookie-google-analytics"
+                                                                    tabindex="0"
+                                                                    type="checkbox" data-cookie-group="statistics"
+                                                                    name="cookies[statistics][]"
+                                                                    value="google-analytics"
+                                                                     checked                                                                    data-borlabs-cookie-switch
+                                                                />
+
+                                                                <span class="_brlbs-slider"></span>
+
+                                                                <span
+                                                                    class="_brlbs-btn-switch-status"
+                                                                    data-active="An"
+                                                                    data-inactive="Aus"
+                                                                    aria-hidden="true">
+                                                                </span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-google-analytics">
+                                                            Google Analytics                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>Google LLC</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Cookie von Google für Website-Analysen. Erzeugt statistische Daten darüber, wie der Besucher die Website nutzt.</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Datenschutzerklärung</th>
+                                                        <td class="_brlbs-pp-url">
+                                                            <a
+                                                                href="https://policies.google.com/privacy?hl=de"
+                                                                target="_blank"
+                                                                rel="nofollow noopener noreferrer"
+                                                            >
+                                                                https://policies.google.com/privacy?hl=de                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Host(s)</th>
+                                                        <td>.google.com, .googletagmanager.com</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Name</th>
+                                                        <td>_ga,_gat,_gid</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Laufzeit</th>
+                                                        <td>2 Jahre</td>
+                                                    </tr>
+                                                                                                </table>
+                                                                                </div>
+                                </div>
+                                                                                                                                                                                <div class="bcac-item">
+                                    <div class="d-flex flex-row">
+                                        <label for="borlabs-cookie-group-external-media" class="w-75">
+                                            <span role="heading" aria-level="4" class="_brlbs-h4">Externe Medien (4)</span>
+                                        </label>
+
+                                        <div class="w-25 text-right">
+                                                                                            <label class="_brlbs-btn-switch">
+                                                    <input
+                                                        tabindex="0"
+                                                        id="borlabs-cookie-group-external-media"
+                                                        type="checkbox"
+                                                        name="cookieGroup[]"
+                                                        value="external-media"
+                                                         checked                                                        data-borlabs-cookie-switch
+                                                    />
+                                                    <span class="_brlbs-slider"></span>
+                                                    <span
+                                                        class="_brlbs-btn-switch-status"
+                                                        data-active="An"
+                                                        data-inactive="Aus">
+                                                    </span>
+                                                </label>
+                                                                                        </div>
+                                    </div>
+
+                                    <div class="d-block">
+                                        <p>Inhalte von Videoplattformen und Social-Media-Plattformen werden standardmäßig blockiert. Wenn Cookies von externen Medien akzeptiert werden, bedarf der Zugriff auf diese Inhalte keiner manuellen Einwilligung mehr.</p>
+
+                                        <p class="text-center">
+                                            <a
+                                                href="#"
+                                                class="_brlbs-cursor d-block"
+                                                tabindex="0"
+                                                role="button"
+                                                data-cookie-accordion-target="external-media"
+                                            >
+                                                <span data-cookie-accordion-status="show">
+                                                    Cookie-Informationen anzeigen                                                </span>
+
+                                                <span data-cookie-accordion-status="hide" class="borlabs-hide">
+                                                    Cookie-Informationen ausblenden                                                </span>
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                    <div
+                                        class="borlabs-hide"
+                                        data-cookie-accordion-parent="external-media"
+                                    >
+                                                                                    <table>
+                                                                                                    <tr>
+                                                        <th>Akzeptieren</th>
+                                                        <td>
+                                                            <label class="_brlbs-btn-switch _brlbs-btn-switch--textRight">
+                                                                <input
+                                                                    id="borlabs-cookie-facebook"
+                                                                    tabindex="0"
+                                                                    type="checkbox" data-cookie-group="external-media"
+                                                                    name="cookies[external-media][]"
+                                                                    value="facebook"
+                                                                     checked                                                                    data-borlabs-cookie-switch
+                                                                />
+
+                                                                <span class="_brlbs-slider"></span>
+
+                                                                <span
+                                                                    class="_brlbs-btn-switch-status"
+                                                                    data-active="An"
+                                                                    data-inactive="Aus"
+                                                                    aria-hidden="true">
+                                                                </span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-facebook">
+                                                            Facebook                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>Facebook</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Wird verwendet, um Facebook-Inhalte zu entsperren.</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Datenschutzerklärung</th>
+                                                        <td class="_brlbs-pp-url">
+                                                            <a
+                                                                href="https://www.facebook.com/privacy/explanation"
+                                                                target="_blank"
+                                                                rel="nofollow noopener noreferrer"
+                                                            >
+                                                                https://www.facebook.com/privacy/explanation                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Host(s)</th>
+                                                        <td>.facebook.com</td>
+                                                    </tr>
+                                                    
+                                                
+                                                                                            </table>
+                                                                                        <table>
+                                                                                                    <tr>
+                                                        <th>Akzeptieren</th>
+                                                        <td>
+                                                            <label class="_brlbs-btn-switch _brlbs-btn-switch--textRight">
+                                                                <input
+                                                                    id="borlabs-cookie-googlemaps"
+                                                                    tabindex="0"
+                                                                    type="checkbox" data-cookie-group="external-media"
+                                                                    name="cookies[external-media][]"
+                                                                    value="googlemaps"
+                                                                     checked                                                                    data-borlabs-cookie-switch
+                                                                />
+
+                                                                <span class="_brlbs-slider"></span>
+
+                                                                <span
+                                                                    class="_brlbs-btn-switch-status"
+                                                                    data-active="An"
+                                                                    data-inactive="Aus"
+                                                                    aria-hidden="true">
+                                                                </span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-googlemaps">
+                                                            Google Maps                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>Google</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Wird zum Entsperren von Google Maps-Inhalten verwendet.</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Datenschutzerklärung</th>
+                                                        <td class="_brlbs-pp-url">
+                                                            <a
+                                                                href="https://policies.google.com/privacy"
+                                                                target="_blank"
+                                                                rel="nofollow noopener noreferrer"
+                                                            >
+                                                                https://policies.google.com/privacy                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Host(s)</th>
+                                                        <td>.google.com</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Name</th>
+                                                        <td>NID</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Laufzeit</th>
+                                                        <td>6 Monate</td>
+                                                    </tr>
+                                                                                                </table>
+                                                                                        <table>
+                                                                                                    <tr>
+                                                        <th>Akzeptieren</th>
+                                                        <td>
+                                                            <label class="_brlbs-btn-switch _brlbs-btn-switch--textRight">
+                                                                <input
+                                                                    id="borlabs-cookie-twitter"
+                                                                    tabindex="0"
+                                                                    type="checkbox" data-cookie-group="external-media"
+                                                                    name="cookies[external-media][]"
+                                                                    value="twitter"
+                                                                     checked                                                                    data-borlabs-cookie-switch
+                                                                />
+
+                                                                <span class="_brlbs-slider"></span>
+
+                                                                <span
+                                                                    class="_brlbs-btn-switch-status"
+                                                                    data-active="An"
+                                                                    data-inactive="Aus"
+                                                                    aria-hidden="true">
+                                                                </span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-twitter">
+                                                            Twitter                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>Twitter</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Wird verwendet, um Twitter-Inhalte zu entsperren.</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Datenschutzerklärung</th>
+                                                        <td class="_brlbs-pp-url">
+                                                            <a
+                                                                href="https://twitter.com/privacy"
+                                                                target="_blank"
+                                                                rel="nofollow noopener noreferrer"
+                                                            >
+                                                                https://twitter.com/privacy                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Host(s)</th>
+                                                        <td>.twimg.com, .twitter.com</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Name</th>
+                                                        <td>__widgetsettings, local_storage_support_test</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Laufzeit</th>
+                                                        <td>Unbegrenzt</td>
+                                                    </tr>
+                                                                                                </table>
+                                                                                        <table>
+                                                                                                    <tr>
+                                                        <th>Akzeptieren</th>
+                                                        <td>
+                                                            <label class="_brlbs-btn-switch _brlbs-btn-switch--textRight">
+                                                                <input
+                                                                    id="borlabs-cookie-youtube"
+                                                                    tabindex="0"
+                                                                    type="checkbox" data-cookie-group="external-media"
+                                                                    name="cookies[external-media][]"
+                                                                    value="youtube"
+                                                                     checked                                                                    data-borlabs-cookie-switch
+                                                                />
+
+                                                                <span class="_brlbs-slider"></span>
+
+                                                                <span
+                                                                    class="_brlbs-btn-switch-status"
+                                                                    data-active="An"
+                                                                    data-inactive="Aus"
+                                                                    aria-hidden="true">
+                                                                </span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-youtube">
+                                                            YouTube                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>YouTube</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Wird verwendet, um YouTube-Inhalte zu entsperren.</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Datenschutzerklärung</th>
+                                                        <td class="_brlbs-pp-url">
+                                                            <a
+                                                                href="https://policies.google.com/privacy"
+                                                                target="_blank"
+                                                                rel="nofollow noopener noreferrer"
+                                                            >
+                                                                https://policies.google.com/privacy                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Host(s)</th>
+                                                        <td>google.com</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Name</th>
+                                                        <td>NID</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Laufzeit</th>
+                                                        <td>6 Monate</td>
+                                                    </tr>
+                                                                                                </table>
+                                                                                </div>
+                                </div>
+                                                                                                                        <div class="bcac-item">
+                                    <div class="d-flex flex-row">
+                                        <label for="borlabs-cookie-group-funktional" class="w-75">
+                                            <span role="heading" aria-level="4" class="_brlbs-h4">Einstellungen/Funktionen/Dienste (7)</span>
+                                        </label>
+
+                                        <div class="w-25 text-right">
+                                                                                            <label class="_brlbs-btn-switch">
+                                                    <input
+                                                        tabindex="0"
+                                                        id="borlabs-cookie-group-funktional"
+                                                        type="checkbox"
+                                                        name="cookieGroup[]"
+                                                        value="funktional"
+                                                                                                                data-borlabs-cookie-switch
+                                                    />
+                                                    <span class="_brlbs-slider"></span>
+                                                    <span
+                                                        class="_brlbs-btn-switch-status"
+                                                        data-active="An"
+                                                        data-inactive="Aus">
+                                                    </span>
+                                                </label>
+                                                                                        </div>
+                                    </div>
+
+                                    <div class="d-block">
+                                        <p></p>
+
+                                        <p class="text-center">
+                                            <a
+                                                href="#"
+                                                class="_brlbs-cursor d-block"
+                                                tabindex="0"
+                                                role="button"
+                                                data-cookie-accordion-target="funktional"
+                                            >
+                                                <span data-cookie-accordion-status="show">
+                                                    Cookie-Informationen anzeigen                                                </span>
+
+                                                <span data-cookie-accordion-status="hide" class="borlabs-hide">
+                                                    Cookie-Informationen ausblenden                                                </span>
+                                            </a>
+                                        </p>
+                                    </div>
+
+                                    <div
+                                        class="borlabs-hide"
+                                        data-cookie-accordion-parent="funktional"
+                                    >
+                                                                                    <table>
+                                                                                                    <tr>
+                                                        <th>Akzeptieren</th>
+                                                        <td>
+                                                            <label class="_brlbs-btn-switch _brlbs-btn-switch--textRight">
+                                                                <input
+                                                                    id="borlabs-cookie-linkedin"
+                                                                    tabindex="0"
+                                                                    type="checkbox" data-cookie-group="funktional"
+                                                                    name="cookies[funktional][]"
+                                                                    value="linkedin"
+                                                                                                                                        data-borlabs-cookie-switch
+                                                                />
+
+                                                                <span class="_brlbs-slider"></span>
+
+                                                                <span
+                                                                    class="_brlbs-btn-switch-status"
+                                                                    data-active="An"
+                                                                    data-inactive="Aus"
+                                                                    aria-hidden="true">
+                                                                </span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-linkedin">
+                                                            li_gc                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>linked.in</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Mit diesem Cookie wird die Einwilligung von Gästen zur Verwendung von nicht zwingend erforderlichen Cookies gespeichert.</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Datenschutzerklärung</th>
+                                                        <td class="_brlbs-pp-url">
+                                                            <a
+                                                                href="https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/"
+                                                                target="_blank"
+                                                                rel="nofollow noopener noreferrer"
+                                                            >
+                                                                https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Host(s)</th>
+                                                        <td>.linkedin.com</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Name</th>
+                                                        <td>li_gc</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Laufzeit</th>
+                                                        <td>2 Jahre</td>
+                                                    </tr>
+                                                                                                </table>
+                                                                                        <table>
+                                                                                                    <tr>
+                                                        <th>Akzeptieren</th>
+                                                        <td>
+                                                            <label class="_brlbs-btn-switch _brlbs-btn-switch--textRight">
+                                                                <input
+                                                                    id="borlabs-cookie-linkedinbscookie"
+                                                                    tabindex="0"
+                                                                    type="checkbox" data-cookie-group="funktional"
+                                                                    name="cookies[funktional][]"
+                                                                    value="linkedinbscookie"
+                                                                                                                                        data-borlabs-cookie-switch
+                                                                />
+
+                                                                <span class="_brlbs-slider"></span>
+
+                                                                <span
+                                                                    class="_brlbs-btn-switch-status"
+                                                                    data-active="An"
+                                                                    data-inactive="Aus"
+                                                                    aria-hidden="true">
+                                                                </span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-linkedinbscookie">
+                                                            bscookie                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>LinkedIn</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Dieses Cookie merkt sich den Status der Zwei-Faktor-Authentifizierung eines eingeloggten Nutzers. </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Datenschutzerklärung</th>
+                                                        <td class="_brlbs-pp-url">
+                                                            <a
+                                                                href="https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/"
+                                                                target="_blank"
+                                                                rel="nofollow noopener noreferrer"
+                                                            >
+                                                                https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Host(s)</th>
+                                                        <td>.linkedin.com</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Name</th>
+                                                        <td>bscookie</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Laufzeit</th>
+                                                        <td>2 Jahre</td>
+                                                    </tr>
+                                                                                                </table>
+                                                                                        <table>
+                                                                                                    <tr>
+                                                        <th>Akzeptieren</th>
+                                                        <td>
+                                                            <label class="_brlbs-btn-switch _brlbs-btn-switch--textRight">
+                                                                <input
+                                                                    id="borlabs-cookie-linkedinlidc"
+                                                                    tabindex="0"
+                                                                    type="checkbox" data-cookie-group="funktional"
+                                                                    name="cookies[funktional][]"
+                                                                    value="linkedinlidc"
+                                                                                                                                        data-borlabs-cookie-switch
+                                                                />
+
+                                                                <span class="_brlbs-slider"></span>
+
+                                                                <span
+                                                                    class="_brlbs-btn-switch-status"
+                                                                    data-active="An"
+                                                                    data-inactive="Aus"
+                                                                    aria-hidden="true">
+                                                                </span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-linkedinlidc">
+                                                            lidc                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>LinkedIn</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Dieses Cookie erleichtert die Auswahl des Datenzentrums.</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Datenschutzerklärung</th>
+                                                        <td class="_brlbs-pp-url">
+                                                            <a
+                                                                href="https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/"
+                                                                target="_blank"
+                                                                rel="nofollow noopener noreferrer"
+                                                            >
+                                                                https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Host(s)</th>
+                                                        <td>.linkedin.com</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Name</th>
+                                                        <td>lidc, li*</td>
+                                                    </tr>
+                                                    
+                                                                                            </table>
+                                                                                        <table>
+                                                                                                    <tr>
+                                                        <th>Akzeptieren</th>
+                                                        <td>
+                                                            <label class="_brlbs-btn-switch _brlbs-btn-switch--textRight">
+                                                                <input
+                                                                    id="borlabs-cookie-linkedinbcookie"
+                                                                    tabindex="0"
+                                                                    type="checkbox" data-cookie-group="funktional"
+                                                                    name="cookies[funktional][]"
+                                                                    value="linkedinbcookie"
+                                                                                                                                        data-borlabs-cookie-switch
+                                                                />
+
+                                                                <span class="_brlbs-slider"></span>
+
+                                                                <span
+                                                                    class="_brlbs-btn-switch-status"
+                                                                    data-active="An"
+                                                                    data-inactive="Aus"
+                                                                    aria-hidden="true">
+                                                                </span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-linkedinbcookie">
+                                                            bcookie                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>LinkedIn</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Dieses Cookie ist eine Browserkennung. Damit werden Geräte, die auf LinkedIn zugreifen, eindeutig identifiziert, um so eine missbräuchliche Verwendung der Plattform zu erkennen.</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Datenschutzerklärung</th>
+                                                        <td class="_brlbs-pp-url">
+                                                            <a
+                                                                href="https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/"
+                                                                target="_blank"
+                                                                rel="nofollow noopener noreferrer"
+                                                            >
+                                                                https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Host(s)</th>
+                                                        <td>.linkedin.com, www.linkedin.com</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Name</th>
+                                                        <td>bcookie</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Laufzeit</th>
+                                                        <td>2 Jahre</td>
+                                                    </tr>
+                                                                                                </table>
+                                                                                        <table>
+                                                                                                    <tr>
+                                                        <th>Akzeptieren</th>
+                                                        <td>
+                                                            <label class="_brlbs-btn-switch _brlbs-btn-switch--textRight">
+                                                                <input
+                                                                    id="borlabs-cookie-linkedinanalytics"
+                                                                    tabindex="0"
+                                                                    type="checkbox" data-cookie-group="funktional"
+                                                                    name="cookies[funktional][]"
+                                                                    value="linkedinanalytics"
+                                                                                                                                        data-borlabs-cookie-switch
+                                                                />
+
+                                                                <span class="_brlbs-slider"></span>
+
+                                                                <span
+                                                                    class="_brlbs-btn-switch-status"
+                                                                    data-active="An"
+                                                                    data-inactive="Aus"
+                                                                    aria-hidden="true">
+                                                                </span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-linkedinanalytics">
+                                                            AnalyticsSyncHistory                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>LinkedIn</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Mit diesem Cookie wird der Zeitpunkt der Synchronisierung mit dem Cookie „lms_analytics“ bei Nutzern in den designierten Ländern gespeichert.</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Datenschutzerklärung</th>
+                                                        <td class="_brlbs-pp-url">
+                                                            <a
+                                                                href="https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/"
+                                                                target="_blank"
+                                                                rel="nofollow noopener noreferrer"
+                                                            >
+                                                                https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Host(s)</th>
+                                                        <td>.linkedin.com</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Name</th>
+                                                        <td>AnalyticsSyncHistory</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Laufzeit</th>
+                                                        <td>30 Tage</td>
+                                                    </tr>
+                                                                                                </table>
+                                                                                        <table>
+                                                                                                    <tr>
+                                                        <th>Akzeptieren</th>
+                                                        <td>
+                                                            <label class="_brlbs-btn-switch _brlbs-btn-switch--textRight">
+                                                                <input
+                                                                    id="borlabs-cookie-linkedinusermatch"
+                                                                    tabindex="0"
+                                                                    type="checkbox" data-cookie-group="funktional"
+                                                                    name="cookies[funktional][]"
+                                                                    value="linkedinusermatch"
+                                                                                                                                        data-borlabs-cookie-switch
+                                                                />
+
+                                                                <span class="_brlbs-slider"></span>
+
+                                                                <span
+                                                                    class="_brlbs-btn-switch-status"
+                                                                    data-active="An"
+                                                                    data-inactive="Aus"
+                                                                    aria-hidden="true">
+                                                                </span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-linkedinusermatch">
+                                                            UserMatchHistory                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>LinkedIn</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Mit diesem Cookie werden die IDs von LinkedIn Ads synchronisiert.</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Datenschutzerklärung</th>
+                                                        <td class="_brlbs-pp-url">
+                                                            <a
+                                                                href="https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/"
+                                                                target="_blank"
+                                                                rel="nofollow noopener noreferrer"
+                                                            >
+                                                                https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Host(s)</th>
+                                                        <td>linkedin.com</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Name</th>
+                                                        <td>UserMatchHistory</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Laufzeit</th>
+                                                        <td>30 Tage</td>
+                                                    </tr>
+                                                                                                </table>
+                                                                                        <table>
+                                                                                                    <tr>
+                                                        <th>Akzeptieren</th>
+                                                        <td>
+                                                            <label class="_brlbs-btn-switch _brlbs-btn-switch--textRight">
+                                                                <input
+                                                                    id="borlabs-cookie-linkedinlang"
+                                                                    tabindex="0"
+                                                                    type="checkbox" data-cookie-group="funktional"
+                                                                    name="cookies[funktional][]"
+                                                                    value="linkedinlang"
+                                                                                                                                        data-borlabs-cookie-switch
+                                                                />
+
+                                                                <span class="_brlbs-slider"></span>
+
+                                                                <span
+                                                                    class="_brlbs-btn-switch-status"
+                                                                    data-active="An"
+                                                                    data-inactive="Aus"
+                                                                    aria-hidden="true">
+                                                                </span>
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>
+                                                        <label for="borlabs-cookie-linkedinlang">
+                                                            lang                                                        </label>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th>Anbieter</th>
+                                                    <td>LinkedIn</td>
+                                                </tr>
+
+                                                                                                    <tr>
+                                                        <th>Zweck</th>
+                                                        <td>Dieses Cookie merkt sich die Spracheinstellung eines Nutzers.So wird sichergestellt, dass die LinkedIn.com-Website in der vom Nutzer ausgewählten Sprache erscheint.</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Datenschutzerklärung</th>
+                                                        <td class="_brlbs-pp-url">
+                                                            <a
+                                                                href="https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/"
+                                                                target="_blank"
+                                                                rel="nofollow noopener noreferrer"
+                                                            >
+                                                                https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Host(s)</th>
+                                                        <td>.ads.linkedin.com</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Name</th>
+                                                        <td>lang</td>
+                                                    </tr>
+                                                    
+                                                                                                    <tr>
+                                                        <th>Cookie Laufzeit</th>
+                                                        <td>Session</td>
+                                                    </tr>
+                                                                                                </table>
+                                                                                </div>
+                                </div>
+                                                                                                    </div>
+
+                <div class="d-flex justify-content-between">
+                    <p class="_brlbs-branding flex-fill">
+                                            </p>
+
+                    <p class="_brlbs-legal flex-fill">
+                                                    <a href="https://auticon.de/datenschutzerklaerung-nach-der-dsgvo/">
+                                Datenschutzerklärung                            </a>
+                            
+                                                    <span class="_brlbs-separator"></span>
+                            
+                                                    <a href="https://auticon.de/impressum/">
+                                Impressum                            </a>
+                                                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+</script></div><!--googleon: all--><div class="mobmenu-overlay"></div><div class="mob-menu-header-holder mobmenu"  data-menu-display="mob-menu-slideout-over" data-open-icon="down-open" data-close-icon="up-open"><div  class="mobmenul-container"><a href="#" class="mobmenu-left-bt mobmenu-trigger-action" data-panel-target="mobmenu-left-panel" aria-label="Left Menu Button"><i class="mob-icon-menu mob-menu-icon"></i><i class="mob-icon-cancel-1 mob-cancel-button"></i></a></div><div class="mob-menu-logo-holder"><a href="https://auticon.de" class="headertext"><img class="mob-standard-logo" src="https://auticon.de/wp-content/uploads/2018/10/auticon_logo_100_empty.png"  alt="auticon"></a></div><div class="mobmenur-container"><a href="#" class="mobmenu-right-bt  mobmenu-trigger-action" data-panel-target="mobmenu-right-panel" aria-label="Right Menu Button"><img src="https://auticon.de/wp-content/uploads/2018/09/globe_black.png" alt="Right Menu Icon"></a></div></div>
+		<div class="mobmenu-left-alignment mobmenu-panel mobmenu-left-panel mobmenu-parent-link ">
+		<a href="#" class="mobmenu-left-bt" aria-label="Left Menu Button"><i class="mob-icon-cancel-1 mob-cancel-button"></i></a>
+
+		<div class="mobmenu-content">
+		<div class="menu-main-menu-container"><ul id="mobmenuleft" role="navigation" aria-label="Main navigation for mobile devices"><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70"><a href="https://auticon.de/projekte-services/" class="">Unsere Leistungen</a>
+<ul class="sub-menu ">
+	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16790"><a href="https://auticon.de/projekte-services/" class="">Warum auticon</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15841"><a href="https://auticon.de/projekte-services/quality-assurance-testing/" class="">Quality Assurance &#038; Testing</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15840"><a href="https://auticon.de/projekte-services/analytics/" class="">Analytics</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15839"><a href="https://auticon.de/projekte-services/software-development-migration/" class="">Software Development &#038; Migration</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15982"><a href="https://auticon.de/projekte-services/referenzen/" class="">Referenzen</a></li></ul>
+</li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-69"><a href="https://auticon.de/karriere/" class="">Karriere</a>
+<ul class="sub-menu ">
+	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16791"><a href="https://auticon.de/karriere/" class="">Warum auticon als Arbeitgeber</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16047"><a href="https://auticon.de/karriere/rekrutierungsprozess-fuer-consultants/" class="">Rekrutierungsprozess für Consultants</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16067"><a href="https://auticon.de/karriere/offene-stellen-fuer-it-consultants/" class="">Offene Stellen für IT-Consultants</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16070"><a href="https://auticon.de/karriere/weitere-stellenausschreibungen/" class="">Weitere Stellenausschreibungen</a></li></ul>
+</li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="https://auticon.de/autismus/" class="">Autismus</a></li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-67"><a href="https://auticon.de/unternehmen/" class="">Unternehmen</a>
+<ul class="sub-menu ">
+	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16792"><a href="https://auticon.de/unternehmen/" class="">Über uns</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16562"><a href="https://auticon.de/unternehmen/ansprechpartner/" class="">Ansprechpartner</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16561"><a href="https://auticon.de/unternehmen/awards/" class="">Awards</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16560"><a href="https://auticon.de/unternehmen/faq/" class="">FAQ</a></li></ul>
+</li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-15728"><a href="https://auticon.de/neuigkeiten-presse/" class="">Neuigkeiten &#038; Presse</a>
+<ul class="sub-menu ">
+	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16793"><a href="https://auticon.de/neuigkeiten-presse/" class="">Unsere Neuigkeiten auf einen Blick</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16799"><a href="https://auticon.de/neuigkeiten-presse/presseinformationen/" class="">Presseinformationen</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15719"><a href="https://auticon.de/neuigkeiten-presse/auticon-in-den-medien/" class="">auticon in den Medien</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15725"><a href="https://auticon.de/neuigkeiten-presse/veranstaltungen/" class="">Veranstaltungen</a></li>	<li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15715"><a href="https://auticon.de/neuigkeiten-presse/archiv/" class="">Archiv</a></li></ul>
+</li><li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="https://auticon.de/kontakt/" class="">Kontakt</a></li></ul></div>
+		</div><div class="mob-menu-left-bg-holder"></div></div>
+
+						<div class="mobmenu-right-alignment mobmenu-panel mobmenu-right-panel  ">
+				<a href="#" class="mobmenu-right-bt" aria-label="Right Menu Button"><i class="mob-icon-cancel-1 mob-cancel-button"></i></a>
+					<div class="mobmenu-content">
+							<ul class="rightmtop">
+								<div class="textwidget"><h5>&nbsp;&nbsp;&nbsp;Change Region</h5>
+</div>
+						</ul>
+			<div class="menu-choose-your-region-container"><ul id="mobmenuright" role="navigation" aria-label="Main navigation for mobile devices"><li  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-15756"><a href="https://auticon.de/" class="">Germany</a></li><li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15760"><a href="https://auticon.co.uk/" class="">United Kingdom</a></li><li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15757"><a href="https://auticonsult.fr/" class="">France</a></li><li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15759"><a href="https://auticon.ch/" class="">Switzerland</a></li><li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20416"><a href="https://auticon.it/" class="">Italy</a></li><li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15761"><a href="https://auticon.us/" class="">United States</a></li><li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23769"><a href="https://auticon.ca/" class="">Canada (English)</a></li><li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23744"><a href="https://auticonsult.ca/" class="">Canada (French)</a></li><li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31598"><a href="https://auticon.com.au/" class="">Australia</a></li><li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20867"><a href="https://auticon.com/" class="">Group Headquarter</a></li></ul></div>
+			</div><div class="mob-menu-right-bg-holder"></div></div>
+
+		<script type='text/javascript' src='https://auticon.de/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://auticon.de/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/auticon.de\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://auticon.de/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.5.1' id='contact-form-7-js'></script>
+<script type='text/javascript' id='leadin-script-loader-js-js-extra'>
+/* <![CDATA[ */
+var leadin_wordpress = {"userRole":"visitor","pageType":"home","leadinPluginVersion":"8.4.90"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://js.hs-scripts.com/9061667.js?integration=WordPress' async defer id='hs-script-loader'></script>
+<script type='text/javascript' src='https://auticon.de/wp-content/plugins/wf-cookie-consent/js/cookiechoices.min.js?ver=5.8.1' id='wf-cookie-consent-cookiechoices-js'></script>
+<script type='text/javascript' id='wpcf7-redirect-script-js-extra'>
+/* <![CDATA[ */
+var wpcf7r = {"ajax_url":"https:\/\/auticon.de\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://auticon.de/wp-content/plugins/wpcf7-redirect/build/js/wpcf7-redirect-frontend-script.js?ver=1.1' id='wpcf7-redirect-script-js'></script>
+<script type='text/javascript' src='https://auticon.de/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' id='popup-maker-site-js-extra'>
+/* <![CDATA[ */
+var pum_vars = {"version":"1.16.2","pm_dir_url":"https:\/\/auticon.de\/wp-content\/plugins\/popup-maker\/","ajaxurl":"https:\/\/auticon.de\/wp-admin\/admin-ajax.php","restapi":"https:\/\/auticon.de\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"15693","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"analytics_route":"analytics","analytics_api":"https:\/\/auticon.de\/wp-json\/pum\/v1"};
+var pum_sub_vars = {"ajaxurl":"https:\/\/auticon.de\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-41440":{"triggers":[{"type":"auto_open","settings":{"cookie_name":["pum-41440"],"delay":"500"}}],"cookies":[{"event":"on_popup_open","settings":{"name":"pum-41440","key":"","session":true,"path":true,"time":"1 month"}}],"disable_on_mobile":true,"disable_on_tablet":true,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"15694","size":"auto","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"right top","position_top":"40","position_bottom":"0","position_left":"0","position_right":"40","position_from_trigger":false,"position_fixed":false,"overlay_disabled":true,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"lightbox","id":41440,"slug":"auticon-de-jobs"},"pum-15699":{"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":""}}],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"15694","size":"tiny","responsive_min_width":"0%","responsive_max_width":"50%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center top","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":true,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"lightbox","id":15699,"slug":"languages-world"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//auticon.de/wp-content/uploads/pum/pum-site-scripts.js?defer&#038;generated=1628853225&#038;ver=1.16.2' id='popup-maker-site-js'></script>
+<script type='text/javascript' src='https://auticon.de/wp-content/plugins/popup-maker/assets/js/vendor/mobile-detect.min.js?ver=1.3.3' id='mobile-detect-js'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6Lchtt8ZAAAAAEIlRu4YTNlOj_lIYCzj0a5nns9w&#038;ver=3.0' id='google-recaptcha-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6Lchtt8ZAAAAAEIlRu4YTNlOj_lIYCzj0a5nns9w","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://auticon.de/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.5.1' id='wpcf7-recaptcha-js'></script>
+<script type='text/javascript' src='https://auticon.de/wp-includes/js/wp-embed.min.js?ver=5.8.1' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://auticon.de/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.7.0' id='wpb_composer_front_js-js'></script>
+<script type='text/javascript' id='borlabs-cookie-js-extra'>
+/* <![CDATA[ */
+var borlabsCookieConfig = {"ajaxURL":"https:\/\/auticon.de\/wp-admin\/admin-ajax.php","language":"de","animation":"1","animationDelay":"","animationIn":"fadeInDown","animationOut":"flipOutX","blockContent":"1","boxLayout":"box","boxLayoutAdvanced":"1","automaticCookieDomainAndPath":"","cookieDomain":"auticon.de","cookiePath":"\/","cookieLifetime":"365","cookieLifetimeEssentialOnly":"365","crossDomainCookie":[],"cookieBeforeConsent":"","cookiesForBots":"1","cookieVersion":"1","hideCookieBoxOnPages":[],"respectDoNotTrack":"","reloadAfterConsent":"","showCookieBox":"1","cookieBoxIntegration":"javascript","ignorePreSelectStatus":"1","cookies":{"essential":["borlabs-cookie"],"statistics":["google-analytics"],"marketing":[],"external-media":["facebook","googlemaps","twitter","youtube"],"funktional":["linkedin","linkedinbscookie","linkedinlidc","linkedinbcookie","linkedinanalytics","linkedinusermatch","linkedinlang"]}};
+var borlabsCookieCookies = {"essential":{"borlabs-cookie":{"cookieNameList":{"borlabs-cookie":"borlabs-cookie"},"settings":{"blockCookiesBeforeConsent":"0","prioritize":"0"}}},"statistics":{"google-analytics":{"cookieNameList":{"_ga":"_ga","_gat":"_gat","_gid":"_gid"},"settings":{"blockCookiesBeforeConsent":"0","prioritize":"1","trackingId":"UA-131041198-1"},"optInJS":"","optOutJS":""}},"external-media":{"facebook":{"cookieNameList":[],"settings":{"blockCookiesBeforeConsent":"0","prioritize":"0"},"optInJS":"PHNjcmlwdD5pZih0eXBlb2Ygd2luZG93LkJvcmxhYnNDb29raWUgPT09ICJvYmplY3QiKSB7IHdpbmRvdy5Cb3JsYWJzQ29va2llLnVuYmxvY2tDb250ZW50SWQoImZhY2Vib29rIik7IH08L3NjcmlwdD4=","optOutJS":""},"googlemaps":{"cookieNameList":{"NID":"NID"},"settings":{"blockCookiesBeforeConsent":"0","prioritize":"0"},"optInJS":"PHNjcmlwdD5pZih0eXBlb2Ygd2luZG93LkJvcmxhYnNDb29raWUgPT09ICJvYmplY3QiKSB7IHdpbmRvdy5Cb3JsYWJzQ29va2llLnVuYmxvY2tDb250ZW50SWQoImdvb2dsZW1hcHMiKTsgfTwvc2NyaXB0Pg==","optOutJS":""},"twitter":{"cookieNameList":{"__widgetsettings":"__widgetsettings","local_storage_support_test":"local_storage_support_test"},"settings":{"blockCookiesBeforeConsent":"0","prioritize":"0"},"optInJS":"PHNjcmlwdD5pZih0eXBlb2Ygd2luZG93LkJvcmxhYnNDb29raWUgPT09ICJvYmplY3QiKSB7IHdpbmRvdy5Cb3JsYWJzQ29va2llLnVuYmxvY2tDb250ZW50SWQoInR3aXR0ZXIiKTsgfTwvc2NyaXB0Pg==","optOutJS":""},"youtube":{"cookieNameList":{"NID":"NID"},"settings":{"blockCookiesBeforeConsent":"0","prioritize":"0"},"optInJS":"PHNjcmlwdD5pZih0eXBlb2Ygd2luZG93LkJvcmxhYnNDb29raWUgPT09ICJvYmplY3QiKSB7IHdpbmRvdy5Cb3JsYWJzQ29va2llLnVuYmxvY2tDb250ZW50SWQoInlvdXR1YmUiKTsgfTwvc2NyaXB0Pg==","optOutJS":""}},"funktional":{"linkedin":{"cookieNameList":{"li_gc":"li_gc"},"settings":{"blockCookiesBeforeConsent":"1","prioritize":"0"}},"linkedinbscookie":{"cookieNameList":{"bscookie":"bscookie"},"settings":{"blockCookiesBeforeConsent":"1","prioritize":"0"}},"linkedinlidc":{"cookieNameList":{"lidc":"lidc","li*":"li*"},"settings":{"blockCookiesBeforeConsent":"1","prioritize":"0"}},"linkedinbcookie":{"cookieNameList":{"bcookie":"bcookie"},"settings":{"blockCookiesBeforeConsent":"1","prioritize":"0"}},"linkedinanalytics":{"cookieNameList":{"AnalyticsSyncHistory":"AnalyticsSyncHistory"},"settings":{"blockCookiesBeforeConsent":"1","prioritize":"0"}},"linkedinusermatch":{"cookieNameList":{"UserMatchHistory":"UserMatchHistory"},"settings":{"blockCookiesBeforeConsent":"1","prioritize":"0"}},"linkedinlang":{"cookieNameList":{"lang":"lang"},"settings":{"blockCookiesBeforeConsent":"1","prioritize":"0"}}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://auticon.de/wp-content/plugins/borlabs-cookie/javascript/borlabs-cookie.min.js?ver=2.2.35' id='borlabs-cookie-js'></script>
+<script type='text/javascript' id='borlabs-cookie-js-after'>
+document.addEventListener("DOMContentLoaded", function (e) {
+var borlabsCookieContentBlocker = {"facebook": {"id": "facebook","global": function (contentBlockerData) {  },"init": function (el, contentBlockerData) { if(typeof FB === "object") { FB.XFBML.parse(el.parentElement); } },"settings": {"executeGlobalCodeBeforeUnblocking":false}},"default": {"id": "default","global": function (contentBlockerData) {  },"init": function (el, contentBlockerData) {  },"settings": {"executeGlobalCodeBeforeUnblocking":false}},"googlemaps": {"id": "googlemaps","global": function (contentBlockerData) {  },"init": function (el, contentBlockerData) {  },"settings": {"unblockAll":"0","apiKey":"","executeGlobalCodeBeforeUnblocking":"0"}},"instagram": {"id": "instagram","global": function (contentBlockerData) {  },"init": function (el, contentBlockerData) { if (typeof instgrm === "object") { instgrm.Embeds.process(); } },"settings": {"executeGlobalCodeBeforeUnblocking":false}},"openstreetmap": {"id": "openstreetmap","global": function (contentBlockerData) {  },"init": function (el, contentBlockerData) {  },"settings": {"executeGlobalCodeBeforeUnblocking":false}},"twitter": {"id": "twitter","global": function (contentBlockerData) {  },"init": function (el, contentBlockerData) {  },"settings": {"executeGlobalCodeBeforeUnblocking":false}},"vimeo": {"id": "vimeo","global": function (contentBlockerData) {  },"init": function (el, contentBlockerData) {  },"settings": {"executeGlobalCodeBeforeUnblocking":false,"saveThumbnails":false,"videoWrapper":false}},"youtube": {"id": "youtube","global": function (contentBlockerData) {  },"init": function (el, contentBlockerData) {  },"settings": {"executeGlobalCodeBeforeUnblocking":false,"changeURLToNoCookie":true,"saveThumbnails":false,"thumbnailQuality":"maxresdefault","videoWrapper":false}}};
+    var BorlabsCookieInitCheck = function () {
+
+    if (typeof window.BorlabsCookie === "object" && typeof window.jQuery === "function") {
+
+        if (typeof borlabsCookiePrioritized !== "object") {
+            borlabsCookiePrioritized = { optInJS: {} };
+        }
+
+        window.BorlabsCookie.init(borlabsCookieConfig, borlabsCookieCookies, borlabsCookieContentBlocker, borlabsCookiePrioritized.optInJS);
+    } else {
+        window.setTimeout(BorlabsCookieInitCheck, 50);
+    }
+};
+
+BorlabsCookieInitCheck();});
+</script>
+<script type="text/javascript">
+	window._wfCookieConsentSettings = {"wf_cookietext":"Um unsere Webseite f\u00fcr Sie optimal zu gestalten und fortlaufend verbessern zu k\u00f6nnen, verwenden wir Cookies. \r\nDetaillierte Informationen \u00fcber den Einsatz von Cookies auf dieser Website erhalten Sie in unserer Datenschutzerkl\u00e4rung. Wenn Sie auf \u201eJa, ich stimme zu\u201c klicken, werden Cookies aktiviert. ","wf_dismisstext":"Ja, ich stimme zu","wf_linktext":"Datenschutzerkl\u00e4rung","wf_linkhref":"https:\/\/auticon.de\/datenschutzerklaerung-nach-der-dsgvo\/","wf_position":"bottom","language":"de"};
+</script>
+    
+    <!-- HUBSPOT TRACKING CODE -->
+
+
+    
+		
+	</body>
+</html>

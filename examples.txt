@@ -1,0 +1,7 @@
+try:
+            WebDriverWait(browser, 15).until(EC.presence_of_element_located((By.CLASS_NAME, 'math-loaded')))
+        except TimeoutException:
+            logger.error('PDF math rendering timed out')
+            self.log = self.get_log(browser) + '\nPDF math rendering timed out'
+            return
+			
