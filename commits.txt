@@ -21,4 +21,5 @@ main.py erstellt, mit Natali
 
 1410 title geht; keine globale Variable: driver muss immer Parameter sein
 
-1510 TC: TC_1_title OK, TC_2_topline in progress, next: Popups
+1510 TC: TC_1_title OK, TC_2_topline in progress, next: Popups7
+1510 2: moved TC in subdir
