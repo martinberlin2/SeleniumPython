@@ -23,3 +23,6 @@ main.py erstellt, mit Natali
 
 1510 TC: TC_1_title OK, TC_2_topline in progress, next: Popups7
 1510 2: moved TC in subdir
+
+1910 todo: Importe zentrieren, in eine Liste, die als Parameter in die TC 
+vorbereitet: TC_4_menuLinksObenSort
