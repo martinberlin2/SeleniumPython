@@ -28,13 +28,23 @@ def main():
 	
 	driver.get("https://auticon.de") #  smoke test 
 	# print(driver.title)
-	from TC_1_title import tc
+	folder = '.\\TestCases\\TC_1_title\\'
+	from folder import tc
+	
+	return # erst import testen
+	
 	result = tc(driver)
 	print(result)
+	
+	from TC_1_1_popup_cookies_deny import tc
+	result = tc(driver)
+	print(result)
+	
 	
 	from TC_2_topline import tc
 	result = tc(driver)
 	print(result)
+	
 	
 	
 	# zuletzt

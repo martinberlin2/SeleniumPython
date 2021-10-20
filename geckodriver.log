@@ -191,3 +191,40 @@ JavaScript error: resource://devtools/server/actors/network-monitor/network-even
 JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 109: Error: Got a request https://fonts.googleapis.com/css2?display=swap&family=Source+Sans+Pro:wght@300;700 without a browsingContextID set
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634299806504	Marionette	INFO	Stopped listening on port 59888
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634570040093	geckodriver	INFO	Listening on 127.0.0.1:53059
+1634570043186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofilevFptDa"
+1634570043786	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofilevFptDa\\search.json.mozlz4", (void 0)))
+1634570045284	Marionette	INFO	Listening on port 53067
+1634570045351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Child 14996, MediaDecoderStateMachine #2] WARNING: Decoder=17fc9d55800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - auto __cdecl mozilla::SupportChecker::AddMediaFormatChecker(const mozilla::TrackInfo &)::(anonymous class)::operator()(void) const: Decoder may not have the capability to handle the requested video format with YUV444 chroma subsampling.: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1634571576119	Marionette	INFO	Stopped listening on port 53067
+1634575201328	geckodriver	INFO	Listening on 127.0.0.1:53504
+1634575204408	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofileL84eHn"
+1634575204690	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofileL84eHn\\search.json.mozlz4", (void 0)))
+1634575206149	Marionette	INFO	Listening on port 53512
+1634575206455	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634577222251	Marionette	INFO	Stopped listening on port 53512
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: uncaught exception: Timeout
+1634624123296	Marionette	INFO	Stopped listening on port 53598
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

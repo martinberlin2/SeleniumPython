@@ -5,3 +5,5 @@ try:
             self.log = self.get_log(browser) + '\nPDF math rendering timed out'
             return
 			
+from selenium.common.exceptions import NoSuchElementException  
+
