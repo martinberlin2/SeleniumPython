@@ -28,3 +28,8 @@ main.py erstellt, mit Natali
 vorbereitet: TC_4_menuLinksObenSort
 
 2110 unterverz geht noich nicht, aber aus restaurant-Aufgabe heraus ?
+
+2110 worklab Ja - geht 
+from TestCases import TC_1_title # diese drei gehen
+	tc = TC_1_title.tc
+	tc(driver) 	

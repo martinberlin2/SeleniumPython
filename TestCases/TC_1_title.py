@@ -16,5 +16,6 @@ def tc(driver): # -> bool
    
    # <a class="_brlbs-btn _brlbs-cursor" href="#" tabindex="0" role="button" data-cookie-refuse="">
    # Nur essenzielle Cookies akzeptieren                                        </a>
-   
-  
+
+# driver = None
+# tc(driver)

@@ -6,8 +6,11 @@
 # ----------- NKL - Lose von Mom
 
 import logging
-logging.basicConfig(filename= 'C:/Users/laoch/OneDrive/Dokumente/Meins/Eigenes_F/auticon/Python/SeleniumPython/Logs/log.txt', level=logging.INFO) 
+# home pc
+# logging.basicConfig(filename= 'C:/Users/laoch/OneDrive/Dokumente/Meins/Eigenes_F/auticon/Python/SeleniumPython/Logs/log.txt', level=logging.INFO) 
 
+# work lab
+logging.basicConfig(filename='C:/Users/Lap126/Documents/auticon/Lern/Testautomatisierung/SeleniumPython/Logs/log.txt', level=logging.INFO) 
 	
 def start():
 	try:
@@ -28,16 +31,21 @@ def main():
 	# from selenium.common.exceptions import [TheNameOfTheExceptionClass]
 	# sonst: erst schreiben, dann importe raussuchen
 	
+	driver = None
 	## driver.get("https://auticon.de") #  smoke test 
 	# print(driver.title)
 	folder = Path('./TestCases')  # --- Unterverz Python 
 	
 	## from TC_2_topline import tc
 	
-	importFile = Path("./TestCases/TC_1_title.py")
+	from TestCases import TC_1_title # diese drei gehen
+	tc = TC_1_title.tc
+	tc(driver) 	
+	# TC_1_title.tc(driver) # geht auch
 	
+	# importFile = Path("./TestCases/TC_1_title.py")
 	# importFile = folder / TC_1_title.py
-	from importFile import tc
+	# from importFile import tc
 	
 	return # erst import testen
 	

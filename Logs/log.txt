@@ -1,3 +1,7 @@
-INFO:root:EXC: No module named 'importFile'
-INFO:root:EXC: name 'webdriver' is not defined
-INFO:root:EXC: No module named 'importFile'
+INFO:root:EXC: local variable 'tc' referenced before assignment
+INFO:root:EXC: local variable 'tc' referenced before assignment
+#INFO:root:EXC: name 'driver' is not defined
+INFO:root:EXC: No module named 'TC_1_title'
+INFO:root:EXC: No module named 'TC_1_title'
+#
+INFO:root:EXC: No module named 'TC_1_title'
