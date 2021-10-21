@@ -16,20 +16,28 @@ def start():
 		logging.info("EXC: " + str(ex))
 
 def main():	
-	from selenium import webdriver
-	from selenium.webdriver.common.keys import Keys
+	## from selenium import webdriver
+	## from selenium.webdriver.common.keys import Keys
+	from pathlib import Path 
+	TcFolder = Path("./TestCases")
 	
 	import time # import problem
 	driverpath = "C:/Users/laoch/OneDrive/Dokumente/Meins/AndereProgramme_G/Work/Drivers/geckodriver.exe"
-	driver = webdriver.Firefox(executable_path=driverpath)
+	## driver = webdriver.Firefox(executable_path=driverpath)
 		# https://stackoverflow.com/questions/49929374/notadirectoryerror-winerror-267-the-directory-name-is-invalid-error-while-inv
 	# from selenium.common.exceptions import [TheNameOfTheExceptionClass]
 	# sonst: erst schreiben, dann importe raussuchen
 	
-	driver.get("https://auticon.de") #  smoke test 
+	## driver.get("https://auticon.de") #  smoke test 
 	# print(driver.title)
-	folder = '.\\TestCases\\TC_1_title\\'
-	from folder import tc
+	folder = Path('./TestCases')  # --- Unterverz Python 
+	
+	## from TC_2_topline import tc
+	
+	importFile = Path("./TestCases/TC_1_title.py")
+	
+	# importFile = folder / TC_1_title.py
+	from importFile import tc
 	
 	return # erst import testen
 	
@@ -40,15 +48,16 @@ def main():
 	result = tc(driver)
 	print(result)
 	
-	
 	from TC_2_topline import tc
 	result = tc(driver)
 	print(result)
 	
-	
+	from TC_4_menuLinksObenSort import tc
+	result = tc(driver)
+	print(result)
 	
 	# zuletzt
-	# driver.close()
-	# driver.quit()
+	driver.close()
+	driver.quit()
 	 
 start()

@@ -7,22 +7,23 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 # Äußeren Knoten kopieren
 
-BurgerMenu: <i class="mob-icon-menu mob-menu-icon"></i>
-klick ->
-<ul id="mobmenuleft" role="navigation" aria-label="Main navigation for mobile devices">
-... dann Liste als xpath oder Elems einzeln
+# BurgerMenu: <i class="mob-icon-menu mob-menu-icon"></i>
+# klick ->
+# <div class="mob-menu-left-bg-holder"></div> muss existieren
+# <ul id="mobmenuleft" role="navigation" aria-label="Main navigation for mobile devices">
+# ... TODO dann Liste als xpath oder Elems einzeln
+
+# ----
 
 def tc(driver): # -> bool
 	logging.info("TC_4_menuLinksObenSort")
 	try:
-		elem = driver.find_elements(By.CLASS_NAME, 'Unsere Leistungen')		# no exc 
+		burger = driver.find_elements(By.CLASS_NAME, 'mob-icon-menu')		
 		#object of ActionChains
 		actChainObj = ActionChains(driver)
-		subelem = driver.find_element(By.XPATH, '//text()="Warum auticon"') # sollte failen
-		actChainObj.move_to_element(elem).perform()    # mouse over 
-		
-		# subelem = driver.find_elements(By.  Warum auticon
-		subelem = driver.find_element(By.XPATH, '//text()="Warum auticon"')
+		burger.click()
+		subelem = driver.find_elements(By.CLASS_NAME, 'mob-menu-left-bg-holder')
+		subelem.click()   # -- NPE ?
 		
 	except Exception as ex:
 		print("EXC TC2: " + str(ex))

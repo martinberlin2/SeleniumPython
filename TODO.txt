@@ -1,4 +1,5 @@
 auf priv selenium ohne webdriver installiert
+todo: Importe zentrieren, in eine Liste, die als Parameter in die TC 
 
 weiter
 https://selenium-python.readthedocs.io/api.html

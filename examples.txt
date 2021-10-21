@@ -7,3 +7,9 @@ try:
 			
 from selenium.common.exceptions import NoSuchElementException  
 
+ <ul>   unordered HTML list:
+  <li>Coffee</li> 
+  <li>Tea</li>
+  <li>Milk</li>
+</ul> 
+

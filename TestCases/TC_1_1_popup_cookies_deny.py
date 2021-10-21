@@ -24,4 +24,4 @@ def tc(driver): # -> bool
    # <button type="button" class="pum-close popmake-close" aria-label="Schließen">
    
    # <a class="_brlbs-btn _brlbs-cursor" href="#" tabindex="0" role="button" data-cookie-refuse="">
-                                            Nur essenzielle Cookies akzeptieren                                        </a>
+                                         #   Nur essenzielle Cookies akzeptieren                                        </a>
