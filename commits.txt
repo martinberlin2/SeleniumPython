@@ -33,3 +33,5 @@ vorbereitet: TC_4_menuLinksObenSort
 from TestCases import TC_1_title # diese drei gehen
 	tc = TC_1_title.tc
 	tc(driver) 	
+	
+2210 -- Neuer Branch develop, nur commit. Jetzt readCfg.py

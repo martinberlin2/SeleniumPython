@@ -7,10 +7,10 @@
 
 import logging
 # home pc
-# logging.basicConfig(filename= 'C:/Users/laoch/OneDrive/Dokumente/Meins/Eigenes_F/auticon/Python/SeleniumPython/Logs/log.txt', level=logging.INFO) 
+logging.basicConfig(filename= 'C:/Users/laoch/OneDrive/Dokumente/Meins/Eigenes_F/auticon/Python/SeleniumPython/Logs/log.txt', level=logging.INFO) 
 
 # work lab
-logging.basicConfig(filename='C:/Users/Lap126/Documents/auticon/Lern/Testautomatisierung/SeleniumPython/Logs/log.txt', level=logging.INFO) 
+# logging.basicConfig(filename='C:/Users/Lap126/Documents/auticon/Lern/Testautomatisierung/SeleniumPython/Logs/log.txt', level=logging.INFO) 
 	
 def start():
 	try:
