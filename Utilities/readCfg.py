@@ -4,14 +4,16 @@
 # Konfig-Datei: # Category <TAB> Value
 # Klasse CFG: Category + Value 
 # dir = CFG.get(dir)
-import os.path
+# import abc as other_name
+
+import os.path as path
 
 class CFG: 
 	def __init__ (self) :
-		self.cfg_items = []
+		self.__cfg_items = []
 	
-	def add(c,v, self):
-		self.cfg_items.append((c,v))
+	## def add(c,v, self):
+		## self.cfg_items.append([c,v])
 		# TODO Doppelte checken
 	
 	def get(c, self):
@@ -27,17 +29,26 @@ class CFG:
 def readConfig(filename): # <- relativer Dateiname; Datei= "Kategorie<TAB>Wert", Returns Array (category, value) 
 	# readConfig("./config.txt")
 	# import os.path
-	if os.path.isfile(filename) == False:
+	
+	mylist = []
+	mylist.append([1,3])
+	print(mylist)
+	
+	if path.isfile(filename) == False:
 		print("Config File not found")
 		return
 	cfgFile = open(filename, "r")
+	cfg = CFG()
 	while True:   						 # for line in cfgFile:
 		line = cfgFile.readline()
-		if not line:    #check if line is not null
+		if not line:    #check if line is null
 			break
-		#you can access the line
-		print(line.strip())
-
+		linesplit = line.split()
+		category = linesplit[0]
+		value 	 = linesplit[1]
+		## cfg.add(category, value)
+		print(category)
+		print(value)
 	#close file
 	cfgFile.close
 			
