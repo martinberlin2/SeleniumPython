@@ -35,3 +35,5 @@ from TestCases import TC_1_title # diese drei gehen
 	tc(driver) 	
 	
 2210 -- Neuer Branch develop, nur commit. Jetzt readCfg.py
+
+2610 -- readCfg.py: liest config.txt
