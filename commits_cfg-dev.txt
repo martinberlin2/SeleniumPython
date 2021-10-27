@@ -6,3 +6,6 @@
 2710 - commit-Dateien für jeden Branch eingeführt 
 
 2710 jetzt bewegungspause 
+
+2710 readCfg.py geht, jetzt Aufruf in start.py 
+

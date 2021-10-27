@@ -6,6 +6,14 @@
 # ----------- NKL - Lose von Mom
 
 import logging
+from Utilities.readCfg import readConfig # as readConfig
+
+config = readConfig("./config.txt")
+config.showAll()
+SeleniumRoot = config.get("SeleniumRoot")
+print(SeleniumRoot)
+
+
 # home pc
 logging.basicConfig(filename= 'C:/Users/laoch/OneDrive/Dokumente/Meins/Eigenes_F/auticon/Python/SeleniumPython/Logs/log.txt', level=logging.INFO) 
 
@@ -63,6 +71,7 @@ def main():
 	from TC_4_menuLinksObenSort import tc
 	result = tc(driver)
 	print(result)
+	
 	
 	# zuletzt
 	driver.close()
