@@ -1,0 +1,39 @@
+﻿privlab:
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+
+worklab:
+C:\Users\Lap126\Documents\GitHub\SeleniumPython
+
+0810 init
+1340 nochmal
+von shell: git commit -a -m vonshell
+(committed alles geänderte)
+
+1110 Unterverz. für selenium projekt
+
+1210 nur home: selenium installiert 
+
+1210 1245 von worklab: nach git clone https://github.com/martinberlin2/SeleniumPython wird es in neues Subverz geladen
+commit von da aus
+
+1340 neu geklont
+main.py erstellt, mit Natali
+
+1410 title geht; keine globale Variable: driver muss immer Parameter sein
+
+1510 TC: TC_1_title OK, TC_2_topline in progress, next: Popups7
+1510 2: moved TC in subdir
+
+1910 todo: Importe zentrieren, in eine Liste, die als Parameter in die TC 
+vorbereitet: TC_4_menuLinksObenSort
+
+2110 unterverz geht noich nicht, aber aus restaurant-Aufgabe heraus ?
+
+2110 worklab Ja - geht 
+from TestCases import TC_1_title # diese drei gehen
+	tc = TC_1_title.tc
+	tc(driver) 	
+	
+2210 -- Neuer Branch develop, nur commit. Jetzt readCfg.py
+
+--->  cfg-dev

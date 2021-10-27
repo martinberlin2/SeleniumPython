@@ -4,16 +4,14 @@
 # Konfig-Datei: # Category <TAB> Value
 # Klasse CFG: Category + Value 
 # dir = CFG.get(dir)
-# import abc as other_name
-
 import os.path as path
 
 class CFG: 
 	def __init__ (self) :
 		self.__cfg_items = []
 	
-	## def add(c,v, self):
-		## self.cfg_items.append([c,v])
+	def add(c,v, self):
+		self.cfg_items.append([c,v])
 		# TODO Doppelte checken
 	
 	def get(c, self):
@@ -46,7 +44,7 @@ def readConfig(filename): # <- relativer Dateiname; Datei= "Kategorie<TAB>Wert",
 		linesplit = line.split()
 		category = linesplit[0]
 		value 	 = linesplit[1]
-		## cfg.add(category, value)
+		cfg.add(category, value)
 		print(category)
 		print(value)
 	#close file

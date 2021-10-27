@@ -36,7 +36,4 @@ from TestCases import TC_1_title # diese drei gehen
 	
 2210 -- Neuer Branch develop, nur commit. Jetzt readCfg.py
 
---- cfg-dev
-2610 -- readCfg.py: liest config.txt
-
-2610 -- String geteilt und add in Klasse geht. Next: CFG.showall um zu testen
+--->  cfg-dev
