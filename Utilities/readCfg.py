@@ -5,13 +5,15 @@
 # Klasse CFG: Category + Value 
 # dir = CFG.get(dir)
 import os.path as path
+from typing import List
 
 class CFG: 
 	def __init__ (self) :
-		self.__cfg_items = []
+		self.cfg_items: List []
 	
 	def add(c,v, self):
-		self.cfg_items.append([c,v])
+		(self.cfg_items).append([c,v])
+				## AttributeError: 'str' object has no attribute 'cfg_items'
 		# TODO Doppelte checken
 	
 	def get(c, self):

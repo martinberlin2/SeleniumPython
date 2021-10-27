@@ -4,3 +4,5 @@
 2610 -- String geteilt und add in Klasse geht. Next: CFG.showall um zu testen
 
 2710 - commit-Dateien für jeden Branch eingeführt 
+
+2710 jetzt bewegungspause 
