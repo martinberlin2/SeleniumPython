@@ -3,16 +3,14 @@
 # start für selenium python Test
 # evalTC(3, "len1", execFuncWithExc(lcs, ["abc", "daf"]) ,[1,"a"]) 
 # geht das in Selenium ?
-# ----------- NKL - Lose von Mom
 
 import logging
 from Utilities.readCfg import readConfig # as readConfig
 
 config = readConfig("./config.txt")
-config.showAll()
+# config.showAll()
 SeleniumRoot = config.get("SeleniumRoot")
 print(SeleniumRoot)
-
 
 # home pc
 # logging.basicConfig(filename= 'C:/Users/laoch/OneDrive/Dokumente/Meins/Eigenes_F/auticon/Python/SeleniumPython/Logs/log.txt', level=logging.INFO) 
@@ -36,6 +34,7 @@ def main():
 	TcFolder = Path("./TestCases")
 	
 	import time # import problem
+	# driverpath = "C:/Users/laoch/OneDrive/Dokumente/Meins/AndereProgramme_G/Work/Drivers/geckodriver.exe"
 	driverpath = "C:/Users/laoch/OneDrive/Dokumente/Meins/AndereProgramme_G/Work/Drivers/geckodriver.exe"
 	## driver = webdriver.Firefox(executable_path=driverpath)
 		# https://stackoverflow.com/questions/49929374/notadirectoryerror-winerror-267-the-directory-name-is-invalid-error-while-inv

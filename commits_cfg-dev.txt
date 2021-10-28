@@ -13,3 +13,7 @@
 
 2810 work: Aufruf mit Pfad für Logging geht. Ab jetzt config.txt nicht mehr committen
 	 .gitignore angelegt
+	 
+2810 erst home weiter. Geht git ignore ? 
+	 dann
+Merge nach develop
