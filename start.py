@@ -46,9 +46,9 @@ def main():
 	
 	## from TC_2_topline import tc
 	
-	from TestCases import TC_1_title # diese drei gehen
-	tc = TC_1_title.tc
-	tc(driver) 	
+	# from TestCases import TC_1_title # diese drei gehen
+	# tc = TC_1_title.tc
+	# tc(driver) 	
 	# TC_1_title.tc(driver) # geht auch
 	
 	# importFile = Path("./TestCases/TC_1_title.py")
@@ -57,20 +57,20 @@ def main():
 	
 	return # erst import testen
 	
-	result = tc(driver)
-	print(result)
+	# result = tc(driver)
+	# print(result)
 	
-	from TC_1_1_popup_cookies_deny import tc
-	result = tc(driver)
-	print(result)
+	# from TC_1_1_popup_cookies_deny import tc
+	# result = tc(driver)
+	# print(result)
 	
-	from TC_2_topline import tc
-	result = tc(driver)
-	print(result)
+	# from TC_2_topline import tc
+	# result = tc(driver)
+	# print(result)
 	
-	from TC_4_menuLinksObenSort import tc
-	result = tc(driver)
-	print(result)
+	# from TC_4_menuLinksObenSort import tc
+	# result = tc(driver)
+	# print(result)
 	
 	
 	# zuletzt

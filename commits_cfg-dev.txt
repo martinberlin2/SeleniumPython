@@ -9,3 +9,5 @@
 
 2710 readCfg.py geht, jetzt Aufruf in start.py 
 
+2810 home : Aufruf in start.py geht, jetzt Pfad nutzen
+wecker outlook home geht nicht
