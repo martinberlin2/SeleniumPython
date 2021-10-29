@@ -5,3 +5,5 @@ wen pull fails:
 
 erst commit, KEIN push, 
 dann pull der sagt conflicts an
+
+--- das hier kommt nach develop, commit, push, dann nach cfg-dev, und develop reinmergen
