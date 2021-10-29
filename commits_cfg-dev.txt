@@ -22,3 +22,10 @@ Merge nach develop
 Merge into develop 
 
 config.txt muss vor merge nochmal committed werden. git gui zeigt auch ignorte Files als Unstaged
+
+2910 git pull origin develop änderte nix, aber $ git switch develop
+error: Your local changes to the following files would be overwritten by checkout:
+        Utilities/__pycache__/readCfg.cpython-310.pyc
+        __pycache__/start.cpython-310.pyc
+Please commit your changes or stash them before you switch branches.
+Aborting
