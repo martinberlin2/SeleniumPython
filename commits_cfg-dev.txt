@@ -17,3 +17,6 @@
 2810 erst home weiter. Geht git ignore ? 
 	 dann
 Merge nach develop
+
+2910 home: <- gitignore rüber
+Merge into develop 
