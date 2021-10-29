@@ -20,3 +20,5 @@ Merge nach develop
 
 2910 home: <- gitignore rüber
 Merge into develop 
+
+config.txt muss vor merge nochmal committed werden. git gui zeigt auch ignorte Files als Unstaged
