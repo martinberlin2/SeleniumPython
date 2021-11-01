@@ -31,8 +31,8 @@ def start():
 def main():	
 	from selenium import webdriver
 	from selenium.webdriver.common.keys import Keys
-	from pathlib import Path 
-	TcFolder = Path("./TestCases")
+	# from pathlib import Path 
+	# TcFolder = Path("./TestCases")
 	
 	import time # import problem
 	# driverpath = "C:/Users/laoch/OneDrive/Dokumente/Meins/AndereProgramme_G/Work/Drivers/geckodriver.exe"
@@ -42,39 +42,35 @@ def main():
 	# from selenium.common.exceptions import [TheNameOfTheExceptionClass]
 	# sonst: erst schreiben, dann importe raussuchen
 	
-	driver = None
-	## driver.get("https://auticon.de") #  smoke test 
+	## driver = None
+	driver.get("https://auticon.de") #  smoke test 
 	# print(driver.title)
-	folder = Path('./TestCases')  # --- Unterverz für Python 
+	# folder = Path('./TestCases')  # --- Unterverz für Python 
 	
 	## from TC_2_topline import tc
 	
-	# from TestCases import TC_1_title # diese drei gehen
-	# tc = TC_1_title.tc
-	# tc(driver) 	
-	# TC_1_title.tc(driver) # geht auch
+	from TestCases import TC_1_title as testcase # diese drei gehen
+	result = testcase.tc(driver)
+	print(result)
+	# result in Log 
+	# 
 	
-	# importFile = Path("./TestCases/TC_1_title.py")
-	# importFile = folder / TC_1_title.py
-	# from importFile import tc
 	
-	return # erst import testen
-	
-	# result = tc(driver)
+	# from TestCases import TC_1_1_popup_cookies_deny as testcase # diese drei gehen
+	# result = testcase.tc(driver)
 	# print(result)
 	
-	# from TC_1_1_popup_cookies_deny import tc
-	# result = tc(driver)
+	# from TestCases import TC_1_2_popup_openPositions as testcase # diese drei gehen
+	# result = testcase.tc(driver)
 	# print(result)
 	
-	# from TC_2_topline import tc
-	# result = tc(driver)
+	# from TestCases import TC_2_topline as testcase # diese drei gehen
+	# result = testcase.tc(driver)
 	# print(result)
 	
-	# from TC_4_menuLinksObenSort import tc
-	# result = tc(driver)
+	# from TestCases import TC_4_menuLinksObenSort as testcase # diese drei gehen
+	# result = testcase.tc(driver)
 	# print(result)
-	
 	
 	# zuletzt
 	driver.close()

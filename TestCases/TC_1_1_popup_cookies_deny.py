@@ -1,3 +1,5 @@
+
+
 import logging 
 from selenium.common.exceptions import NoSuchElementException  
 
@@ -10,7 +12,7 @@ def tc(driver): # -> bool
 		print("EXC Keine Möglichkeit nur essenzielle Cookies zu wählen: " + str(ex))
 		return False
 	except Exception as ex:
-		print("EXC TC1: " + str(ex))
+		print("EXC TC_1_1_popup_cookies_deny: " + str(ex))
 		return False
 	action = ActionChains(driver)
 	onlyEssCookies.click()
