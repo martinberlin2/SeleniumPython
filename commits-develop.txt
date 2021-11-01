@@ -41,3 +41,6 @@ from TestCases import TC_1_title # diese drei gehen
 
 # Conflicts:
 #	commits-develop.txt
+
+31.10. print("develop richtig gepullt auf worklab") ... in home committed. 
+	geckodriver jetzt auch in config

@@ -23,20 +23,21 @@ logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO
 	
 def start():
 	try:
+		print("develop richtig gepullt auf worklab")
 		main()
 	except Exception as ex:
 		logging.info("EXC: " + str(ex))
 
 def main():	
-	## from selenium import webdriver
-	## from selenium.webdriver.common.keys import Keys
+	from selenium import webdriver
+	from selenium.webdriver.common.keys import Keys
 	from pathlib import Path 
 	TcFolder = Path("./TestCases")
 	
 	import time # import problem
 	# driverpath = "C:/Users/laoch/OneDrive/Dokumente/Meins/AndereProgramme_G/Work/Drivers/geckodriver.exe"
-	driverpath = "C:/Users/laoch/OneDrive/Dokumente/Meins/AndereProgramme_G/Work/Drivers/geckodriver.exe"
-	## driver = webdriver.Firefox(executable_path=driverpath)
+	driverpath = config.get("gecko")
+	driver = webdriver.Firefox(executable_path=driverpath)
 		# https://stackoverflow.com/questions/49929374/notadirectoryerror-winerror-267-the-directory-name-is-invalid-error-while-inv
 	# from selenium.common.exceptions import [TheNameOfTheExceptionClass]
 	# sonst: erst schreiben, dann importe raussuchen
@@ -44,7 +45,7 @@ def main():
 	driver = None
 	## driver.get("https://auticon.de") #  smoke test 
 	# print(driver.title)
-	folder = Path('./TestCases')  # --- Unterverz Python 
+	folder = Path('./TestCases')  # --- Unterverz für Python 
 	
 	## from TC_2_topline import tc
 	

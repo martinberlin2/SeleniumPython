@@ -25,7 +25,7 @@ class CFG:
 			if item[0] == category:
 				return item[1]
 			pos = pos+1
-		return "category not found"
+		return "config category not found"
 		
 	def showAll(self):  # ok 
 		print("config=:")
@@ -33,7 +33,7 @@ class CFG:
 			print(elem[0] + " = " + elem[1])
 	
 
-def readConfig(filename): # Param: relativer Dateiname; Datei= "Kategorie<TAB>Wert", Returns: cfg= CFG-Objekt mit Einträgen (category, value), Zugriff: cfg.get("category") --> value; Error: String "Config File not found"
+def readConfig(filename): # Param: relativer Dateiname; Datei= "Kategorie<TAB>Wert", Returns: cfg= CFG-Objekt mit Einträgen (category, value), Zugriff: cfg.get("category") --> value; Error: String "config category not found"
 	# readConfig("./config.txt")
 	# import os.path
 	
