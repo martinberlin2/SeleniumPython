@@ -1,5 +1,0 @@
-INFO:root:EXC: Message: 'geckodriver.exe' executable needs to be in PATH. 
-#
-
-INFO:root:EXC: Message: 'category not found' executable needs to be in PATH. 
-

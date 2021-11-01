@@ -1,6 +1,7 @@
 # Kommentar vorne, # muss vorne stehen 
 #
 # SeleniumRoot: wo dein Projekt lokal liegt. Deshalb diese Konfig nicht committen!
-SeleniumRoot		C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+SeleniumRoot	C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
 LOCATION		Home
+gecko			C:/Users/laoch/OneDrive/Dokumente/Meins/AndereProgramme_G/Work/Drivers/geckodriver.exe
 # Kommentar hinten

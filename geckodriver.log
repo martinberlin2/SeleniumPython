@@ -349,3 +349,21 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1635769788629	Marionette	INFO	Stopped listening on port 50956
 JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1635784638482	geckodriver	INFO	Listening on 127.0.0.1:56729
+1635784641646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Lap126\\AppData\\Local\\Temp\\rust_mozprofilehVGvZ1"
+1635784642529	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lap126\\AppData\\Local\\Temp\\rust_mozprofilehVGvZ1\\search.json.mozlz4", (void 0)))
+1635784646356	Marionette	INFO	Listening on port 56737
+1635784646450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635784657419	Marionette	INFO	Stopped listening on port 56737
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1635786584887	geckodriver	INFO	Listening on 127.0.0.1:56941
+1635786587972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Lap126\\AppData\\Local\\Temp\\rust_mozprofileCQ8ufK"
+1635786588668	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Lap126\\AppData\\Local\\Temp\\rust_mozprofileCQ8ufK\\search.json.mozlz4", (void 0)))
+1635786592703	Marionette	INFO	Listening on port 56949
+1635786592790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635786607485	Marionette	INFO	Stopped listening on port 56949
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

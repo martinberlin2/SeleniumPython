@@ -4,6 +4,9 @@ C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
 worklab:
 C:\Users\Lap126\Documents\GitHub\SeleniumPython
 
+repo
+https://github.com/martinberlin2/SeleniumPython
+
 0810 init
 1340 nochmal
 von shell: git commit -a -m vonshell
@@ -44,3 +47,5 @@ from TestCases import TC_1_title # diese drei gehen
 
 31.10. print("develop richtig gepullt auf worklab") ... in home committed. 
 	geckodriver jetzt auch in config
+	
+1.11. geckodriver jetzt auch in config auf worklab
