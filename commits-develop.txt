@@ -50,3 +50,5 @@ from TestCases import TC_1_title # diese drei gehen
 	
 1.11. geckodriver jetzt auch in config auf worklab, 
 	portabler Aufruf Testcases (nur eine Stelle ändern pro TC)
+	
+2.11. Make sure that your .gitignore is in the root of the working directory

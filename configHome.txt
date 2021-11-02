@@ -5,3 +5,6 @@ SeleniumRoot	C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\Se
 LOCATION		Home
 gecko			C:/Users/laoch/OneDrive/Dokumente/Meins/AndereProgramme_G/Work/Drivers/geckodriver.exe
 # Kommentar hinten
+
+
+Make sure that your .gitignore is in the root of the working directory
