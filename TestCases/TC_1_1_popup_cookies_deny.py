@@ -2,6 +2,9 @@
 
 import logging 
 from selenium.common.exceptions import NoSuchElementException  
+from selenium.webdriver.common.by import By
+from selenium.webdriver import ActionChains
+
 
 def tc(driver): # -> bool
 	driver.get("https://auticon.de")   # Popups nach neuem Laden und Cookie auticon.de gelöscht

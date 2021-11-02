@@ -5,7 +5,7 @@ def tc(driver): # -> bool
 	try:
 		print(driver.title)
 	except Exception as ex:
-		print("EXC TC1: " + str(ex))
+		print("EXC TC_1_title: " + str(ex))
 		return False
 
 	if driver.title == "Home - auticon":

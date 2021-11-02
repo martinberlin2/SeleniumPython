@@ -1,0 +1,13 @@
+﻿privlab:
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+
+worklab:
+C:\Users\Lap126\Documents\GitHub\SeleniumPython
+
+repo
+https://github.com/martinberlin2/SeleniumPython
+
+2.11.	
+FeatureBranches angelegt. f1: TC_1_1_popup_cookies_deny am workLab. 
+
+INFO:root:EXC: 'list' object has no attribute 'click'

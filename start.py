@@ -23,7 +23,6 @@ logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO
 	
 def start():
 	try:
-		print("develop richtig gepullt auf worklab")
 		main()
 	except Exception as ex:
 		logging.info("EXC: " + str(ex))
@@ -43,11 +42,13 @@ def main():
 	# sonst: erst schreiben, dann importe raussuchen
 	
 	## driver = None
-	driver.get("https://auticon.de") #  smoke test 
+	driver.get("https://auticon.de") #  nur direkt hiernach sind die Offenen Stellen drin 			
+	#			TC_1_2_popup_openPositions
+	
 	# print(driver.title)
-	# folder = Path('./TestCases')  # --- Unterverz für Python 
 	
 	## from TC_2_topline import tc
+	
 	
 	from TestCases import TC_1_title as testcase 
 	result = testcase.tc(driver)
@@ -55,9 +56,9 @@ def main():
 	# result in Log 
 	# 
 	
-	# from TestCases import TC_1_1_popup_cookies_deny as testcase # am worklab: fea1
-	# result = testcase.tc(driver)
-	# print(result)
+	from TestCases import TC_1_1_popup_cookies_deny as testcase # am worklab: f1
+	result = testcase.tc(driver)
+	print(result)
 	
 	# from TestCases import TC_1_2_popup_openPositions as testcase 
 	# result = testcase.tc(driver)
