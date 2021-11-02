@@ -45,7 +45,7 @@ def main():
 	## driver = None
 	driver.get("https://auticon.de") #  smoke test 
 	# print(driver.title)
-	# folder = Path('./TestCases')  # --- Unterverz für Python 
+	# folder = Path('./TestCases')  # --- Unterverz fÃ¼r Python 
 	
 	## from TC_2_topline import tc
 	

@@ -8,3 +8,4 @@ gecko			C:/Users/laoch/OneDrive/Dokumente/Meins/AndereProgramme_G/Work/Drivers/g
 
 
 Make sure that your .gitignore is in the root of the working directory
+im .git verz weg dann

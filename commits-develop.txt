@@ -52,3 +52,6 @@ from TestCases import TC_1_title # diese drei gehen
 	portabler Aufruf Testcases (nur eine Stelle ändern pro TC)
 	
 2.11. Make sure that your .gitignore is in the root of the working directory
+	dann gehts
+	gelöscht: CopyFileLineByLine, main.py 
+	configHome geht auch, wenn \ und / im pfad sind !
