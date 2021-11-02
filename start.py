@@ -23,7 +23,6 @@ logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO
 	
 def start():
 	try:
-		print("develop richtig gepullt auf worklab")
 		main()
 	except Exception as ex:
 		logging.info("EXC: " + str(ex))
@@ -31,8 +30,6 @@ def start():
 def main():	
 	from selenium import webdriver
 	from selenium.webdriver.common.keys import Keys
-	# from pathlib import Path 
-	# TcFolder = Path("./TestCases")
 	
 	import time # import problem
 	# driverpath = "C:/Users/laoch/OneDrive/Dokumente/Meins/AndereProgramme_G/Work/Drivers/geckodriver.exe"
@@ -55,7 +52,7 @@ def main():
 	# result in Log 
 	# 
 	
-	# from TestCases import TC_1_1_popup_cookies_deny as testcase # am worklab: fea1
+	# from TestCases import TC_1_1_popup_cookies_deny as testcase # am worklab: f1
 	# result = testcase.tc(driver)
 	# print(result)
 	
