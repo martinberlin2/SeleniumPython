@@ -46,9 +46,9 @@ def main():
 	
 	## from TC_2_topline import tc
 	
-	from TestCases import TC_1_title as testcase 
-	result = testcase.tc(driver)
-	print(result)
+	# from TestCases import TC_1_title as testcase 
+	# result = testcase.tc(driver)
+	# print(result)
 	# result in Log 
 	# 
 	
@@ -56,9 +56,9 @@ def main():
 	# result = testcase.tc(driver)
 	# print(result)
 	
-	# from TestCases import TC_1_2_popup_openPositions as testcase 
-	# result = testcase.tc(driver)
-	# print(result)
+	from TestCases import TC_1_2_popup_openPositions as testcase # am worklab: f2
+	result = testcase.tc(driver)
+	print(result)
 	
 	# from TestCases import TC_2_topline as testcase 
 	# result = testcase.tc(driver)
