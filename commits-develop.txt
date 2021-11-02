@@ -55,3 +55,5 @@ from TestCases import TC_1_title # diese drei gehen
 	dann gehts
 	gelöscht: CopyFileLineByLine, main.py 
 	configHome geht auch, wenn \ und / im pfad sind !
+	
+FeatureBranches angelegt. f1: TC_1_1_popup_cookies_deny am workLab. 

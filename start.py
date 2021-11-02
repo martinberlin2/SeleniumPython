@@ -49,26 +49,25 @@ def main():
 	
 	## from TC_2_topline import tc
 	
-	from TestCases import TC_1_title as testcase # diese drei gehen
+	from TestCases import TC_1_title as testcase 
 	result = testcase.tc(driver)
 	print(result)
 	# result in Log 
 	# 
 	
-	
-	# from TestCases import TC_1_1_popup_cookies_deny as testcase # diese drei gehen
+	# from TestCases import TC_1_1_popup_cookies_deny as testcase # am worklab: fea1
 	# result = testcase.tc(driver)
 	# print(result)
 	
-	# from TestCases import TC_1_2_popup_openPositions as testcase # diese drei gehen
+	# from TestCases import TC_1_2_popup_openPositions as testcase 
 	# result = testcase.tc(driver)
 	# print(result)
 	
-	# from TestCases import TC_2_topline as testcase # diese drei gehen
+	# from TestCases import TC_2_topline as testcase 
 	# result = testcase.tc(driver)
 	# print(result)
 	
-	# from TestCases import TC_4_menuLinksObenSort as testcase # diese drei gehen
+	# from TestCases import TC_4_menuLinksObenSort as testcase 
 	# result = testcase.tc(driver)
 	# print(result)
 	
