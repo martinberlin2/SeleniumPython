@@ -4,3 +4,5 @@ FeatureBranches: f2: TC_1_2_popup_openPositions
 Locators suchen, muss es xpath sein ?
 
 3.11. Läuft, jetzt mergen in develop
+
+...nein, TC deckt auch Wegklicken des Popups ab
