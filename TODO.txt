@@ -12,6 +12,7 @@ todo:
 -- Importe zentrieren, in eine Liste, die als Parameter in die TC 
 
 -- Lokale Verzeichnisse
+-- Stringvergleich über mehrere Zeilen
 
 weiter
 https://selenium-python.readthedocs.io/api.html

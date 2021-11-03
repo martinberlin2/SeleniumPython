@@ -1,0 +1,7 @@
+INFO:root:TC_1_2_popup_openPositions: NoSuchElementException 
+INFO:root:TC_1_2_popup_openPositions: NoSuchElementException 
+INFO:root:TC_1_2_popup_openPositions: NoSuchElementException 
+INFO:root:TC_1_2_popup_openPositions: NoSuchElementException 
+INFO:root:TC_1_2_popup_openPositions: NoSuchElementException 
+INFO:root:TC_1_2_popup_openPositions: NoSuchElementException 
+INFO:root:EXC: Missing parentheses in call to 'print'. Did you mean print(...)? (TC_1_2_popup_openPositions.py, line 21)

@@ -25,7 +25,7 @@ def start():
 	try:
 		main()
 	except Exception as ex:
-		logging.info("EXC: " + str(ex))
+		logging.error("EXC: " + str(ex))
 
 def main():	
 	from selenium import webdriver
