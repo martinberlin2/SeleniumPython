@@ -10,7 +10,7 @@ def tc(driver): # -> bool
 	driver.get("https://auticon.de")   # Popups nach neuem Laden und Cookie auticon.de gelöscht
 	print("TC_1_1_popup_cookies_deny")
 	try:
-		onlyEssCookies = driver.find_elements(By.CLASS_NAME, '_brlbs-refuse-btn')
+		acceptOnlyEssCookies = driver.find_element(By.CLASS_NAME, '_brlbs-refuse-btn')
 	except NoSuchElementException as nse:
 		print("EXC Keine Möglichkeit nur essenzielle Cookies zu wählen: " + str(ex))
 		return False
@@ -18,9 +18,11 @@ def tc(driver): # -> bool
 		print("EXC TC_1_1_popup_cookies_deny: " + str(ex))
 		return False
 	action = ActionChains(driver)
-	onlyEssCookies.click()
+	acceptOnlyEssCookies.click()
 	try:
-		onlyEssCookies = driver.find_elements(By.CLASS_NAME, '_brlbs-refuse-btn')
+		acceptOnlyEssCookies = driver.find_element(By.CLASS_NAME, '_brlbs-refuse-btn')
+		text = acceptOnlyEssCookies.text 
+		print("acceptOnlyEssCookies.text :" + text)
 	except NoSuchElementException as nse:
 		return True # nach Klick ist Cookie-Dialog beendet
 	

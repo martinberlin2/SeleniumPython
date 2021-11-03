@@ -50,9 +50,9 @@ def main():
 	## from TC_2_topline import tc
 	
 	
-	from TestCases import TC_1_title as testcase 
-	result = testcase.tc(driver)
-	print(result)
+	# from TestCases import TC_1_title as testcase 
+	# result = testcase.tc(driver)
+	# print(result)
 	# result in Log 
 	# 
 	
