@@ -35,8 +35,6 @@ def tc(driver): # -> bool
 
 	# Nur Klick auf X macht es weg, keine anderen Funktionen
 	# button.pum-close:nth-child(2)
-	
-	
 
 	# id= popmake-41440   Kasten für Offene Stellen
 	

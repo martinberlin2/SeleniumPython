@@ -6,3 +6,4 @@ Locators suchen, muss es xpath sein ?
 3.11. Läuft, jetzt mergen in develop
 
 ...nein, TC deckt auch Wegklicken des Popups ab
+in progress

@@ -1,17 +1,14 @@
 auf priv selenium ohne webdriver installiert .... ? FF geht doch
 
-# ----------- NKL - Lose von Mom
-
 https://selenium-python.readthedocs.io/installation.html
 
 https://www.youtube.com/watch?v=gRMbCvQgOoU&t=390s Locate elements
 
 todo: 
 
--- Konfig - Programm
--- Importe zentrieren, in eine Liste, die als Parameter in die TC 
++ Konfig - Programm
+- Framework zur Testausführung, start.py aufräumen
 
--- Lokale Verzeichnisse
 -- Stringvergleich über mehrere Zeilen
 
 weiter

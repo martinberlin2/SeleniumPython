@@ -11,3 +11,5 @@ INFO:root:TC_1_2_popup_openPositions PASSED Popup + Text
 ERROR:root:EXC: name 'X' is not defined
 INFO:root:TC_1_2_popup_openPositions PASSED Popup + Text 
 INFO:root:TC_1_2_popup_openPositions FAILED X beendet Popup NICHT
+INFO:root:TC_1_2_popup_openPositions PASSED Popup + Text 
+INFO:root:TC_1_2_popup_openPositions FAILED X beendet Popup NICHT
