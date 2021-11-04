@@ -1,15 +1,4 @@
-INFO:root:TC_1_2_popup_openPositions PASSED
-INFO:root:TC_1_2_popup_openPositions PASSED
 INFO:root:TC_1_2_popup_openPositions PASSED Popup + Text 
-ERROR:root:EXC: type object 'By' has no attribute 'Xpath'
+ERROR:root:EXC: name 'sleep' is not defined
 INFO:root:TC_1_2_popup_openPositions PASSED Popup + Text 
-ERROR:root:EXC: Message: Given xpath expression "button.pum-close:nth-child(2)" is invalid: NamespaceError: An attempt was made to create or change an object in a way which is incorrect with regard to namespaces
-
-INFO:root:TC_1_2_popup_openPositions PASSED Popup + Text 
-ERROR:root:EXC: type object 'By' has no attribute 'CLASS'
-INFO:root:TC_1_2_popup_openPositions PASSED Popup + Text 
-ERROR:root:EXC: name 'X' is not defined
-INFO:root:TC_1_2_popup_openPositions PASSED Popup + Text 
-INFO:root:TC_1_2_popup_openPositions FAILED X beendet Popup NICHT
-INFO:root:TC_1_2_popup_openPositions PASSED Popup + Text 
-INFO:root:TC_1_2_popup_openPositions FAILED X beendet Popup NICHT
+ERROR:root:EXC: name 'sleep' is not defined

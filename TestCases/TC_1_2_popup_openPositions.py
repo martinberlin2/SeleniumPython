@@ -1,6 +1,7 @@
 import logging 
 from selenium.common.exceptions import NoSuchElementException  
 from selenium.webdriver.common.by import By
+import time 
 
 def tc(driver): # -> bool
 	try:
@@ -25,6 +26,7 @@ def tc(driver): # -> bool
 	text2 = X_Button.text
 	print("text2 " + text2)
 	X_Button.click()
+	sleep(5)
 	try: 
 		X_Button = openPositionsAlertBox.find_element(By.CLASS_NAME, 'pum-close')
 	except NoSuchElementException as nsex:
