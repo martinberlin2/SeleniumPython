@@ -7,3 +7,5 @@ Locators suchen, muss es xpath sein ?
 
 ...nein, TC deckt auch Wegklicken des Popups ab
 in progress
+
+5.11. geckodriver ignored, naechster Versuch
