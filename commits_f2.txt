@@ -11,3 +11,5 @@ in progress
 5.11. geckodriver ignored, naechster Versuch
 
 geckodriver.log gelöscht
+
+Testcase fertig; jetzt merge nach develop
