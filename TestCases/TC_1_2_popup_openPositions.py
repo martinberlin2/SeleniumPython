@@ -7,7 +7,6 @@ def tc(driver): # -> bool
 	try:
 		openPositionsAlertBox = driver.find_element(By.ID, 'popmake-41440')
 		# openPositionsAlertBox = driver.find_element_by_id ( 'popmake-41440') # geht auch
-		# text = openPositionsAlertBox.text 
 	except NoSuchElementException  as nsex:
 		logging.info("TC_1_2_popup_openPositions: NoSuchElementException ")
 		return False ## ok
@@ -39,15 +38,3 @@ def tc(driver): # -> bool
 		logging.error("--andere Exception TC_1_2_popup_openPositions:" + str(nsex))
 	logging.info("TC_1_2_popup_openPositions FAILED X beendet Popup NICHT")
 	return False ## ok 
-
-	# Nur Klick auf X macht es weg, keine anderen Funktionen
-	# button.pum-close:nth-child(2)
-
-	# id= popmake-41440   Kasten für Offene Stellen
-	
-	# Schriftzug "Wir stellen ein":
-	# div.pum-content:nth-child(1) > h2:nth-child(1) > strong:nth-child(1)
-	
-	
-   # <button type="button" class="pum-close popmake-close" aria-label="Schließen">
- 

@@ -61,3 +61,5 @@ FeatureBranches angelegt. f1: TC_1_1_popup_cookies_deny am workLab.
 pycache gelöscht, dann wieder angelegt für gitignore 
 
 FeatureBranches: f2: TC_1_2_popup_openPositions
+
+Merge f2 into develop erfolgreich
