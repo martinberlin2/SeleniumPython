@@ -61,5 +61,23 @@ FeatureBranches angelegt. f1: TC_1_1_popup_cookies_deny am workLab.
 pycache gelöscht, dann wieder angelegt für gitignore 
 
 FeatureBranches: f2: TC_1_2_popup_openPositions
+		f2
+		2.11.
+		FeatureBranches: f2: TC_1_2_popup_openPositions
+
+		Locators suchen, muss es xpath sein ?
+
+		3.11. Läuft, jetzt mergen in develop
+
+		...nein, TC deckt auch Wegklicken des Popups ab
+		in progress
+
+		5.11. geckodriver ignored, naechster Versuch
+
+		geckodriver.log gelöscht
+
+		Testcase fertig; jetzt merge nach develop
+
 
 Merge f2 into develop erfolgreich
+Ordner commits angelegt, commits-f2 integriert in commits-develop
