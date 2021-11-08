@@ -1,5 +1,4 @@
 config.txt
 __pycache__/
 TestCases\__pycache__
-# TestCases\__pycache__
 geckodriver.log

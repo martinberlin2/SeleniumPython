@@ -42,7 +42,7 @@ def main():
 	# sonst: erst schreiben, dann importe raussuchen
 	
 	## driver = None
-	driver.get("https://auticon.de") #  nur direkt hiernach sind die Offenen Stellen drin 			
+	driver.get("https://auticon.de") #  nur direkt hiernach sind die Offenen Stellen drin
 	#			TC_1_2_popup_openPositions
 	# return # to just get the start page for further analysis or the elements
 	
