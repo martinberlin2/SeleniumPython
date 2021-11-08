@@ -6,3 +6,5 @@ INFO:root:Message: Given css selector expression ".#pum-close" is invalid: Inval
 
 INFO:root:Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view
 
+INFO:root:Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view
+

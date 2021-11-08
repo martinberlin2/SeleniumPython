@@ -81,3 +81,5 @@ FeatureBranches: f2: TC_1_2_popup_openPositions
 
 Merge f2 into develop erfolgreich
 Ordner commits angelegt, commits-f2 integriert in commits-develop
+
+8.11. start.py code aufgeräumt. Jetzt: Modulname als Variable, dann TC dynamisch importieren
