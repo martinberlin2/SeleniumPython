@@ -8,3 +8,8 @@ INFO:root:Message: Element <button class="pum-close popmake-close" type="button"
 
 INFO:root:Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view
 
+ERROR:root:EXC: name 'TC_1_2_popup_openPositions' is not defined
+INFO:root:Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view
+
+INFO:root:Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view
+
