@@ -85,3 +85,5 @@ Ordner commits angelegt, commits-f2 integriert in commits-develop
 8.11. start.py code aufgeräumt. Jetzt: Modulname als Variable, dann TC dynamisch importieren
 
 Modulname als Variable, dann TC dynamisch importieren: wenn Modul im gleichen Verzeichnis ist
+
+geht jetzt auch mit Modulen aus Unterverzeichnis

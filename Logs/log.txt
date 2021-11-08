@@ -1,15 +1,13 @@
-INFO:root:Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view
-
-INFO:root:TC_1_2_popup_openPositions PASSED X beendet Popup
+ERROR:root:EXC: name 'TestCases' is not defined
+ERROR:root:EXC: name 'TestCases' is not defined
 INFO:root:TC_1_2_popup_openPositions FAILED X beendet Popup NICHT
-INFO:root:Message: Given css selector expression ".#pum-close" is invalid: InvalidSelectorError: Element.querySelector: '.#pum-close' is not a valid selector: ".#pum-close"
-
-INFO:root:Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view
-
-INFO:root:Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view
-
-ERROR:root:EXC: name 'TC_1_2_popup_openPositions' is not defined
-INFO:root:Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view
-
+INFO:root:TC_1_2_popup_openPositions FAILED X beendet Popup NICHT
+ERROR:root:EXC: No module named 'TC_1_2_popup_openPositions'
+ERROR:root:EXC: No module named 'TC_1_2_popup_openPositions'
+ERROR:root:EXC: No module named 'TC_1_2_popup_openPositions'
+ERROR:root:EXC TC1_2: 'NoneType' object has no attribute 'find_element'
+ERROR:root:EXC: 'NoneType' object has no attribute 'close'
+ERROR:root:EXC TC1_2: 'NoneType' object has no attribute 'find_element'
+ERROR:root:EXC: 'NoneType' object has no attribute 'close'
 INFO:root:Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view
 

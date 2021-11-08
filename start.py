@@ -29,6 +29,7 @@ def main():
 		# https://stackoverflow.com/questions/49929374/notadirectoryerror-winerror-267-the-directory-name-is-invalid-error-while-inv
 		 
 	driver.get("https://auticon.de") 
+	## driver = None
 
 	# from TestCases import TC_1_title as testcase 
 	# result = testcase.tc(driver)
@@ -37,17 +38,17 @@ def main():
 	# from TestCases import TC_1_1_popup_cookies_deny as testcase # am worklab: f1
 	# result = testcase.tc(driver)
 	# print(result)
-----	
+	
 	import importlib
-	module_name = "TC_1_2_popup_openPositions"
-	module = importlib.import_module(module_name, package=None)	
+	module_name = "TestCases.TC_1_2_popup_openPositions"
+	module = importlib.import_module(module_name, package=None) 
 	result = module.tc(driver)
 	print(result)
 	
 	# from TestCases import TC_1_2_popup_openPositions as testcase # home: f2 -- Merged
 	# result = testcase.tc(driver)
 	# print(result)
-----	
+
 	# from TestCases import TC_2_topline as testcase 
 	# result = testcase.tc(driver)
 	# print(result)
