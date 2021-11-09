@@ -87,3 +87,5 @@ Ordner commits angelegt, commits-f2 integriert in commits-develop
 Modulname als Variable, dann TC dynamisch importieren: wenn Modul im gleichen Verzeichnis ist
 
 geht jetzt auch mit Modulen aus Unterverzeichnis
+
+in progress: dynamischer Import 

@@ -59,5 +59,20 @@ def main():
 	
 	driver.close()
 	driver.quit()
-	 
-start()
+	
+def execAllTestcases(): # alle TC in 
+	import os
+	myroot = config.get("SeleniumRoot")
+	# path =r'C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases'
+	for root, directories, file in os.walk(path): # root = path 
+		print("root: " + str(root))
+		print("directories: " + str(directories))
+		print("file: " + str(file))
+		for onefile in file:
+			if root != path + '\__pycache__':
+				if(onefile.endswith(".py")):
+					print("file= " + onefile)
+					# print(os.path.join(root,file))
+					
+execAllTestcases()	
+# start()
