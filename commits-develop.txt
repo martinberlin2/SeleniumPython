@@ -89,3 +89,5 @@ Modulname als Variable, dann TC dynamisch importieren: wenn Modul im gleichen Ve
 geht jetzt auch mit Modulen aus Unterverzeichnis
 
 in progress: dynamischer Import 
+
+dynamischer Import läuft, jetzt reporter.py als Feature f3

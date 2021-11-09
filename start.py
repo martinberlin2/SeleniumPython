@@ -13,7 +13,7 @@ print(SeleniumRoot)
 
 logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO) 
 	
-def start():
+def start(): # collects unexpected exceptions from main 
 	try:
 		main()
 	except Exception as ex:
@@ -63,16 +63,19 @@ def main():
 def execAllTestcases(): # alle TC in 
 	import os
 	myroot = config.get("SeleniumRoot")
-	# path =r'C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases'
+	path =r'C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases'
+	ignorePath = path + '\__pycache__'
+	print("ignorePath: " + ignorePath)
 	for root, directories, file in os.walk(path): # root = path 
-		print("root: " + str(root))
+		print("\nroot: " + str(root))
 		print("directories: " + str(directories))
 		print("file: " + str(file))
-		for onefile in file:
-			if root != path + '\__pycache__':
+		for onefile in file: 
+			if root != ignorePath:
 				if(onefile.endswith(".py")):
 					print("file= " + onefile)
 					# print(os.path.join(root,file))
-					
-execAllTestcases()	
-# start()
+			else: print("ignorePath")	
+			
+# execAllTestcases()	
+start()
