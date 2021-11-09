@@ -45,8 +45,6 @@ def main():
 	driver.get("https://auticon.de") #  nur direkt hiernach sind die Offenen Stellen drin
 	#			TC_1_2_popup_openPositions
 	# return # to just get the start page for further analysis or the elements
-	
-	
 	# from TestCases import TC_1_title as testcase 
 	# result = testcase.tc(driver)
 	# print(result)

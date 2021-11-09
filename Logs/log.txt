@@ -1,3 +1,9 @@
-INFO:root:EXC: local variable 'ex' referenced before assignment
 INFO:root:Fehler: Keine Möglichkeit nur essenzielle Cookies zu wählen: Message: Unable to locate element: .x_brlbs-refuse-btn
+
+INFO:root:Fehler: Keine Möglichkeit nur essenzielle Cookies zu wählen: Message: Unable to locate element: .x_brlbs-refuse-btn
+
+selenium python css selector
+._brlbs-refuse-btn > a:nth-child(1)
+#
+
 

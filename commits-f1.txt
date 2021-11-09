@@ -19,3 +19,5 @@ acceptOnlyEssCookies.click() # geht!! Popup ist schon weg . Keine Exception wg. 
 geckodriver gelöscht und ignored... 
 
 sollte so laufen -- alle Zweige testen, dann nochmal committen
+
+# 0911 sollte so laufen -- alle Zweige testen, dann nochmal committen
