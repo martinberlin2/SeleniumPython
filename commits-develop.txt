@@ -91,3 +91,5 @@ geht jetzt auch mit Modulen aus Unterverzeichnis
 in progress: dynamischer Import 
 
 dynamischer Import läuft, jetzt reporter.py als Feature f3
+
+(vorher: TC_1_2_popup_openPositions geht ohne sleep nach click)

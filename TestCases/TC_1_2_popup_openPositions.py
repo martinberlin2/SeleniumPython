@@ -27,14 +27,14 @@ def tc(driver): # -> bool
 	## text2 = X_Button.text
 	## print("text2 " + text2)
 	X_Button.click()     # Fenster incl. Button verschwindet jetzt
-	time.sleep(5)
+	# time.sleep(1)  # braucht 2 sek, nicht 5
 	try: 
 		X_Button = openPositionsAlertBox.find_element(By.CLASS_NAME, 'pum-close')
 		X_Button.click()
 		# time.sleep(5)
 	except Exception as nsex:
 		logging.info(str(nsex))
-		if str(nsex) == ' Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view\n':
+		if str(nsex) == 'Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view\n':
 			logging.info("TC_1_2_popup_openPositions PASSED X beendet Popup")
 		return True  ## ok
 		logging.error("--andere Exception TC_1_2_popup_openPositions:" + str(nsex))
