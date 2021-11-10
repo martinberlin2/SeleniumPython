@@ -10,3 +10,5 @@ https://github.com/martinberlin2/SeleniumPython
 dynamischer Import läuft, jetzt reporter.py als Feature f3
 
 Anfang, Beispiel für Outputfiles geholt...
+
+Coding reporter.py
