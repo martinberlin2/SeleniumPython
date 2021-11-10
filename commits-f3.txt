@@ -1,0 +1,12 @@
+﻿privlab:
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+
+worklab:
+C:\Users\Lap126\Documents\GitHub\SeleniumPython
+
+repo
+https://github.com/martinberlin2/SeleniumPython
+
+dynamischer Import läuft, jetzt reporter.py als Feature f3
+
+Anfang, Beispiel für Outputfiles geholt...
