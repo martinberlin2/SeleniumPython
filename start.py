@@ -53,7 +53,7 @@ def main():
 	
 	from TestCases import TC_1_1_popup_cookies_deny as testcase # am worklab: f1
 	result = testcase.tc(driver)
-	print(result)
+	print("TC_1_1_popup_cookies_deny: " + str(result))
 	
 	# from TestCases import TC_1_2_popup_openPositions as testcase 
 	# result = testcase.tc(driver)
