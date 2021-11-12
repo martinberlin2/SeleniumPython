@@ -1,1 +1,4 @@
-Testcase				Result		Failed:Why
+Testcase:                 Result:  Reason:                                                
+----------------------------------------------------------------------------------------
+TC1...................... True                                                            
+TCFailed................. False    Geht gar nicht                                         

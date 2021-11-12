@@ -12,3 +12,5 @@ dynamischer Import läuft, jetzt reporter.py als Feature f3
 Anfang, Beispiel für Outputfiles geholt...
 
 Coding reporter.py
+
+Report läuft mit internem Test. 
