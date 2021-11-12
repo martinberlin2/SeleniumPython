@@ -64,7 +64,7 @@ def fillString(s, nr, c): # Param: s String, nr auf wieviele Stellen auffüllen,
 		lens = lens + 1
 	return s 
 	
-openReport()
-report("TC1", str(True), "")
-report("TCFailed", str(False), "Geht gar nicht")
-closeReport()
+# openReport()
+# report("TC1", str(True), "")
+# report("TCFailed", str(False), "Geht gar nicht")
+# closeReport()

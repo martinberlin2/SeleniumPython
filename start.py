@@ -6,10 +6,11 @@
 
 import logging
 from Utilities.readCfg import readConfig # as readConfig
+from Utilities import Reporter as reporter
 
 config = readConfig("./config.txt")
 SeleniumRoot = config.get("SeleniumRoot")
-print(SeleniumRoot)
+# print(SeleniumRoot)
 
 logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO) 
 	
@@ -20,6 +21,13 @@ def start(): # collects unexpected exceptions from main
 		logging.error("EXC: " + str(ex))
 
 def main():	
+	reporter.openReport()
+	reporter.report("TC1", str(True), "Laeuft")
+	reporter.report("TCFailed", str(False), "Geht gar nicht")
+	reporter.closeReport()
+	return 
+	
+	
 	from selenium import webdriver
 	from selenium.webdriver.common.keys import Keys
 	

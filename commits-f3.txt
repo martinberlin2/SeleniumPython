@@ -14,3 +14,5 @@ Anfang, Beispiel für Outputfiles geholt...
 Coding reporter.py
 
 Report läuft mit internem Test. 
+
+Aufruf von start läuft. Jetzt fertige TCs umschreiben. start wird Anzahl passed + failed tracken muessen
