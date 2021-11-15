@@ -24,6 +24,10 @@ def main():
 	reporter.openReport()
 	reporter.report("TC1", str(True), "Laeuft")
 	reporter.report("TCFailed", str(False), "Geht gar nicht")
+	passed = 3
+	failed = 2
+	errors = 1
+	reporter.addStats(passed, failed, errors)
 	reporter.closeReport()
 	return 
 	

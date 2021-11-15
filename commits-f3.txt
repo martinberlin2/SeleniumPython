@@ -16,3 +16,8 @@ Coding reporter.py
 Report läuft mit internem Test. 
 
 Aufruf von start läuft. Jetzt fertige TCs umschreiben. start wird Anzahl passed + failed tracken muessen
+
+15.11. reporter stellt addStats-Funktion bereit für start (wird Anzahl passed + failed tracken)
+
+Summen sind im Report, jetzt merge nach develop
+

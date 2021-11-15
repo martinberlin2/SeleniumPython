@@ -64,6 +64,15 @@ def fillString(s, nr, c): # Param: s String, nr auf wieviele Stellen auffüllen,
 		lens = lens + 1
 	return s 
 	
+def addStats(passed, failed, errors): # Param: Nr of TCs; errors = mistake is in TC programming 
+	with open(reportfile, "a") as reportFile:
+		line = fillString("", TCnameLen + resultLen + reasonLen, "=")
+		print("+" + line + "+")
+		reportFile.write(line + "\n")
+		line = "Passed: " + str(passed) + ", Failed: " + str(failed) + ", Errors: " + str(errors)
+		print("+" + line + "+")
+		reportFile.write(line + "\n")
+		
 # openReport()
 # report("TC1", str(True), "")
 # report("TCFailed", str(False), "Geht gar nicht")
