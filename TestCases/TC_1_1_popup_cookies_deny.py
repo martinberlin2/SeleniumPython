@@ -4,7 +4,8 @@ import time
 import logging 
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
-# from selenium.webdriver import ActionChains
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 def tc(driver): # -> bool
@@ -37,3 +38,15 @@ def tc(driver): # -> bool
 	return False # ok
 	
 	# 11.11 Laeuft - TODO: Wait noch mit Promises, kein sleep
+	
+	Handle Idle Time During a test
+
+# Selenium involves implicit and explicit waits. In the case of Explicit wait, the driver waits for a specific action to complete and in implicit wait, the driver waits for a particular time duration. Using WebDriverWait()function will help the WebDriver to wait for a specific time, say five seconds. Then to test for new element to load, use: .presence_of_element_located()method(belonging to expected_conditionsclass); Use By.ID.
+ 
+  
+try:
+element = WebDriverWait(driver, 5).until(
+EC.presence_of_element_located((By.ID, "id-of-new-element"))
+)
+finally:
+driver.quit()
