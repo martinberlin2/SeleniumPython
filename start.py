@@ -29,7 +29,7 @@ def main():
 	errors = 1
 	reporter.addStats(passed, failed, errors)
 	reporter.closeReport()
-	return 
+	# return 
 	
 	
 	from selenium import webdriver

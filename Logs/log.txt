@@ -1,0 +1,5 @@
+INFO:root:Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view
+
+INFO:root:TC_1_2_popup_openPositions PASSED X beendet Popup
+ERROR:root:EXC: invalid syntax (TC_1_2_popup_openPositions.py, line 44)
+INFO:root:TC_1_2_popup_openPositions PASSED X beendet Popup

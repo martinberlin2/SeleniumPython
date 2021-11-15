@@ -33,7 +33,7 @@ def tc(driver): # -> bool
 		X_Button.click()
 		# time.sleep(5)
 	except Exception as nsex:
-		logging.info(str(nsex))
+		# logging.info(str(nsex))
 		if str(nsex) == 'Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view\n':
 			logging.info("TC_1_2_popup_openPositions PASSED X beendet Popup")
 		return True  ## ok
