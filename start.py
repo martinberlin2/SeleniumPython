@@ -21,14 +21,17 @@ def start(): # collects unexpected exceptions from main
 		logging.error("EXC: " + str(ex))
 
 def main():	
+	passed = 0
+	failed = 0
+	errors = 0
 	reporter.openReport()
-	reporter.report("TC1", str(True), "Laeuft")
-	reporter.report("TCFailed", str(False), "Geht gar nicht")
-	passed = 3
-	failed = 2
-	errors = 1
-	reporter.addStats(passed, failed, errors)
-	reporter.closeReport()
+	# reporter.report("TC1", str(True), "Laeuft")
+	# reporter.report("TCFailed", str(False), "Geht gar nicht")
+	# passed = 3
+	# failed = 2
+	# errors = 1
+	# reporter.addStats(passed, failed, errors)
+	# reporter.closeReport()
 	# return 
 	
 	
@@ -71,13 +74,15 @@ def main():
 	
 	driver.close()
 	driver.quit()
+	reporter.addStats(passed, failed, errors)
+	reporter.closeReport()
 	
 def execAllTestcases(): # alle TC in 
 	import os
 	myroot = config.get("SeleniumRoot")
 	path =r'C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases'
 	ignorePath = path + '\__pycache__'
-	print("ignorePath: " + ignorePath)
+	# print("ignorePath: " + ignorePath)
 	for root, directories, file in os.walk(path): # root = path 
 		print("\nroot: " + str(root))
 		print("directories: " + str(directories))
@@ -86,8 +91,16 @@ def execAllTestcases(): # alle TC in
 			if root != ignorePath:
 				if(onefile.endswith(".py")):
 					print("file= " + onefile)
+					modulename = onefile[0:len(onefile)-3]
+					print (modulename)
+					# import modulename
+					# result =  # TC_1_2_popup_openPositions
 					# print(os.path.join(root,file))
 			else: print("ignorePath")	
 			
-# execAllTestcases()	
-start()
+execAllTestcases()	
+# start()
+
+# def execFuncWithExc(functionName, args): # -> result, Exception given as String from Exception. functionName not in "" 
+	# try:
+		# result = functionName(*args)

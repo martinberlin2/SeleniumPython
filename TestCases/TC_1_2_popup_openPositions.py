@@ -1,16 +1,26 @@
 
 
+# Selenium / Python imports
 import logging 
 from selenium.common.exceptions import NoSuchElementException  
 from selenium.webdriver.common.by import By
 import time 
-	
+# Eigene Module  
+from Utilities import Reporter as reporter
+
+
 def tc(driver): # -> bool
+
+	# reporter.report("TC1", str(True), "Laeuft")
+	TC = "TC_1_2_popup_openPositions" # TODO dynamisch - als Modulname
 	try:
 		openPositionsAlertBox = driver.find_element(By.ID, 'popmake-41440')
 		# openPositionsAlertBox = driver.find_element_by_id ( 'popmake-41440') # geht auch
 	except NoSuchElementException  as nsex:
 		logging.info("TC_1_2_popup_openPositions: NoSuchElementException ")
+		result = "Failed"
+		reason = "Popup kommt nicht "
+		reporter
 		return False ## ok
 	except Exception as ex:
 		logging.error("EXC TC1_2: " + str(ex))
