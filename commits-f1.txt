@@ -25,3 +25,5 @@ sollte so laufen -- alle Zweige testen, dann nochmal committen
 11.11 Laeuft - TODO: Wait noch mit Promises, kein sleep
 
 Suche nach Promise-Lösung
+
+mit EC gehts noch nicht

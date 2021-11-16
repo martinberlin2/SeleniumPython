@@ -25,10 +25,14 @@ def tc(driver): # -> bool
 	# action = ActionChains(driver)
 	
 	acceptOnlyEssCookies.click() # geht!
-	time.sleep(1) # man braucht 1 sek
-	try: # ok
-		acceptOnlyEssCookies = driver.find_element(By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')
-		acceptOnlyEssCookies.click() # geht!! Popup ist schon weg
+	time.sleep(5) # man braucht 1 sek
+	
+	try:
+		acceptOnlyEssCookies = WebDriverWait(driver, 5).until(
+		EC.presence_of_element_located((By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')))
+	# try: # ok
+		# acceptOnlyEssCookies = driver.find_element(By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')
+		# acceptOnlyEssCookies.click() # Popup ist schon weg
 	except Exception as ex:
 		if str(ex) != 'Message: Element <a class="_brlbs-btn _brlbs-cursor" href="#"> could not be scrolled into view\n':
 			logging.info("Andere Exception" + str(ex))
@@ -39,14 +43,14 @@ def tc(driver): # -> bool
 	
 	# 11.11 Laeuft - TODO: Wait noch mit Promises, kein sleep
 	
-	Handle Idle Time During a test
+	# Handle Idle Time During a test
 
 # Selenium involves implicit and explicit waits. In the case of Explicit wait, the driver waits for a specific action to complete and in implicit wait, the driver waits for a particular time duration. Using WebDriverWait()function will help the WebDriver to wait for a specific time, say five seconds. Then to test for new element to load, use: .presence_of_element_located()method(belonging to expected_conditionsclass); Use By.ID.
  
   
-try:
-element = WebDriverWait(driver, 5).until(
-EC.presence_of_element_located((By.ID, "id-of-new-element"))
-)
-finally:
-driver.quit()
+# try:
+# element = WebDriverWait(driver, 5).until(
+# EC.presence_of_element_located((By.ID, "id-of-new-element"))
+# )
+# finally:
+# driver.quit()
