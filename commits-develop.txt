@@ -94,6 +94,9 @@ dynamischer Import läuft, jetzt reporter.py als Feature f3
 
 (vorher: TC_1_2_popup_openPositions geht ohne sleep nach click)
 
+	f3: 15.11. reporter stellt addStats-Funktion bereit für start (wird Anzahl passed + failed tracken)
 --- 18.11.. f3 is in develop merged. reporter und Summen gehen, TC_1_2_popup_openPositions wird gefixt
 
 TC_1_2_popup_openPositions fixed. 
+
+branch f4: TC_1_2_popup_openPositions mit Report 
