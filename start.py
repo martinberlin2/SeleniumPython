@@ -27,9 +27,9 @@ def main():
 	reporter.openReport()
 	# reporter.report("TC1", str(True), "Laeuft")
 	# reporter.report("TCFailed", str(False), "Geht gar nicht")
-	# passed = 3
-	# failed = 2
-	# errors = 1
+	passed = 4
+	failed = 2
+	errors = 1
 	# reporter.addStats(passed, failed, errors)
 	# reporter.closeReport()
 	# return 
@@ -98,8 +98,8 @@ def execAllTestcases(): # alle TC in
 					# print(os.path.join(root,file))
 			else: print("ignorePath")	
 			
-execAllTestcases()	
-# start()
+# execAllTestcases()	
+start()
 
 # def execFuncWithExc(functionName, args): # -> result, Exception given as String from Exception. functionName not in "" 
 	# try:

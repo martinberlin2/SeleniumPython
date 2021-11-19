@@ -93,3 +93,7 @@ in progress: dynamischer Import
 dynamischer Import läuft, jetzt reporter.py als Feature f3
 
 (vorher: TC_1_2_popup_openPositions geht ohne sleep nach click)
+
+--- 18.11.. f3 is in develop merged. reporter und Summen gehen, TC_1_2_popup_openPositions wird gefixt
+
+TC_1_2_popup_openPositions fixed. 
