@@ -1,1 +1,2 @@
 INFO:root:Wait zu kurz -- Cookie-Dialog noch nicht weg beendet
+INFO:root:EXC: can only concatenate str (not "int") to str

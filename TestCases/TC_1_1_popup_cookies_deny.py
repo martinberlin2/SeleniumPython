@@ -24,26 +24,48 @@ def tc(driver): # -> bool
 		return False # ok
 	# action = ActionChains(driver)
 	
-	acceptOnlyEssCookies.click() # geht!
-	time.sleep(1) # man braucht 1 sek
+	acceptOnlyEssCookies.click() # geht! Popup muss dann weg sein
 	
-	# nicht: EC.presence_of_element_located
-	# geht: EC.visibility_of_element_located 
-	try:
-		acceptOnlyEssCookies = WebDriverWait(driver, 1).until(
-		EC.visibility_of_element_located((By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')))
-	# try: # ok
-		# acceptOnlyEssCookies = driver.find_element(By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')
-		# acceptOnlyEssCookies.click() # Popup ist schon weg
-	except Exception as ex:
-		# if str(ex) != 'Message: Element <a class="_brlbs-btn _brlbs-cursor" href="#"> could not be scrolled into view\n':
-		if str(ex) != 'Message: \n':
-			logging.info("Andere Exception:" + str(ex) + "!")
-			return False  # ok
-		return True # nach Klick ist Cookie-Dialog beendet      # ok
-	logging.info("Wait zu kurz -- Cookie-Dialog noch nicht weg beendet")
-	return False # ok
+	# def notVisible(cssSelector, seconds): # für Promise-Lösung
+	if notVisible('._brlbs-refuse-btn > a:nth-child(1)', 10):
+		return True 
+	return False
+	###################
 	
+	# time.sleep(1) # man braucht 1 sek
+	
+	# # nicht: EC.presence_of_element_located
+	# # geht: EC.visibility_of_element_located 
+	# try:
+		# acceptOnlyEssCookies = WebDriverWait(driver, 1).until(
+		# EC.visibility_of_element_located((By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')))
+	# # try: # ok
+		# # acceptOnlyEssCookies = driver.find_element(By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')
+		# # acceptOnlyEssCookies.click() # Popup ist schon weg
+	# except Exception as ex:
+		# # if str(ex) != 'Message: Element <a class="_brlbs-btn _brlbs-cursor" href="#"> could not be scrolled into view\n':
+		# if str(ex) != 'Message: \n':
+			# logging.info("Andere Exception:" + str(ex) + "!")
+			# return False  # ok
+		# return True # nach Klick ist Cookie-Dialog beendet      # ok
+	# logging.info("Wait zu kurz -- Cookie-Dialog noch nicht weg beendet")
+	# return False # ok
+	
+def notVisible(cssSelector, seconds): # für Promise-Lösung
+	s = 0
+	while s < seconds:
+		try:
+			acceptOnlyEssCookies = WebDriverWait(driver, 1).until(
+			EC.visibility_of_element_located((By.CSS_SELECTOR, cssSelector)))
+		# try: # ok
+			# acceptOnlyEssCookies = driver.find_element(By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')
+			# acceptOnlyEssCookies.click() # Popup ist schon weg
+		except Exception as ex:
+			print ("elem invisible after seconds " + str(s))
+			return True 
+		# time.sleep(1)
+		s = s + 1
+	return False
 
 # https://stackoverflow.com/questions/43778842/python-promise-how-to-wait-for-page-load-or-webelement-using-promises	
 	# # return True if element is visible within 30 seconds, otherwise False
