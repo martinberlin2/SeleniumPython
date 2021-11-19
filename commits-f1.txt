@@ -27,3 +27,6 @@ sollte so laufen -- alle Zweige testen, dann nochmal committen
 Suche nach Promise-Lösung
 
 mit EC gehts noch nicht
+Geht nur nicht, weil EC....until kein not auswerten kann: das Popup soll ja nicht mehr sichtbar sein.
+
+Branch f1_1 : Eigenentwicklung NotVisible(cssSelector, seconds) für Promise-Lösung

@@ -1,5 +1,1 @@
-INFO:root:Andere Exception__init__() takes 2 positional arguments but 3 were given
-INFO:root:Wait zu kurz -- Cookie-Dialog noch nicht weg beendet
-INFO:root:Wait zu kurz -- Cookie-Dialog noch nicht weg beendet
-INFO:root:Wait zu kurz -- Cookie-Dialog noch nicht weg beendet
 INFO:root:Wait zu kurz -- Cookie-Dialog noch nicht weg beendet

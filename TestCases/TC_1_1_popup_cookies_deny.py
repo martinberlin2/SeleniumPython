@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 def tc(driver): # -> bool
-	driver.get("https://auticon.de")  
+	### driver.get("https://auticon.de")  
 	# time.sleep(1)
 		# Popups Offene Stellen nach neuem Laden kommt nicht mehr, aber Cookiedialog wohl
 	# print("TC_1_1_popup_cookies_deny")
@@ -25,23 +25,34 @@ def tc(driver): # -> bool
 	# action = ActionChains(driver)
 	
 	acceptOnlyEssCookies.click() # geht!
-	time.sleep(5) # man braucht 1 sek
+	time.sleep(1) # man braucht 1 sek
 	
+	# nicht: EC.presence_of_element_located
+	# geht: EC.visibility_of_element_located 
 	try:
-		acceptOnlyEssCookies = WebDriverWait(driver, 5).until(
-		EC.presence_of_element_located((By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')))
+		acceptOnlyEssCookies = WebDriverWait(driver, 1).until(
+		EC.visibility_of_element_located((By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')))
 	# try: # ok
 		# acceptOnlyEssCookies = driver.find_element(By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')
 		# acceptOnlyEssCookies.click() # Popup ist schon weg
 	except Exception as ex:
-		if str(ex) != 'Message: Element <a class="_brlbs-btn _brlbs-cursor" href="#"> could not be scrolled into view\n':
-			logging.info("Andere Exception" + str(ex))
+		# if str(ex) != 'Message: Element <a class="_brlbs-btn _brlbs-cursor" href="#"> could not be scrolled into view\n':
+		if str(ex) != 'Message: \n':
+			logging.info("Andere Exception:" + str(ex) + "!")
 			return False  # ok
 		return True # nach Klick ist Cookie-Dialog beendet      # ok
 	logging.info("Wait zu kurz -- Cookie-Dialog noch nicht weg beendet")
 	return False # ok
 	
-	# 11.11 Laeuft - TODO: Wait noch mit Promises, kein sleep
+
+# https://stackoverflow.com/questions/43778842/python-promise-how-to-wait-for-page-load-or-webelement-using-promises	
+	# # return True if element is visible within 30 seconds, otherwise False
+# def is_visible(locator, timeout = 30):
+    # try:
+        # ui.WebDriverWait(chrome, timeout).until(EC.visibility_of_element_located((By.XPATH, locator)))
+        # return True
+    # except TimeoutException:
+        # return False
 	
 	# Handle Idle Time During a test
 
@@ -49,8 +60,13 @@ def tc(driver): # -> bool
  
   
 # try:
-# element = WebDriverWait(driver, 5).until(
-# EC.presence_of_element_located((By.ID, "id-of-new-element"))
+	# element = WebDriverWait(driver, 5).until(
+	# EC.presence_of_element_located((By.ID, "id-of-new-element"))
 # )
 # finally:
 # driver.quit()
+
+
+
+		
+# 11.11 Laeuft - TODO: Wait noch mit Promises, kein sleep
