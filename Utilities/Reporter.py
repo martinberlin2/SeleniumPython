@@ -8,8 +8,8 @@ from os import remove
 from os import path 
 
 # from Utilities.readCfg import readConfig # as readConfig
-TCnameLen = 25
-resultLen = 8
+TCnameLen = 30
+resultLen = 10
 reasonLen = 55
 
 reportfile = r'C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\Reports\Report.txt'
@@ -48,7 +48,7 @@ def closeReport(): # Summenbildung und schliesst den Report; Param: none; Return
 		# --Summenbildung
 		reportFile.close()
 		
-def report(TCname, result, reason): # Param: String TCname, String result, String reason; Returns: None; Error: ErrorString
+def report(TCname, result, reason): # Param: String TCname, String result "Passed" or "FAILED" von Aufrufer, String reason; Returns: None; Error: ErrorString
 	with open(reportfile, "a") as reportFile:
 		TCname = fillString(TCname, TCnameLen, ".")
 		result = fillString(result, resultLen, " ")

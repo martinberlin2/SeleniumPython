@@ -5,13 +5,11 @@ import logging
 from selenium.common.exceptions import NoSuchElementException  
 from selenium.webdriver.common.by import By
 import time 
-# Eigene Module  
-from Utilities import Reporter as reporter
-from reporter import report 
 
 def tc(driver): # -> bool
-
+	
 	TC = "TC_1_2_popup_openPositions" # TODO dynamisch - als Modulname
+	print(TC + " start")
 	try:
 		openPositionsAlertBox = driver.find_element(By.ID, 'popmake-41440')
 		# openPositionsAlertBox = driver.find_element_by_id ( 'popmake-41440') # geht auch
@@ -26,7 +24,7 @@ def tc(driver): # -> bool
 	expectString = "Wir stellen ein!\nIT- und BackOffice-Mitarbeiter*innen gesucht!\nMehr Infos\nX"
 	if text1 != expectString:
 		logging.info("TC_1_2_popup_openPositions: anderer Text:\n" + text1)
-		return text1 ## ok
+		return ("anderer Text:\n" + text1) ## ok
 	## logging.info("TC_1_2_popup_openPositions PASSED Popup + Text ")
 	
 	X_Button = openPositionsAlertBox.find_element(By.CLASS_NAME, 'pum-close')
@@ -41,8 +39,8 @@ def tc(driver): # -> bool
 		# logging.info(str(nsex))
 		if str(nsex) == 'Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view\n':
 			logging.info("TC_1_2_popup_openPositions PASSED X beendet Popup")
-			return "PASSED" # ok 
+			return "Passed" # ok 
 		logging.error("ERROR  --andere Exception TC_1_2_popup_openPositions:" + str(nsex))
 		return "ERROR  --andere Exception TC_1_2_popup_openPositions:" + str(nsex) # ok
 	logging.info("TC_1_2_popup_openPositions FAILED X beendet Popup NICHT")
-	return "FAILED"   # ok
+	return "X beendet Popup NICHT"   # ok

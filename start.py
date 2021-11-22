@@ -6,7 +6,7 @@
 
 import logging
 from Utilities.readCfg import readConfig # as readConfig
-from Utilities import Reporter as reporter
+import Utilities.Reporter as reporter
 
 config = readConfig("./config.txt")
 SeleniumRoot = config.get("SeleniumRoot")
@@ -25,6 +25,7 @@ def main():
 	failed = 0
 	errors = 0
 	reporter.openReport()
+	print("Reporter.openReport()")
 	# reporter.report("TC1", str(True), "Laeuft")
 	# reporter.report("TCFailed", str(False), "Geht gar nicht")
 	passed = 4
@@ -58,7 +59,19 @@ def main():
 	module_name = "TestCases.TC_1_2_popup_openPositions"
 	module = importlib.import_module(module_name, package=None) 
 	result = module.tc(driver)
-	print(result)
+	module_name = "root.dir.subdir." + module_name 
+	print(module_name)
+	tc_name_parts = module_name.split(".", -1)
+	tc_name = tc_name_parts[len(tc_name_parts) - 1]
+	# tc_name = lastpart(module_name, ".")
+	print(tc_name + ": " + result)
+	if result == "Passed":
+		passed = passed + 1
+		reporter.report(tc_name, result, "")
+	else:
+		failed = failed + 1
+		reporter.report(tc_name, "FAILED", result)
+	
 	
 	# from TestCases import TC_1_2_popup_openPositions as testcase # home: f2 -- Merged
 	# result = testcase.tc(driver)
