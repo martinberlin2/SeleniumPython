@@ -32,3 +32,5 @@ Geht nur nicht, weil EC....until kein not auswerten kann: das Popup soll ja nich
 Branch f1_1 : Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lösung
 
 def notVisible(cssSelector, seconds): # für Promise-Lösung -- True-Zweig geht
+
+False geht auch: ready to merge to develop
