@@ -99,4 +99,5 @@ dynamischer Import läuft, jetzt reporter.py als Feature f3
 
 TC_1_2_popup_openPositions fixed. 
 
-branch f4: TC_1_2_popup_openPositions mit Report 
+branch f4: TC_1_2_popup_openPositions mit Report, Ziel: string report(String) ; zerlegt selbst in result, TCname, reason; also gibt
+	der TC einen String zurück
