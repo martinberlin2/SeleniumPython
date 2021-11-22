@@ -4,8 +4,12 @@ import logging
 from selenium.common.exceptions import NoSuchElementException  
 
 def tc(driver): # -> bool
-	driver.get("https://auticon.de")   # Popups nach neuem Laden und Cookie auticon.de gelöscht
-	print("TC_1_1_popup_cookies_deny")
+	# driver.get("https://auticon.de")   # Popups nach neuem Laden und Cookie auticon.de gelöscht
+	print("TC_1_1_popup_cookies_deny STUB ended")
+	return "TC_1_1_popup_cookies_deny STUB ended"
+	
+	
+	
 	try:
 		onlyEssCookies = driver.find_elements(By.CLASS_NAME, '_brlbs-refuse-btn')
 	except NoSuchElementException as nse:
