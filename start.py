@@ -98,6 +98,7 @@ def execAllTestcases(): # alle TC in
 	import time 
 	driverpath = config.get("gecko")
 	driver = webdriver.Firefox(executable_path=driverpath)
+	
 	# https://stackoverflow.com/questions/49929374/notadirectoryerror-winerror-267-the-directory-name-is-invalid-error-while-inv	 
 	driver.get("https://auticon.de") 
 	passed = 4
@@ -123,10 +124,14 @@ def execAllTestcases(): # alle TC in
 					module_name = onefile[0:len(onefile)-3]
 					module_name = root + "\\" + module_name    # läuft in Windows TODO ... Linux, Unix: Pfad erst umfummeln
 					print ("module_name = " + module_name) #  Pfad ohne .py
+					#C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_1_popup_cookies_deny#
 					
 					# String befummeln:
 					# myroot = C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
 					# No module named 'C:\\Users\\laoch\\OneDrive\\Dokumente\\Meins\\Eigenes_F\\auticon\\Python\\SeleniumPython\\TestCases\\TC_1_1_popup_cookies_deny'
+					# 1. StrAfterStr(str, startstr) 
+					# 2. StrAfterStr(module_name, myroot) --> TestCases\TC_1_1_popup_cookies_deny
+					# 3. replace \ -> .
 					
 					
 					# module_name = "TestCases.TC_1_1_popup_cookies_deny"    # so gehts
@@ -135,10 +140,13 @@ def execAllTestcases(): # alle TC in
 					## von main()
 					# module_name = "TestCases.TC_1_2_popup_openPositions"
 					module = importlib.import_module(module_name, package=None) 
+					
+					
+					return
 						# No module named 'C:\\Users\\laoch\\OneDrive\\Dokumente\\Meins\\Eigenes_F\\auticon\\Python\\SeleniumPython\\TestCases\\TC_1_1_popup_cookies_deny'
 					
 					result = module.tc(driver)
-					return
+					
 					# module_name = "root.dir.subdir." + module_name 
 					# print(module_name)
 					tc_name_parts = module_name.split(".", -1)
