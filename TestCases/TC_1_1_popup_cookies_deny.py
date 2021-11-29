@@ -1,6 +1,6 @@
 
 
-import time
+# import time
 import logging 
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
@@ -13,12 +13,13 @@ def tc(driver): # -> bool
 	# time.sleep(1)
 		# Popups Offene Stellen nach neuem Laden kommt nicht mehr, aber Cookiedialog wohl
 	# print("TC_1_1_popup_cookies_deny")
+	cssSelector = '._brlbs-refuse-btn > a:nth-child(1)'
 	try:
 		# acceptOnlyEssCookies = driver.find_element(By.CLASS_NAME, 'x_brlbs-refuse-btn')
-		acceptOnlyEssCookies = driver.find_element(By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')	
+		acceptOnlyEssCookies = driver.find_element(By.CSS_SELECTOR, cssSelector)	
 	except NoSuchElementException as nse:
 		logging.info ("Fehler: Keine Moeglichkeit nur essenzielle Cookies zu waehlen: " + str(nse))
-		return False # ok
+		return False 
 	except Exception as ex:
 		logging.error ("EXC TC_1_1_popup_cookies_deny: " + str(ex))
 		return False # ok
@@ -26,10 +27,10 @@ def tc(driver): # -> bool
 	
 	acceptOnlyEssCookies.click() # geht! Popup muss dann weg sein
 	
-	# def notVisible(cssSelector, seconds): # für Promise-Lösung
-	if notVisible(driver, '._brlbs-refuse-btn > a:nth-child(1)', 10):
+	# def isNotVisible(cssSelector, seconds): # für Promise-Lösung
+	if isNotVisible(driver, cssSelector, 0.25): 
 		return True 
-	return False
+	return False # ok       # hier ohne reporting... nach merge in develop
 	###################
 	
 	# time.sleep(1) # man braucht 1 sek
@@ -51,7 +52,7 @@ def tc(driver): # -> bool
 	# logging.info("Wait zu kurz -- Cookie-Dialog noch nicht weg beendet")
 	# return False # ok
 	
-def notVisible(driver, cssSelector, seconds): # für Promise-Lösung: verschwindet Elem nach seconds, z.B. nach click) ?
+def isNotVisible(driver, cssSelector, seconds): # für Promise-Lösung: verschwindet Elem nach seconds, z.B. nach click) ?; # sehr genau, bei 0.20000000000000004 False bei seconds = 0.2
 	s = 0
 	step = 0.01
 	while s < seconds:
@@ -61,13 +62,17 @@ def notVisible(driver, cssSelector, seconds): # für Promise-Lösung: verschwind
 		# try: # ok
 			# elem = driver.find_element(By.CSS_SELECTOR, '._brlbs-refuse-btn > a:nth-child(1)')
 			# elem.click() # Popup ist schon weg
+		except NoSuchElementException as nse:
+			print ("TRUE elem invisible after seconds " + str(s) + " " + str(ex))
+			return True 		
 		except Exception as ex:
-			# print ("elem invisible after seconds " + str(s) + " " + str(ex))
-			return True 
+			print ("FALSE other exception: " + str(s) + " " + str(ex))
+			return FALSE 
 		# time.sleep(1)
-		# print(str(s))
+		print(str(s))
 		s = s + step
-	return False
+	print ("FALSE elem still visible after seconds " + str(s))
+	return False # ok
 
 # https://stackoverflow.com/questions/43778842/python-promise-how-to-wait-for-page-load-or-webelement-using-promises	
 	# # return True if element is visible within 30 seconds, otherwise False

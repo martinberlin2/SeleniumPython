@@ -34,3 +34,9 @@ Branch f1_1 : Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lö
 def notVisible(cssSelector, seconds): # für Promise-Lösung -- True-Zweig geht
 
 False geht auch: ready to merge to develop
+
+2911 kein import time, "sleep" raus -- geht mit WebDriverWait und EC 
+  cssSelector muss gleich sein vor und nach Klick! Gelöst: als Parameter
+  !! Framework / Script muss Exc aus TC abfangen !
+  Rename: notVisible --> isNotVisible Standard: "is" bei boolean
+  !!! Klasse von Exceptions anzeigen lassen --- Noch kein Merge !
