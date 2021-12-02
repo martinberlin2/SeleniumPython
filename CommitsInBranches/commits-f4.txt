@@ -13,3 +13,7 @@ jetzt: TC gibt einen String zurück, Name TC ist bekannt. Dann reporter umschrei
 besser: macht main nach dynamischem Aufruf. - TC Läuft aus main mit Reporter, noch ohne dyn. Aufruf 
 
 Plan für Modulnamen
+
+Modulnamen sind richtig, Module werden dynamisch aufgerufen: alle TC im Verzeichnis Testcases
+(zu testen: auch rekursiv)
+Aufgeräumt - Verzeichnis Examples angelegt

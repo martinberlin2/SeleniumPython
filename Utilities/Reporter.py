@@ -58,6 +58,8 @@ def report(TCname, result, reason): # Param: String TCname, String result "Passe
 		
 		
 def fillString(s, nr, c): # Param: s String, nr auf wieviele Stellen auffüllen, c Character für Füllung; Returns: gefüllten String 
+	s = str(s)  ## da kommt auch bool an ! 
+	print("fillstring params: " + s + str(nr) + c)
 	lens = len(s)
 	while lens < nr:
 		s=s+c

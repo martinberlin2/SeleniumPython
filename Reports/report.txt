@@ -1,5 +1,22 @@
-Testcase:                      Result:    Reason:                                                
------------------------------------------------------------------------------------------------
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_1_popup_cookies_deny FAILED     TC_1_1_popup_cookies_deny STUB ended                   
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_2_popup_openPositions Passed                                                            
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_1_popup_cookies_deny FAILED     TC_1_1_popup_cookies_deny STUB ended                   
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_2_popup_openPositions Passed                                                            
+TC_1_1_popup_cookies_deny..... FAILED     TC_1_1_popup_cookies_deny STUB ended                   
 TC_1_2_popup_openPositions.... Passed                                                            
+TC_1_1_popup_cookies_deny..... FAILED     TC_1_1_popup_cookies_deny STUB ended                   
+TC_1_2_popup_openPositions.... Passed                                                            
+TC_1_1_popup_cookies_deny..... FAILED     TC_1_1_popup_cookies_deny STUB ended                   
+TC_1_2_popup_openPositions.... Passed                                                            
+TC_1_title.................... FAILED     True                                                   
+TC_2_topline.................. FAILED     False                                                  
+TC_4_menuLinksObenSort........ FAILED     False                                                  
 ===============================================================================================
-Passed: 5, Failed: 2, Errors: 1
+Passed: 5, Failed: 6, Errors: 1
+TC_1_1_popup_cookies_deny..... FAILED     TC_1_1_popup_cookies_deny STUB ended                   
+TC_1_2_popup_openPositions.... Passed                                                            
+TC_1_title.................... FAILED     True                                                   
+TC_2_topline.................. FAILED     False                                                  
+TC_4_menuLinksObenSort........ FAILED     False                                                  
+===============================================================================================
+Passed: 1, Failed: 4, Errors: 0
