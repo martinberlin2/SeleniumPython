@@ -16,4 +16,19 @@ INFO:root:EXC: 'list' object has no attribute 'click'
 
 acceptOnlyEssCookies.click() # geht!! Popup ist schon weg . Keine Exception wg. not clickable
 
-0912 neuer Run, minimale Änderungen... f1_1 ist aktuell
+			0912 neuer Run, minimale Änderungen... f1_1 ist aktuell
+
+geckodriver gelöscht und ignored... 
+
+sollte so laufen -- alle Zweige testen, dann nochmal committen
+
+0911 sollte so laufen -- alle Zweige testen, dann nochmal committen
+
+11.11 Laeuft - TODO: Wait noch mit Promises, kein sleep
+
+Suche nach Promise-Lösung
+
+mit EC gehts noch nicht
+Geht nur nicht, weil EC....until kein not auswerten kann: das Popup soll ja nicht mehr sichtbar sein.
+
+Branch f1_1 : Eigenentwicklung NotVisible(cssSelector, seconds) für Promise-Lösung
