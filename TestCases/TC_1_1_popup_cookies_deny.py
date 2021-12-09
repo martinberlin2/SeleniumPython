@@ -24,7 +24,7 @@ def tc(driver): # -> bool
 	time.sleep(5) # Sleep for 3 seconds
 	try: 
 		acceptOnlyEssCookies.click() # geht!! Popup ist schon weg
-	except Exception ex:
+	except Exception as ex:
 		print(str(ex))
 
 	try:

@@ -1,0 +1,6 @@
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_1_popup_cookies_deny FAILED     TC_1_1_popup_cookies_deny STUB ended                   
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_2_popup_openPositions Passed                                                            
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_1_popup_cookies_deny FAILED     TC_1_1_popup_cookies_deny STUB ended                   
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_2_popup_openPositions Passed                                                            
+TC_1_1_popup_cookies_deny..... FAILED     TC_1_1_popup_cookies_deny STUB ended                   
+TC_1_2_popup_openPositions.... Passed                                                            

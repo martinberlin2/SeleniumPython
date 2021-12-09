@@ -3,3 +3,4 @@ INFO:root:EXC: Message: Element <p class="_brlbs-refuse-btn"> could not be scrol
 
 INFO:root:EXC: Message: Element <p class="_brlbs-refuse-btn"> could not be scrolled into view
 
+INFO:root:EXC: invalid syntax. Perhaps you forgot a comma? (TC_1_1_popup_cookies_deny.py, line 27)

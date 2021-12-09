@@ -1,0 +1,16 @@
+1639074963813	geckodriver	INFO	Listening on 127.0.0.1:64721
+1639074966861	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofileUTwRjv"
+1639074967180	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofileUTwRjv\\search.json.mozlz4", (void 0)))
+1639074969351	Marionette	INFO	Listening on port 64731
+1639074969532	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639075016019	Marionette	INFO	Stopped listening on port 64731
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1639075059509	geckodriver	INFO	Listening on 127.0.0.1:64823
+1639075062610	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofilessWzE3"
+1639075062912	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laoch\\AppData\\Local\\Temp\\rust_mozprofilessWzE3\\search.json.mozlz4", (void 0)))
+1639075064578	Marionette	INFO	Listening on port 64832
+1639075064668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/recaptcha/releases/_7Co1fh8iT2hcjvquYJ_3zSP/recaptcha__en.js, line 151: uncaught exception: CustomError: Error in protected function: Invalid JSON string: 
+1639075076395	Marionette	INFO	Stopped listening on port 64832

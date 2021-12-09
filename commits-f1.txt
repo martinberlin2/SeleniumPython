@@ -15,3 +15,5 @@ INFO:root:EXC: 'list' object has no attribute 'click'
 3.11. WAIT fehlt: acceptOnlyEssCookies ist nach Click noch da
 
 acceptOnlyEssCookies.click() # geht!! Popup ist schon weg . Keine Exception wg. not clickable
+
+0912 neuer Run, minimale Änderungen... f1_1 ist aktuell
