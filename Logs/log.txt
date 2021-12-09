@@ -1,2 +1,6 @@
 INFO:root:EXC: name 'FALSE' is not defined
 INFO:root:EXC: name 'FALSE' is not defined
+INFO:root:EXC: name 'FALSE' is not defined
+INFO:root:Fehler: Keine Moeglichkeit nur essenzielle Cookies zu waehlen: Message: Unable to locate element: x._brlbs-refuse-btn > a:nth-child(1)
+
+ERROR:root:EXC TC_1_1_popup_cookies_deny: name 'xdriver' is not defined

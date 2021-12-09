@@ -40,3 +40,5 @@ False geht auch: ready to merge to develop
   !! Framework / Script muss Exc aus TC abfangen !
   Rename: notVisible --> isNotVisible Standard: "is" bei boolean
   !!! Klasse von Exceptions anzeigen lassen --- Noch kein Merge !
+
+0912 EC gibt keine Exceptionklasse an
