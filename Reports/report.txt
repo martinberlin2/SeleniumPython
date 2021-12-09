@@ -20,3 +20,10 @@ TC_2_topline.................. FAILED     False
 TC_4_menuLinksObenSort........ FAILED     False                                                  
 ===============================================================================================
 Passed: 1, Failed: 4, Errors: 0
+TC_1_1_popup_cookies_deny..... FAILED     TC_1_1_popup_cookies_deny STUB ended                   
+TC_1_2_popup_openPositions.... Passed                                                            
+TC_1_title.................... FAILED     True                                                   
+TC_2_topline.................. FAILED     False                                                  
+TC_4_menuLinksObenSort........ FAILED     False                                                  
+===============================================================================================
+Passed: 1, Failed: 4, Errors: 0
