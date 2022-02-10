@@ -1,3 +1,5 @@
+.gitignore
 config.txt
 __pycache__/
 geckodriver.log
+DontCommit/

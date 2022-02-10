@@ -114,6 +114,7 @@ def execAllTestcases(): # alle TC in
 	print ("path = " + path)
 	ignorePath = path + '\__pycache__'
 	# print("ignorePath: " + ignorePath)
+	
 	for root, directories, file in os.walk(path): # root = path 
 		print("\nroot: " + str(root))
 		## print("directories: " + str(directories))
@@ -130,7 +131,7 @@ def execAllTestcases(): # alle TC in
 					module_name = module_name[len(myroot)+1: len(module_name)]
 					module_name = module_name.replace("\\", ".", 100)
 
-					# print ("module_name = " + module_name) #  Pfad ohne .py
+					print ("module_name = " + module_name) #  Pfad ohne .py
 				#C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_1_popup_cookies_deny#
 					
 					## String befummeln: DONE 2.12.

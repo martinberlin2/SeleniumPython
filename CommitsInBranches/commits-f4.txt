@@ -17,3 +17,5 @@ Plan für Modulnamen
 Modulnamen sind richtig, Module werden dynamisch aufgerufen: alle TC im Verzeichnis Testcases
 (zu testen: auch rekursiv)
 Aufgeräumt - Verzeichnis Examples angelegt
+
+10.2. nur runs gemacht, gitignore 
