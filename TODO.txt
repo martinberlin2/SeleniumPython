@@ -26,3 +26,5 @@ Actions
 	wait 
 	
 
+in f1 eingefügt
+durch website gehen und Aktionen / Elementtypen sammeln

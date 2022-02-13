@@ -29,9 +29,9 @@ def main():
 	print("Reporter.openReport()")
 	# reporter.report("TC1", str(True), "Laeuft")
 	# reporter.report("TCFailed", str(False), "Geht gar nicht")
-	passed = 4
-	failed = 2
-	errors = 1
+	passed = 44
+	failed = 22
+	errors = 11
 	# reporter.addStats(passed, failed, errors)
 	# reporter.closeReport()
 	# return 
@@ -51,10 +51,22 @@ def main():
 	# from TestCases import TC_1_title as testcase 
 	# result = testcase.tc(driver)
 	# print(result)
+
+	# driver.get("https://auticon.de") 
+	# 	 nochmal; nur direkt hiernach sind die Offenen Stellen drin
+	# TC_1_2_popup_openPositions
+	
+	# return # to just get the start page for further analysis or the elements
+	# from TestCases import TC_1_title as testcase 
+	# result = testcase.tc(driver)
+	# print(result)
+	# result in Log 
+	# 
 	
 	# from TestCases import TC_1_1_popup_cookies_deny as testcase # am worklab: f1
 	# result = testcase.tc(driver)
-	# print(result)
+	# print("TC_1_1_popup_cookies_deny: " + str(result))
+
 	
 	import importlib
 	module_name = "TestCases.TC_1_2_popup_openPositions"
