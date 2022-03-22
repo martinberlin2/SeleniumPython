@@ -9,7 +9,7 @@ develop:
 	Code läuft
 	Dev-Comments mit ##
 	Debug Options: ## print
-	Mit Verz. code-examples
+	Verz. code-examples aufgeräumt 
 	Alle Commit-Msg
 	
 main:

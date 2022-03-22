@@ -31,3 +31,5 @@ Branch f1_1 : Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lö
 !! Framework / Script muss Exc aus TC abfangen !
   Rename: notVisible --> isNotVisible Standard: "is" bei boolean
   !!! Klasse von Exceptions anzeigen lassen
+  
+22.3. Commit vor Merge in Develop, erst Dev in f4 
