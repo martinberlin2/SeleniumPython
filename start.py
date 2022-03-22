@@ -17,7 +17,7 @@ logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO
 	
 def start(): # collects unexpected exceptions from main 
 	try:
-		main()
+		execAllTestcases()
 	except Exception as ex:
 		logging.error("EXC: " + str(ex))
 
@@ -114,8 +114,8 @@ def execAllTestcases(): # alle TC in
 	# print("ignorePath: " + ignorePath)
 	for root, directories, file in os.walk(path): # root = path 
 		print("\nroot: " + str(root))
-		# print("directories: " + str(directories))
-		# print("file: " + str(file))
+		print("directories: " + str(directories))
+		print("file: " + str(file))
 		for onefile in file: 
 			if root != ignorePath:
 				if(onefile.endswith(".py")):
