@@ -1,0 +1,29 @@
+feature:
+	Code...in progress
+	Dev-Comments mit ##
+	Debug Options: ## print
+	Mit Verz. code-examples
+	Alle Commit-Msg
+
+develop: 
+	Code läuft
+	Dev-Comments mit ##
+	Debug Options: ## print
+	Mit Verz. code-examples
+	Alle Commit-Msg
+	
+main:
+	Code aufgeräumt:
+	läuft
+	keine Dev-Comments
+	Keine Debug-Options
+	Keine Code-Examples
+	Nur main-commits, wie release notes
+	
+merge:
+fea in dev:
+- dev -> fea, testen... läuft: commit
+- clean: fea-code auf dev-code bringen
+- mergeback fea -> dev
+
+analog dev in main
