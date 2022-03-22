@@ -33,3 +33,4 @@ Branch f1_1 : Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lö
   !!! Klasse von Exceptions anzeigen lassen
   
 22.3. Commit vor Merge in Develop, erst Dev in f4 
+	(nicht gemacht, Develop ist zu alt; f4 ging ff nach develop)
