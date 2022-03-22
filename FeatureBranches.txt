@@ -8,5 +8,15 @@ Home	f3  reporter.py -- Merged
 
 Home	f4  TC_1_2_popup_openPositions mit Report 
 
-TC_2_topline
-TC_4_menuLinksObenSort
+f5 		Repair: Pfadproblem: keine Logs oder Reports 
+			Reportpfad auch über config
+- Feature rekursives TC Ausführen ok? dann main = execALL
+- Feature: ExecutedTC.log : TC sagen nur ob sie ausgeführt wurden
+- Feature TC_2_topline: False
+- Feature TC_4_menuLinksObenSort: False
+- TC bool ---> "Passed " oder reason-String
+- Feature Report - Aufbau 
+	Reporting wie in TC_1_2_popup_openPositions 
+	
+- TC_2_topline
+- TC_4_menuLinksObenSort

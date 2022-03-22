@@ -102,4 +102,7 @@ TC_1_2_popup_openPositions fixed.
 branch f4: TC_1_2_popup_openPositions mit Report, Ziel: string report(String) ; zerlegt selbst in result, TCname, reason; also gibt
 	der TC einen String zurück
 
-22.3. f4 nach develop merged und läuft, vorher f1,f2,f3 nach f4 
+22.3. <-- f4 nach develop merged und läuft, vorher f1,f2,f3 nach f4 
+
+22.3. --> f5 		Repair: Pfadproblem: keine Logs oder Reports 
+			Reportpfad auch über config
