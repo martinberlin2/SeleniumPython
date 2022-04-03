@@ -5,26 +5,33 @@ https://selenium-python.readthedocs.io/installation.html
 https://www.youtube.com/watch?v=gRMbCvQgOoU&t=390s Locate elements
 
 todo: 
+Preconditions, u.a. Blocked TCs einrichten
 
+TC bool ---> "Passed " oder reason-String
+Report - Aufbau 
+Reporting wie in TC_1_2_popup_openPositions 
+Alle TCs laufen für das Reporting
+TC_1_1_popup_cookies_deny 
+Page Object
+Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lösung -- in LIB
+!! Framework / Script muss Exc aus TC abfangen !
+  Rename: notVisible --> isNotVisible Standard: "is" bei boolean
+  !!! Klasse von Exceptions anzeigen lassen
 + Konfig - Programm
 - Framework zur Testausführung, start.py aufräumen
-
 -- Stringvergleich über mehrere Zeilen
 
 weiter
 https://selenium-python.readthedocs.io/api.html
-
+-- Elemente ansprechen
 find element
 	name
 	class
 	...
 
-Actions
+-- Actions
 	mouse over 
 	left click 
 	right click
 	wait 
-	
-
-in f1 eingefügt
 durch website gehen und Aktionen / Elementtypen sammeln
