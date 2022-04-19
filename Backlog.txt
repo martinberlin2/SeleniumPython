@@ -4,7 +4,7 @@ https://selenium-python.readthedocs.io/installation.html
 
 https://www.youtube.com/watch?v=gRMbCvQgOoU&t=390s Locate elements
 
-todo: 
+Modell-TC 
 Preconditions, u.a. Blocked TCs einrichten
 
 TC bool ---> "Passed " oder reason-String

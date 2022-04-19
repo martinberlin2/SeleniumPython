@@ -17,7 +17,7 @@ SeleniumRoot = config.get("SeleniumRoot")
 
 logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO) 
 # print("kommt hier hin")
-	
+
 	
 def start(): # collects unexpected exceptions from main 
 	# print("Started")
@@ -29,7 +29,7 @@ def start(): # collects unexpected exceptions from main
 def main():	
 	
 	from selenium import webdriver
-	from selenium.webdriver.common.keys import Keys
+	# from selenium.webdriver.common.keys import Keys
 	
 	# import time 
 	driverpath = config.get("gecko")
@@ -37,17 +37,19 @@ def main():
 		# https://stackoverflow.com/questions/49929374/notadirectoryerror-winerror-267-the-directory-name-is-invalid-error-while-inv
 		 
 	driver.get("https://auticon.de") 
+
 	from TestCases import TC_1_1_popup_cookies_deny as testcase # am worklab: f1
 	result = testcase.tc(driver)
 	print("TC_1_1_popup_cookies_deny: " + str(result))
-
+	
 	from TestCases import TC_1_2_popup_openPositions as testcase # am worklab: f1
 	result = testcase.tc(driver)
 	print("TC_1_2_popup_openPositions: " + str(result))
-
 	
-	from TestCases import TC_2_topline as testcase # am worklab: f1
+	
+	from TestCases import TC_2_topline as testcase # am worklab: f1; April22: f6
 	result = testcase.tc(driver)
 	print("Done - TC_2_topline - Mouse over: " + str(result))
-
+	
+	driver.quit()
 start()
