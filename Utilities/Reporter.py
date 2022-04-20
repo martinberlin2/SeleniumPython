@@ -1,4 +1,4 @@
-
+# Fertig - committen und merge nach develop
 
 # Reporter.py -- schreibt Testergebnis in /Reports/report.txt
 # Testcase				Result		Reason
@@ -6,16 +6,21 @@
 from os import stat  
 from os import remove 
 from os import path 
+from Utilities.readCfg import readConfig 
 
-# from Utilities.readCfg import readConfig # as readConfig
-TCnameLen = 30
-resultLen = 10
-reasonLen = 55
+config = readConfig("./config.txt")
+SeleniumRoot = config.get("SeleniumRoot")
+
+# f5 mit config 
+reportfile = SeleniumRoot + '/Reports/Report.txt'
 
 # reportfile = r'C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\Reports\Report.txt'
 
-reportfile = r'C:\Users\Lap126\Documents\auticon\Lern\Testautomatisierung\SeleniumPython\Reports\Report.txt'
+# reportfile = r'C:\Users\Lap126\Documents\auticon\Lern\Testautomatisierung\SeleniumPython\Reports\Report.txt'
 
+TCnameLen = 30
+resultLen = 10
+reasonLen = 55
 
 # geht; TODO : bei Aufruf von start ueber Config 
 # reportfile = SeleniumRoot + '\Reports\Report.txt'

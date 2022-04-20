@@ -12,7 +12,7 @@ class CFG:
 		# print("init CFG")
 		self.cfg_items = []
 	
-	def addelem(self, c,v):  # ok
+	def addElem(self, c,v):  # ok
 		self.cfg_items.append([c,v])
 				## AttributeError: 'str' object has no attribute 'cfg_items'
 		# TODO Doppelte checken
@@ -33,7 +33,7 @@ class CFG:
 			print(elem[0] + " = " + elem[1])
 	
 
-def readConfig(filename): # Param: relativer Dateiname; Datei= "Kategorie<TAB>Wert", Returns: cfg= CFG-Objekt mit Einträgen (category, value), Zugriff: cfg.get("category") --> value; Error: String "config category not found"
+def readConfig(filename): # Param: relativer Dateiname; Datei= "Kategorie<TAB>Wert", Returns: cfg= CFG-Objekt mit Einträgen (category, value), Zugriff: cfg.get("category") --> value; Error: String "config category not found", "Config File not found"
 	# readConfig("./config.txt")
 	# import os.path
 	
@@ -54,7 +54,7 @@ def readConfig(filename): # Param: relativer Dateiname; Datei= "Kategorie<TAB>We
 			linesplit = line.split()
 			category = linesplit[0]
 			value 	 = linesplit[1]
-			cfg.addelem(category, value)
+			cfg.addElem(category, value)
 		# print(category)
 		# print(value + "\n")
 	#close file
