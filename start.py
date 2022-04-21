@@ -17,7 +17,8 @@ logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO
 	
 def start(): # collects unexpected exceptions from main 
 	try:
-		main()
+		# main()
+		execAllTestcases()
 	except Exception as ex:
 		logging.error("EXC: " + str(ex))
 
@@ -80,6 +81,7 @@ def main():
 	
 def execAllTestcases(): # alle TC in 
 	import os
+	import importlib 
 	myroot = config.get("SeleniumRoot")
 	path =r'C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases'
 	ignorePath = path + '\__pycache__'
@@ -92,13 +94,16 @@ def execAllTestcases(): # alle TC in
 			if root != ignorePath:
 				if(onefile.endswith(".py")):
 					print("file= " + onefile)
-					modulename = onefile[0:len(onefile)-3]
-					print (modulename)
+					module_name = onefile[0:len(onefile)-3]
+					print (module_name)
+					module = importlib.import_module(module_name, package=None) 
+					result = module.tc(driver)
+					print(result)
 					# import modulename
 					# result =  # TC_1_2_popup_openPositions
 					# print(os.path.join(root,file))
 			else: print("ignorePath")	
-			
+	
 # execAllTestcases()	
 start()
 
