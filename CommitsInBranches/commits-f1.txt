@@ -1,0 +1,46 @@
+﻿privlab:
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+
+worklab:
+C:\Users\Lap126\Documents\GitHub\SeleniumPython
+
+repo
+https://github.com/martinberlin2/SeleniumPython
+
+2.11.	
+FeatureBranches angelegt. f1: TC_1_1_popup_cookies_deny am workLab. 
+
+INFO:root:EXC: 'list' object has no attribute 'click'
+
+3.11. WAIT fehlt: acceptOnlyEssCookies ist nach Click noch da
+
+acceptOnlyEssCookies.click() # geht!! Popup ist schon weg . Keine Exception wg. not clickable
+
+geckodriver gelöscht und ignored... 
+
+sollte so laufen -- alle Zweige testen, dann nochmal committen
+
+0911 sollte so laufen -- alle Zweige testen, dann nochmal committen
+
+11.11 Laeuft - TODO: Wait noch mit Promises, kein sleep
+
+Suche nach Promise-Lösung
+
+mit EC gehts noch nicht
+Geht nur nicht, weil EC....until kein not auswerten kann: das Popup soll ja nicht mehr sichtbar sein.
+
+Branch f1_1 : Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lösung
+
+def notVisible(cssSelector, seconds): # für Promise-Lösung -- True-Zweig geht
+
+False geht auch: ready to merge to develop
+
+2911 kein import time, "sleep" raus -- geht mit WebDriverWait und EC 
+  cssSelector muss gleich sein vor und nach Klick! Gelöst: als Parameter
+  !! Framework / Script muss Exc aus TC abfangen !
+  Rename: notVisible --> isNotVisible Standard: "is" bei boolean
+  !!! Klasse von Exceptions anzeigen lassen --- Noch kein Merge !
+
+0912 EC gibt keine Exceptionklasse an
+next f1_1 nach develop 
+3001 --2022-- commit before merge

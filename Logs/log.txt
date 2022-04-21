@@ -1,5 +1,9 @@
 INFO:root:TC_1_2_popup_openPositions PASSED X beendet Popup
+# <<<<<<< HEAD
 INFO:root:TC_1_2_popup_openPositions PASSED X beendet Popup
 ERROR:root:EXC: name 'importlib' is not defined
 ERROR:root:EXC: name 'module_name' is not defined
 ERROR:root:EXC: No module named 'TC_1_1_popup_cookies_deny'
+
+INFO:root:TC_4_menuLinksObenSort
+# >>>>>>> 92d669d64097736dcd2e25050b2a7935c0491212

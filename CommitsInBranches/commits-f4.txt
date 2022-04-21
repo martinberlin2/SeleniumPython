@@ -1,0 +1,36 @@
+﻿privlab:
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+
+worklab:
+C:\Users\Lap126\Documents\GitHub\SeleniumPython
+
+repo
+https://github.com/martinberlin2/SeleniumPython
+
+f4: TC_1_2_popup_openPositions mit Report 
+jetzt: TC gibt einen String zurück, Name TC ist bekannt. Dann reporter umschreiben, dass der String zerlegt wird
+
+besser: macht main nach dynamischem Aufruf. - TC Läuft aus main mit Reporter, noch ohne dyn. Aufruf 
+
+Plan für Modulnamen
+
+Modulnamen sind richtig, Module werden dynamisch aufgerufen: alle TC im Verzeichnis Testcases
+(zu testen: auch rekursiv)
+Aufgeräumt - Verzeichnis Examples angelegt
+
+10.2. nur runs gemacht, gitignore 
+
+13.2. Merge f1_1 in f4
+TODO 
+Preconditions, u.a. Blocked TCs einrichten
+TC bool ---> "Passed " oder reason-String
+Report - Aufbau 
+Reporting wie in TC_1_2_popup_openPositions 
+TC_1_1_popup_cookies_deny 
+Branch f1_1 : Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lösung
+!! Framework / Script muss Exc aus TC abfangen !
+  Rename: notVisible --> isNotVisible Standard: "is" bei boolean
+  !!! Klasse von Exceptions anzeigen lassen
+  
+22.3. Commit vor Merge in Develop, erst Dev in f4 
+	(nicht gemacht, Develop ist zu alt; f4 ging ff nach develop)
