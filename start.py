@@ -6,6 +6,9 @@
 # Erste Quelle https://www.selenium.dev/selenium/docs/api/py/api.html
 # Zweite https://selenium-python.readthedocs.io/api.html
 
+# git checkout zielbranch
+# git merge branchderreinsoll
+
 import logging
 from Utilities.readCfg import readConfig # as readConfig
 import Utilities.Reporter as reporter

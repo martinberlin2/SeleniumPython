@@ -4,6 +4,7 @@ https://selenium-python.readthedocs.io/installation.html
 
 https://www.youtube.com/watch?v=gRMbCvQgOoU&t=390s Locate elements
 
+mouse over -- jetzt in f6 und TC_2_topline - Mouse over - Tooltip von title
 Modell-TC 
 Preconditions, u.a. Blocked TCs einrichten
 
