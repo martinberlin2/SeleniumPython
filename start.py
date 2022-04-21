@@ -111,7 +111,6 @@ def execAllTestcases(): # alle TC in
 	
 	import time 
 	driverpath = config.get("gecko")
-	
 	driver = webdriver.Firefox(executable_path=driverpath)
 	
 	# https://stackoverflow.com/questions/49929374/notadirectoryerror-winerror-267-the-directory-name-is-invalid-error-while-inv	 
@@ -139,83 +138,59 @@ def execAllTestcases(): # alle TC in
 		for onefile in file: 
 			if root != ignorePath:
 				if(onefile.endswith(".py")):
-# <<<<<<< HEAD
-					print("file= " + onefile)
 					module_name = onefile[0:len(onefile)-3]
-					print (module_name)
+					module_name = root + "\\" + module_name    
+						# läuft in Windows TODO ... Linux, Unix: Pfad erst umfummeln
+					# print ("module_name = " + module_name) #  Pfad ohne .py
+				
+					module_name = module_name[len(myroot)+1: len(module_name)]
+					module_name = module_name.replace("\\", ".", 100)
+
+					print ("module_name = " + module_name) #  Pfad ohne .py
+				#C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_1_popup_cookies_deny#
+					
+					## String befummeln: DONE 2.12.
+					## myroot = C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+					## No module named 'C:\\Users\\laoch\\OneDrive\\Dokumente\\Meins\\Eigenes_F\\auticon\\Python\\SeleniumPython\\TestCases\\TC_1_1_popup_cookies_deny'
+					## 1. StrAfterStr(str, startstr)     
+					## 2. StrAfterStr(module_name, myroot) --> TestCases\TC_1_1_popup_cookies_deny
+					## 3. replace \ -> .
+					
+					
+					# module_name = "TestCases.TC_1_1_popup_cookies_deny"    # so gehts
+					
+					
+					## von main()
+					# module_name = "TestCases.TC_1_2_popup_openPositions"
 					module = importlib.import_module(module_name, package=None) 
 					result = module.tc(driver)
-					print(result)
+					
+					# module_name = "root.dir.subdir." + module_name 
+					# print(module_name)
+					tc_name_parts = module_name.split(".", -1)
+					tc_name = tc_name_parts[len(tc_name_parts) - 1]
+					# tc_name = lastpart(module_name, ".")
+					print(tc_name + ": " + str(result))
+					if result == "Passed":
+						passed = passed + 1
+						reporter.report(tc_name, result, "")
+					else:
+						failed = failed + 1
+						reporter.report(tc_name, "FAILED", result)
+					
+					
 					# import modulename
 					# result =  # TC_1_2_popup_openPositions
 					# print(os.path.join(root,file))
-			else: print("ignorePath")	
-	
-# execAllTestcases()	
-start()
-# =======
-
-
-					# ## print("file= " + onefile)
-					# module_name = onefile[0:len(onefile)-3]
-					# module_name = root + "\\" + module_name    
-						# # läuft in Windows TODO ... Linux, Unix: Pfad erst umfummeln
-					# # print ("module_name = " + module_name) #  Pfad ohne .py
-				
-					# module_name = module_name[len(myroot)+1: len(module_name)]
-					# module_name = module_name.replace("\\", ".", 100)
-
-					# print ("module_name = " + module_name) #  Pfad ohne .py
-				# #C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_1_popup_cookies_deny#
-					
-					# ## String befummeln: DONE 2.12.
-					# ## myroot = C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
-					# ## No module named 'C:\\Users\\laoch\\OneDrive\\Dokumente\\Meins\\Eigenes_F\\auticon\\Python\\SeleniumPython\\TestCases\\TC_1_1_popup_cookies_deny'
-					# ## 1. StrAfterStr(str, startstr)     
-					# ## 2. StrAfterStr(module_name, myroot) --> TestCases\TC_1_1_popup_cookies_deny
-					# ## 3. replace \ -> .
-					
-					
-					# # module_name = "TestCases.TC_1_1_popup_cookies_deny"    # so gehts
-					
-					
-					# ## von main()
-					# # module_name = "TestCases.TC_1_2_popup_openPositions"
-					# module = importlib.import_module(module_name, package=None) 
-					
-					
-					# ## return
-						# # No module named 'C:\\Users\\laoch\\OneDrive\\Dokumente\\Meins\\Eigenes_F\\auticon\\Python\\SeleniumPython\\TestCases\\TC_1_1_popup_cookies_deny'
-					
-					# result = module.tc(driver)
-					
-					# # module_name = "root.dir.subdir." + module_name 
-					# # print(module_name)
-					# tc_name_parts = module_name.split(".", -1)
-					# tc_name = tc_name_parts[len(tc_name_parts) - 1]
-					# # tc_name = lastpart(module_name, ".")
-					# print(tc_name + ": " + str(result))
-					# if result == "Passed":
-						# passed = passed + 1
-						# reporter.report(tc_name, result, "")
-					# else:
-						# failed = failed + 1
-						# reporter.report(tc_name, "FAILED", result)
-					
-					
-					# # import modulename
-					# # result =  # TC_1_2_popup_openPositions
-					# # print(os.path.join(root,file))
-			# # else: print("ignorePath")	
-	# driver.close()
-	# driver.quit()
-	# reporter.addStats(passed, failed, errors)
-	# reporter.closeReport()
+			# else: print("ignorePath")	
+	driver.close()
+	driver.quit()
+	reporter.addStats(passed, failed, errors)
+	reporter.closeReport()
 			
 # execAllTestcases()	
-# # start()
-# >>>>>>> 92d669d64097736dcd2e25050b2a7935c0491212
+start()
 
-# # def execFuncWithExc(functionName, args): # -> result, Exception given as String from Exception. functionName not in "" 
-	# # try:
-		# # result = functionName(*args)
+# def execFuncWithExc(functionName, args): # -> result, Exception given as String from Exception. functionName not in "" 
+	# try:
+		# result = functionName(*args)
