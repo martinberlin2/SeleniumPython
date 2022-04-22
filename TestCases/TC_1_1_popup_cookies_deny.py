@@ -10,6 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def tc(driver): # -> bool
 	# driver.get("https://auticon.de")   # Popups nach neuem Laden und Cookie auticon.de gelöscht
+
 	# print("TC_1_1_popup_cookies_deny STUB ended")
 	# return "TC_1_1_popup_cookies_deny STUB ended"
 	 
@@ -18,7 +19,12 @@ def tc(driver): # -> bool
 		# Popups Offene Stellen nach neuem Laden kommt nicht mehr, aber Cookiedialog wohl
 	# print("TC_1_1_popup_cookies_deny")
 	cssSelector = '._brlbs-refuse-btn > a:nth-child(1)'
+
 # p._brlbs-refuse-btn > a:nth-child(1)
+
+
+
+# >>>>>>> develop
 	try:
 		# acceptOnlyEssCookies = driver.find_element(By.CLASS_NAME, 'x_brlbs-refuse-btn')
 		acceptOnlyEssCookies = driver.find_element(By.CSS_SELECTOR, cssSelector)	
@@ -31,7 +37,7 @@ def tc(driver): # -> bool
 	# action = ActionChains(driver)
 	
 	acceptOnlyEssCookies.click() # geht! Popup muss dann weg sein
-	return 
+	# return 
 	# def isNotVisible(cssSelector, seconds): # für Promise-Lösung
 	if isNotVisible(driver, cssSelector, 0.5): 
 		return True  # ok-0912

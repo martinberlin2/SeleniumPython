@@ -13,6 +13,10 @@ resultLen = 10
 reasonLen = 55
 
 reportfile = r'C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\Reports\Report.txt'
+
+# reportfile = r'C:\Users\Lap126\Documents\auticon\Lern\Testautomatisierung\SeleniumPython\Reports\Report.txt'
+
+
 # geht; TODO : bei Aufruf von start ueber Config 
 # reportfile = SeleniumRoot + '\Reports\Report.txt'
 

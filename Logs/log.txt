@@ -1,0 +1,4 @@
+ INFO:root:TC_1_2_popup_openPositions PASSED X beendet Popup
+INFO:root:TC_4_menuLinksObenSort
+INFO:root:TC_1_2_popup_openPositions PASSED X beendet Popup
+INFO:root:TC_4_menuLinksObenSort
