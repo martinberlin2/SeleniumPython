@@ -1,0 +1,12 @@
+﻿privlab:
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+
+worklab:
+C:\Users\Lap126\Documents\GitHub\SeleniumPython
+
+repo
+https://github.com/martinberlin2/SeleniumPython
+
+f6:	TC_2_topline - Mouse over 
+Läuft. TC wird noch umbenannt in "TC_2_Mouse over - Tooltip von title". 
+Text vom tooltip = elem.get_attribute("title") , aber keine Abfrage bei mouse-over möglich!
