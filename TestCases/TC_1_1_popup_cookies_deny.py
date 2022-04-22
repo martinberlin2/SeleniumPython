@@ -22,9 +22,6 @@ def tc(driver): # -> bool
 
 # p._brlbs-refuse-btn > a:nth-child(1)
 
-
-
-# >>>>>>> develop
 	try:
 		# acceptOnlyEssCookies = driver.find_element(By.CLASS_NAME, 'x_brlbs-refuse-btn')
 		acceptOnlyEssCookies = driver.find_element(By.CSS_SELECTOR, cssSelector)	

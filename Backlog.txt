@@ -5,10 +5,13 @@ https://selenium-python.readthedocs.io/installation.html
 https://www.youtube.com/watch?v=gRMbCvQgOoU&t=390s Locate elements
 
 mouse over -- jetzt in f6 und TC_2_topline - Mouse over - Tooltip von title
-Lerndatei
-FeaturesTC Datei
-Modell-TC 
+Lerndatei, MyCodeExamples
+FeaturesTC 
+Modell-TC : max. mögl. Reporting, Struktur try - 
+ExecutionList: beliebige Reihenfolge 
+Harness für Suiten: Reihenfolge
 Preconditions, u.a. Blocked TCs einrichten
+Rename: TC_2_topline - Mouse over --> TC_2_tooltip_mouse_over
 
 TC bool ---> "Passed " oder reason-String
 Report - Aufbau 

@@ -9,8 +9,9 @@ Home	f3  reporter.py -- Merged
 Home	f4  TC_1_2_popup_openPositions mit Report -- Merged
 
 f5 	Repair: Pfadproblem: keine Logs oder Reports 
-			Reportpfad auch über config
+			Reportpfad auch über config -- Merged 
 
-Home	f6	TC_2_topline - Mouse over
+Home	f6	TC_2_topline - Mouse over  -- Merged 
 	Umbenennung wird eigener Commit
+
 TC_4_menuLinksObenSort

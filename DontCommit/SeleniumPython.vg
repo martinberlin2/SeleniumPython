@@ -1,57 +1,15 @@
 SeleniumPython.vg.txt
 
-f4
-30.01. in f4: 
-TC_1_1_popup_cookies_deny  failed    stub
-
-TC_1_2_popup_openPositions: Passed
-TC_1_title: True
-
-TC_2_topline
-EXC TC2: Message: Given xpath expression "//text()="Warum auticon"" is invalid: TypeError: Document.evaluate: Result type mismatch
-
 TC_4_menuLinksObenSort
 EXC TC2: 'list' object has no attribute 'click'    failed
 
-report: exceptions zu lang
+report: keine Reasons bei FAILED
+Backlog.txt : Ideensammlung
 
 
-10.2. f1_1
-keine Reports
-TC_1_1_popup_cookies_deny    TRUE elem invisible after seconds 0.4100000000000002 Message:
-							(keine)
-andere deaktiviert
 
-TC_1_2_popup_openPositions: 
-TC_1_title: 
-
-TC_2_topline
-
-TC_4_menuLinksObenSort
-
-LOG:
-INFO:root:EXC: name 'FALSE' is not defined
-INFO:root:EXC: name 'FALSE' is not defined
-INFO:root:EXC: name 'FALSE' is not defined
-INFO:root:Fehler: Keine Moeglichkeit nur essenzielle Cookies zu waehlen: Message: Unable to locate element: x._brlbs-refuse-btn > a:nth-child(1)
-
-ERROR:root:EXC TC_1_1_popup_cookies_deny: name 'xdriver' is not defined
-
----------------------
-next: 
-verz. ignoren ok
-nach f1, status holen ok
-merge-ziel: f1_1 nach f4
-TC_1_1_popup_cookies_deny aus f1_1 , kein Reporting, erstmal nur True 
-TC_1_2_popup_openPositions: Passed   f4 mit reporting
-TC_1_title: True  f4 
-
-merge f1-1 nach f4: 
-in f4, git merge f1_1   ---- DURCH
-
----------------------------
-TODO -- Backlog.txt : Ideensammlung
-next: f6 - Branch 
+next Aufräumen
+- Testmeldungen print
 
 
 Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch
