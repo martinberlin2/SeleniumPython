@@ -20,7 +20,11 @@ def tc(driver): # -> bool
 	# print("TC_1_1_popup_cookies_deny")
 	cssSelector = '._brlbs-refuse-btn > a:nth-child(1)'
 
+# p._brlbs-refuse-btn > a:nth-child(1)
 
+
+
+# >>>>>>> develop
 	try:
 		# acceptOnlyEssCookies = driver.find_element(By.CLASS_NAME, 'x_brlbs-refuse-btn')
 		acceptOnlyEssCookies = driver.find_element(By.CSS_SELECTOR, cssSelector)	
@@ -33,7 +37,7 @@ def tc(driver): # -> bool
 	# action = ActionChains(driver)
 	
 	acceptOnlyEssCookies.click() # geht! Popup muss dann weg sein
-	
+	# return 
 	# def isNotVisible(cssSelector, seconds): # für Promise-Lösung
 	if isNotVisible(driver, cssSelector, 0.5): 
 		return True  # ok-0912
