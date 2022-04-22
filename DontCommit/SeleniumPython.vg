@@ -52,3 +52,12 @@ in f4, git merge f1_1   ---- DURCH
 ---------------------------
 TODO -- Backlog.txt : Ideensammlung
 next: f6 - Branch 
+
+
+Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch
+-_> 
+    press "i" (i for insert)
+    write your merge message
+    press "esc" (escape)
+    write ":wq" (write & quit)
+    then press enter
