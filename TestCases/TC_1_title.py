@@ -11,11 +11,3 @@ def tc(driver): # -> bool
 	if driver.title == "Home - auticon":
 		return True
 	return False
-	
-   # <button type="button" class="pum-close popmake-close" aria-label="Schließen">
-   
-   # <a class="_brlbs-btn _brlbs-cursor" href="#" tabindex="0" role="button" data-cookie-refuse="">
-   # Nur essenzielle Cookies akzeptieren                                        </a>
-
-# driver = None
-# tc(driver)

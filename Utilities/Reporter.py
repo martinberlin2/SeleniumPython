@@ -1,5 +1,3 @@
-# Fertig - committen und merge nach develop
-
 # Reporter.py -- schreibt Testergebnis in /Reports/report.txt
 # Testcase				Result		Reason
 
@@ -14,16 +12,13 @@ SeleniumRoot = config.get("SeleniumRoot")
 # f5 mit config 
 reportfile = SeleniumRoot + '/Reports/Report.txt'
 
-reportfile = r'C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\Reports\Report.txt'
+# reportfile = r'C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\Reports\Report.txt'
 
 # reportfile = r'C:\Users\Lap126\Documents\auticon\Lern\Testautomatisierung\SeleniumPython\Reports\Report.txt'
 
 TCnameLen = 30
 resultLen = 10
 reasonLen = 55
-
-# geht; TODO : bei Aufruf von start ueber Config 
-# reportfile = SeleniumRoot + '\Reports\Report.txt'
 
 def openReport(): # legt ./Reports/report.txt an und Param: none; Returns: none; Error: ErrorString
 	

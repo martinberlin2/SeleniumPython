@@ -1,9 +1,7 @@
 # Pfad Reporting manuell ändern - noch
 
-# develop
 # start für selenium python Test
-# evalTC(3, "len1", execFuncWithExc(lcs, ["abc", "daf"]) ,[1,"a"]) 
-# geht das in Selenium ?
+
 # Erste Quelle https://www.selenium.dev/selenium/docs/api/py/api.html
 # Zweite https://selenium-python.readthedocs.io/api.html
 
@@ -26,42 +24,29 @@ logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO
 def start(): # collects unexpected exceptions from main 
 	# print("Started")
 	try:
-		# main()
-		execAllTestcases()
+		main()
+		# one_tc(tc_name)
 	except Exception as ex:
 		logging.error("EXC main level: " + str(ex))
 
-def main():	
+def one_tc(tc_name): # returns: None; nur developen + debug
 	
 	from selenium import webdriver
-	# from selenium.webdriver.common.keys import Keys
-	
-	# import time 
 	driverpath = config.get("gecko")
 	driver = webdriver.Firefox(executable_path=driverpath)
-		# https://stackoverflow.com/questions/49929374/notadirectoryerror-winerror-267-the-directory-name-is-invalid-error-while-inv
-		 
+		
 	driver.get("https://auticon.de") 
 
-	from TestCases import TC_1_1_popup_cookies_deny as testcase # am worklab: f1
+	from TestCases import TC_1_1_popup_cookies_deny as testcase 
 	result = testcase.tc(driver)
-	print("TC_1_1_popup_cookies_deny: " + str(result))
-	
-	from TestCases import TC_1_2_popup_openPositions as testcase # am worklab: f1
-	result = testcase.tc(driver)
-	print("TC_1_2_popup_openPositions: " + str(result))
-	
-	
-	from TestCases import TC_2_topline as testcase # am worklab: f1; April22: f6
-	result = testcase.tc(driver)
-	print("Done - TC_2_topline - Mouse over: " + str(result))
+	print(tc_name + ": " + str(result))
 	
 	driver.quit()
 	
-	reporter.addStats(passed, failed, errors)
-	reporter.closeReport()
+	# reporter.addStats(passed, failed, errors)
+	# reporter.closeReport()
 	
-def execAllTestcases(): # alle TC in 
+def main():	# alle TC in /testcases
 	from selenium import webdriver
 	from selenium.webdriver.common.keys import Keys
 	
@@ -78,8 +63,6 @@ def execAllTestcases(): # alle TC in
 	import importlib 
 	myroot = config.get("SeleniumRoot")
 	print ("myroot = " + myroot)
-			# path =r'C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases'
-			## print ("path = " + path)
 	path = myroot + r'\TestCases'
 	print ("path = " + path)
 	ignorePath = path + '\__pycache__'

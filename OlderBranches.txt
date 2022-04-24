@@ -1,1 +1,13 @@
-Home	f2	TC_1_2_popup_openPositions	Merged
+Work	f1 	TC_1_1_popup_cookies_deny -- Merged
+
+Home	f2	TC_1_2_popup_openPositions -- Merged
+
+Home	f3  reporter.py -- Merged
+
+Home	f4  TC_1_2_popup_openPositions mit Report -- Merged
+
+f5 	Repair: Pfadproblem: keine Logs oder Reports 
+			Reportpfad auch über config -- Merged 
+
+Home	f6	TC_2_topline - Mouse over  -- Merged 
+	Umbenennung wird eigener Commit

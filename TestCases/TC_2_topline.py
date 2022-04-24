@@ -16,21 +16,20 @@ import time
 # angezeigt bei mouse over (elem)
 
 def tc(driver): # -> bool
-	TC_name = "TC_2_Mouse over - Tooltip von title"
+	TC_name = "Mouse over - Tooltip von title"
 	expectedResult = "Home_1_DE"
 	# print(TC_name)
 	try:
 		elem = None
 		try: 	
 			elem = driver.find_element(By.CSS_SELECTOR, '.vc_custom_1542025788808 > figure:nth-child(1) > a:nth-child(1) > img:nth-child(1)' ) 
-			
 			# mouse-over
 			hover = ActionChains(driver).move_to_element(elem)
 			hover.perform()
 			time.sleep(2)  # zeigt Tooltip an ! manuell sichtbar
 			# für title - Abfrage aber egal
-			if elem == None: 
-				print("elem == None")
+			# # if elem == None: 
+				# # print(TC_name + ": elem == None")
 		except NoSuchElementException as nsee:
 			toReturn = "FAILED: NSE EXC " + TC_name + ": " + str(nsee)
 			# print(toReturn)

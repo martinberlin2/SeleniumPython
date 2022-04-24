@@ -1,2 +1,10 @@
 FeaturesDone
 
+auf Elem klicken						#TC_1_1_popup_cookies_deny
+isNotVisible(driver, cssSelector, 0.5)	#TC_1_1_popup_cookies_deny
+EC.visibility_of_element_located		# 
+find_element in anderem Elem openPositionsAlertBox	#TC_1_2_popup_openPositions
+Reporting: aus einem String von TCs 	#Utilities/Reporter.py
+ActionChains, hover						#TC_2_topline
+Config-Objekt, z.B. für lokale Pfade	#Utilities/readCfg
+Text vom tooltip = elem.get_attribute("title") , aber keine Abfrage bei mouse-over möglich!									#TC_2_topline

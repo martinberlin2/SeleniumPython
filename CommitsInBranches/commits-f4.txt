@@ -29,7 +29,7 @@ Reporting wie in TC_1_2_popup_openPositions
 TC_1_1_popup_cookies_deny 
 Branch f1_1 : Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lösung
 !! Framework / Script muss Exc aus TC abfangen !
-  Rename: notVisible --> isNotVisible Standard: "is" bei boolean
+  Rename: notVisible --> isNotVisible Standard: "is" bei boolean - done!
   !!! Klasse von Exceptions anzeigen lassen
   
 22.3. Commit vor Merge in Develop, erst Dev in f4 

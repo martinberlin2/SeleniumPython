@@ -106,3 +106,11 @@ branch f4: TC_1_2_popup_openPositions mit Report, Ziel: string report(String) ; 
 
 22.3. --> f5 		Repair: Pfadproblem: keine Logs oder Reports 
 			Reportpfad auch über config
+
+
+#TC_2_topline 
+Text vom tooltip = elem.get_attribute("title") , aber keine Abfrage bei mouse-over möglich!
+
+addStats-Funktion
+
+24.4. Code aufgeräumt, FeatureBranches.txt, FeaturesDone.txt, Backlog.txt angelegt bzw. gepflegt. start.py: execAllTC jetzt als Standardmethode nach main; Einzelaufruf als call_suite.py gesichert
