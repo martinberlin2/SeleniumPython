@@ -114,3 +114,5 @@ Text vom tooltip = elem.get_attribute("title") , aber keine Abfrage bei mouse-ov
 addStats-Funktion
 
 24.4. Code aufgeräumt, FeatureBranches.txt, FeaturesDone.txt, Backlog.txt angelegt bzw. gepflegt. start.py: execAllTC jetzt als Standardmethode nach main; Einzelaufruf als call_suite.py gesichert
+
+f7 branch angelegt 
