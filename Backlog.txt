@@ -1,11 +1,12 @@
 Backlog.txt
 Ideen was mein SE können soll
 
+TC_1_2_popup_openPositions: sleep mit isNotVisible
 TC_1_1_popup_cookies_deny:+ reporting: debug-Prints raus
 ExceptionHandling - was macht try - finally ? auch für catch-block?
 mouse over -- jetzt in f6 und TC_2_topline - Mouse over - Tooltip von title
 Lerndatei, MyCodeExamples
-FeaturesTC 
+
 evalTC(3, "len1", execFuncWithExc(lcs, ["abc", "daf"]) ,[1,"a"]) -- geht das in Selenium ?
 Modell-TC : max. mögl. Reporting, Struktur try - catch-block
 	TCs müssen nicht numeriert sein

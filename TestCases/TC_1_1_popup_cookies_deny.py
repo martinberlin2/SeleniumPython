@@ -43,9 +43,9 @@ def isNotVisible(driver, cssSelector, seconds): # cssSelector weg nach max secon
 			elem = WebDriverWait(driver, step).until(
 			EC.visibility_of_element_located((By.CSS_SELECTOR, cssSelector)))
 		except Exception as ex:
-			print ("TRUE elem invisible after seconds " + str(s) + " " + str(ex))
-			return True   # ok-0912
-		print(str(s))
+			# print ("TRUE elem invisible after seconds " + str(s) + " " + str(ex))
+			return True   
+		# print(str(s))
 		s = s + step
-	print ("FALSE elem still visible after seconds " + str(s))
-	return False # ok-0912
+	# print ("FALSE elem still visible after seconds " + str(s))
+	return False 

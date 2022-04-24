@@ -21,17 +21,6 @@ resultLen = 10
 reasonLen = 55
 
 def openReport(): # legt ./Reports/report.txt an und Param: none; Returns: none; Error: ErrorString
-	
-	# # import stat
-	# st = None
-	# try:
-		# st = stat(reportfile)
-	# except(OSError):
-		# print ("OSError" + str(st))  # Pfad passt nicht 
-		# return
-	# except Exception as ex:
-		# print("Andere Exception os.stat: " + str(ex) + "--report=" + str(reportfile))
-		# return 
 
 	if path.isfile(reportfile) == True:
 		remove(reportfile)
@@ -63,7 +52,7 @@ def report(TCname, result, reason): # Param: String TCname, String result "Passe
 		
 def fillString(s, nr, c): # Param: s String, nr auf wieviele Stellen auffüllen, c Character für Füllung; Returns: gefüllten String 
 	s = str(s)  ## da kommt auch bool an ! 
-	print("fillstring params: " + s + str(nr) + c)
+	# print("fillstring params: " + s + str(nr) + c)
 	lens = len(s)
 	while lens < nr:
 		s=s+c
@@ -73,10 +62,10 @@ def fillString(s, nr, c): # Param: s String, nr auf wieviele Stellen auffüllen,
 def addStats(passed, failed, errors): # Param: Nr of TCs; errors = mistake is in TC programming 
 	with open(reportfile, "a") as reportFile:
 		line = fillString("", TCnameLen + resultLen + reasonLen, "=")
-		print("+" + line + "+")
+		# print("+" + line + "+")
 		reportFile.write(line + "\n")
 		line = "Passed: " + str(passed) + ", Failed: " + str(failed) + ", Errors: " + str(errors)
-		print("+" + line + "+")
+		# print("+" + line + "+")
 		reportFile.write(line + "\n")
 		
 # openReport()

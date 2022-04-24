@@ -8,16 +8,15 @@ import time
 
 def tc(driver): # -> bool	
 	TC = "TC_1_2_popup_openPositions" # TODO dynamisch - als Modulname
-	# print(TC + " start")
+	## print(TC + " start")
 	try:
 		openPositionsAlertBox = driver.find_element(By.ID, 'popmake-41440')
-		# openPositionsAlertBox = driver.find_element_by_id ( 'popmake-41440') # geht auch
 	except NoSuchElementException  as nsex:
 		logging.info(TC + ": NoSuchElementException")
-		return TC + ": Popup kommt nicht" ## ok
+		return TC + ": Popup kommt nicht"
 	except Exception as ex:
 		logging.error(TC + ": " + str(ex))
-		return str(ex) ## ok
+		return str(ex) 
 	# hier: Kasten für Offene Stellen existiert
 	text1 = openPositionsAlertBox.text
 	expectString = "Wir stellen ein!\nIT- und BackOffice-Mitarbeiter*innen gesucht!\nMehr Infos\nX"

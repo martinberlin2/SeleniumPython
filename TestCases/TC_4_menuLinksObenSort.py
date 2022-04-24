@@ -26,7 +26,7 @@ def tc(driver): # -> bool
 		subelem.click()   # -- NPE ?
 		
 	except Exception as ex:
-		print("EXC TC2: " + str(ex))
+		logging.error("EXC TC4: " + str(ex))
 		return False
 
 	return True
