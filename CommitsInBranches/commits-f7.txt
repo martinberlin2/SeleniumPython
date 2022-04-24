@@ -10,4 +10,4 @@ https://github.com/martinberlin2/SeleniumPython
 f7: TC_1_1_popup_cookies_deny:+ reporting: debug-Prints raus
 auch überall sonst, nix mehr in der Shell
 
-# todo ...merged to develop
+merged to develop
