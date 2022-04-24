@@ -1,8 +1,10 @@
 Backlog.txt
 Ideen was mein SE können soll
 
+Report - Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
+	Eine Zeile pro Test, 80 Zeichen 
+		Zeilenumbrüche ok
 TC_1_2_popup_openPositions: sleep mit isNotVisible
-TC_1_1_popup_cookies_deny:+ reporting: debug-Prints raus
 ExceptionHandling - was macht try - finally ? auch für catch-block?
 mouse over -- jetzt in f6 und TC_2_topline - Mouse over - Tooltip von title
 Lerndatei, MyCodeExamples
@@ -11,26 +13,30 @@ evalTC(3, "len1", execFuncWithExc(lcs, ["abc", "daf"]) ,[1,"a"]) -- geht das in 
 Modell-TC : max. mögl. Reporting, Struktur try - catch-block
 	TCs müssen nicht numeriert sein
 	Result-Typ: expected = "123", result = 123 ist fail, wird bei str(result) aber maskiert
-	
+Cookies gesetzt?
 ExecutionList: beliebige Reihenfolge 
 Harness für Suiten: Reihenfolge
 Preconditions, u.a. Blocked TCs einrichten
 	Mouse over - Tooltip von title: braucht das 
 Rename: TC_2_topline - Mouse over --> Mouse over - Tooltip von title
+Manuelle TCs ? User muss Dialog haben um zu bestätigen, dass Tooltip da war
+	Mouse over - Tooltip von title
 isNotVisible : step berechnen. und isNotVisibleAfterTime
 TC bool ---> "Passed " oder reason-String
-Report - Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
+
 	addStats-Funktion... welche Measures noch?
 Alle TCs laufen für das Reporting
 TC_1_1_popup_cookies_deny 
 Page Object
 Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lösung -- in LIB
 !! Framework / Script muss Exc aus TC abfangen !
-  Rename: notVisible --> isNotVisible Standard: "is" bei boolean
   !!! Klasse von Exceptions anzeigen lassen
 + Konfig - Programm
 - Framework zur Testausführung, start.py aufräumen
 -- Stringvergleich über mehrere Zeilen
+Reportname = Report_JJJJ_mmm_tt_hh:mm
+Vergleichender Report : mit Vorgänger
+
 
 weiter
 https://selenium-python.readthedocs.io/api.html
