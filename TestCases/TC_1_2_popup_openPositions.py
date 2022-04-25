@@ -21,8 +21,8 @@ def tc(driver): # -> bool
 	text1 = openPositionsAlertBox.text
 	expectString = "Wir stellen ein!\nIT- und BackOffice-Mitarbeiter*innen gesucht!\nMehr Infos\nX"
 	if text1 != expectString:
-		logging.info("TC_1_2_popup_openPositions: anderer Text:\n" + text1)
-		return ("anderer Text:\n" + text1) ## ok
+		logging.info(TC + ": anderer Text:\n" + text1)
+		return ("anderer Text:\n" + text1)
 	
 	X_Button = openPositionsAlertBox.find_element(By.CLASS_NAME, 'pum-close')
 	X_Button.click()     # Fenster incl. Button verschwindet jetzt --- WAIT !
@@ -33,9 +33,9 @@ def tc(driver): # -> bool
 	except Exception as nsex:
 		# logging.info(str(nsex))
 		if str(nsex) == 'Message: Element <button class="pum-close popmake-close" type="button"> could not be scrolled into view\n':
-			logging.info("TC_1_2_popup_openPositions PASSED X beendet Popup")
-			return "Passed" # ok 
-		logging.error("ERROR  --andere Exception TC_1_2_popup_openPositions:" + str(nsex))
-		return "ERROR  --andere Exception TC_1_2_popup_openPositions:" + str(nsex) # ok
-	logging.info("TC_1_2_popup_openPositions FAILED X beendet Popup NICHT")
-	return "X beendet Popup NICHT"   # ok
+			logging.info(TC + ": PASSED X beendet Popup")
+			return "Passed"
+		logging.error("ERROR  --andere Exception " + TC + ":" + str(nsex))
+		return "ERROR  --andere Exception " + TC + ":" + str(nsex)
+	logging.info("" + TC + " FAILED X beendet Popup NICHT")
+	return "X beendet Popup NICHT"

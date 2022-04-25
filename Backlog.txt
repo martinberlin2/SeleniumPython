@@ -4,7 +4,7 @@ Ideen was mein SE können soll
 Report - Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
 	Eine Zeile pro Test, 80 Zeichen 
 		Zeilenumbrüche ok
-Rename: TC_2_topline - Mouse over --> Mouse over - Tooltip von title
+f8 - Rename: TC_2_topline - Mouse over --> Mouse over - Tooltip von title
 TC_1_2_popup_openPositions: sleep mit isNotVisible
 TC_1_2_popup_openPositions: Logging nur Exceptions
 ExceptionHandling - was macht try - finally ? auch für catch-block?

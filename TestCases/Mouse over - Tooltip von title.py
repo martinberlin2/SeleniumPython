@@ -36,6 +36,7 @@ def tc(driver): # -> bool
 			return toReturn
 		except Exception as e: 
 			toReturn = "FAILED: EXC findelem mouse over: " + str(e)
+			logging.error(toReturn)
 			return toReturn
 		
 		actualResult = elem.get_attribute("title")

@@ -123,3 +123,5 @@ auch überall sonst, nix mehr in der Shell
 Next: Reporting verbessern
 
 Büro kleine Änderungen; git-lern-Datei wird jetzt committed
+
+--> f8: Rename: TC_2_topline - Mouse over --> Mouse over - Tooltip von title
