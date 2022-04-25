@@ -56,7 +56,6 @@ def main():	# alle TC in /testcases
 	
 	# https://stackoverflow.com/questions/49929374/notadirectoryerror-winerror-267-the-directory-name-is-invalid-error-while-inv	 
 	driver.get("https://auticon.de") 
-	return 
 	passed = 0
 	failed = 0
 	errors = 0

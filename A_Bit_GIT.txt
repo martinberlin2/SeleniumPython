@@ -1,0 +1,5 @@
+git checkout master
+git merge second-branch
+
+second-branch INTO master 
+

@@ -121,3 +121,5 @@ auch überall sonst, nix mehr in der Shell
 	merged to develop
 	
 Next: Reporting verbessern
+
+Büro kleine Änderungen; git-lern-Datei wird jetzt committed
