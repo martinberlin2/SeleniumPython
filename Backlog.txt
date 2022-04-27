@@ -1,6 +1,18 @@
 Backlog.txt
 Ideen was mein SE können soll
 
+Modell-TC : max. mögl. Reporting, Struktur try - catch-block
+	gut: title
+	TC(ER, params)
+	TCs müssen nicht numeriert sein
+	Result-Typ: expected = "123", result = 123 ist fail, wird bei str(result) aber maskiert
+		besser: Typ-Auswertung bei expected
+StubTC (ER, params) für später data driven 
+	params als Liste
+	Dummy Aktionen 
+data driven -- nach Modell TC 
+	TC (ER, params) als Modell TC, Ansteuerung aus Excel
+
 Report - Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
 	Eine Zeile pro Test, 80 Zeichen 
 		Zeilenumbrüche ok
@@ -13,12 +25,19 @@ Lerndatei, MyCodeExamples
 
 
 evalTC(3, "len1", execFuncWithExc(lcs, ["abc", "daf"]) ,[1,"a"]) -- geht das in Selenium ?
-Modell-TC : max. mögl. Reporting, Struktur try - catch-block
-	TCs müssen nicht numeriert sein
-	Result-Typ: expected = "123", result = 123 ist fail, wird bei str(result) aber maskiert
+
 Cookies gesetzt?
-ExecutionList: beliebige Reihenfolge 
-Harness für Suiten: Reihenfolge
+
+- Returning anpassen:
+	TC_1_1_popup_cookies_deny 
+	TC_1_title
+	TC_2_topline
+	TC_4_menuLinksObenSort
+- wo sind Exceptions im Report ?
+- start: driver.close() UND driver.quit()....wozu ?
+- Execution List: Folder Execution getrennt von Folder TC-Repo 
+  beliebige Reihenfolge 
+- Harness für Suiten: Reihenfolge
 Preconditions, u.a. Blocked TCs einrichten
 	Mouse over - Tooltip von title: braucht das 
 
@@ -31,6 +50,7 @@ TC bool ---> "Passed " oder reason-String
 Alle TCs laufen für das Reporting
 TC_1_1_popup_cookies_deny 
 Page Object
+	lazy fetch
 Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lösung -- in LIB
 !! Framework / Script muss Exc aus TC abfangen !
   !!! Klasse von Exceptions anzeigen lassen
@@ -38,7 +58,7 @@ Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lösung -- in LIB
 - Framework zur Testausführung, start.py aufräumen
 -- Stringvergleich über mehrere Zeilen
 Reportname = Report_JJJJ_mmm_tt_hh:mm
-Vergleichender Report : mit Vorgänger
+Vergleichender Report : mit Vorgänger, bzw. mit letzter Ausführung des TC (also für jeden TC, auch ältere Reports)
 
 
 weiter

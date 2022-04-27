@@ -6,7 +6,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 import time 
 
-def tc(driver): # -> bool	
+def tc(driver): # -> bool
 	TC = "TC_1_2_popup_openPositions" # TODO dynamisch - als Modulname
 	## print(TC + " start")
 	try:
