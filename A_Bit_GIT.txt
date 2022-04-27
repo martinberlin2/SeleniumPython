@@ -2,6 +2,9 @@ git checkout master
 git merge second-branch
 
 second-branch INTO master 
+
+merge dev in fea: "already up to date" wenn keine Änderungen in dev, whrend man im fea war
+sofort zurück u dev und git merge fea 
 ##############################
 Bevor du Änderungen zusammenführst, kannst du dir die Differenzen auch anschauen:
 git diff <quell_branch> <ziel_branch>
