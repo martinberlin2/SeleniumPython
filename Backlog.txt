@@ -1,12 +1,16 @@
 Backlog.txt
 Ideen was mein SE können soll
 
-Modell-TC : max. mögl. Reporting, Struktur try - catch-block
+TC: lädt die Seite selbst (Feature TODO: LoadPage(url) -> Page ist PageObject
+
+!!! f9 Modell-TC : max. mögl. Reporting, Struktur try - catch-block
+	noch keine Locators, weil das pageObjekte sein müssen
 	gut: title
 	TC(ER, params)
 	TCs müssen nicht numeriert sein
 	Result-Typ: expected = "123", result = 123 ist fail, wird bei str(result) aber maskiert
 		besser: Typ-Auswertung bei expected
+LoadPage(url) -> Page ist PageObject
 StubTC (ER, params) für später data driven 
 	params als Liste
 	Dummy Aktionen 
@@ -49,8 +53,9 @@ TC bool ---> "Passed " oder reason-String
 	addStats-Funktion... welche Measures noch?
 Alle TCs laufen für das Reporting
 TC_1_1_popup_cookies_deny 
-Page Object
+PageObject
 	lazy fetch
+PageObject als Param in Modell-TC
 Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lösung -- in LIB
 !! Framework / Script muss Exc aus TC abfangen !
   !!! Klasse von Exceptions anzeigen lassen

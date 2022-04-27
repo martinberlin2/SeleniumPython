@@ -5,6 +5,9 @@ second-branch INTO master
 
 merge dev in fea: "already up to date" wenn keine Änderungen in dev, whrend man im fea war
 sofort zurück u dev und git merge fea 
+
+neu: git checkout - b fea f9_Modell_TC_mit_title-TC 
+
 ##############################
 Bevor du Änderungen zusammenführst, kannst du dir die Differenzen auch anschauen:
 git diff <quell_branch> <ziel_branch>

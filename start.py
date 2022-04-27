@@ -24,12 +24,12 @@ logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO
 def start(): # collects unexpected exceptions from main 
 	# print("Started")
 	try:
-		main()
-		# one_tc(tc_name)
+		# main()   # laeuft wie 26.4. nach merge mit f8 
+		one_tc("TC_MODEL_page_title", "This is expected", ["p1String", 4711, "pageObject"])
 	except Exception as ex:
 		logging.error("EXC main level: " + str(ex))
 
-def one_tc(tc_name): # returns: None; nur developen + debug
+def one_tc(tc_name, ER, params): # returns: None; nur developen + debug
 	
 	from selenium import webdriver
 	driverpath = config.get("gecko")
@@ -37,9 +37,9 @@ def one_tc(tc_name): # returns: None; nur developen + debug
 		
 	driver.get("https://auticon.de") 
 
-	from TestCases import TC_1_1_popup_cookies_deny as testcase 
+	from TestCases import TC_MODEL_page_title as testcase 
 	result = testcase.tc(driver)
-	## print(tc_name + ": " + str(result))
+	print(tc_name + ": " + str(result))
 	
 	driver.quit()
 	
