@@ -10,3 +10,6 @@ ERROR:root:EXC TC4: 'list' object has no attribute 'click'
 INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
 INFO:root:TC_4_menuLinksObenSort
 ERROR:root:EXC TC4: 'list' object has no attribute 'click'
+INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
+INFO:root:TC_4_menuLinksObenSort
+ERROR:root:EXC TC4: 'list' object has no attribute 'click'
