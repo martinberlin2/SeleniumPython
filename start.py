@@ -24,6 +24,7 @@ logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO
 def start(): # collects unexpected exceptions from main 
 	# print("Started")
 	try:
+		reporter.openReport()
 		main()
 		# one_tc(tc_name)
 	except Exception as ex:
@@ -43,8 +44,8 @@ def one_tc(tc_name): # returns: None; nur developen + debug
 	
 	driver.quit()
 	
-	# reporter.addStats(passed, failed, errors)
-	# reporter.closeReport()
+	reporter.addStats(passed, failed, errors)
+	reporter.closeReport()
 	
 def main():	# alle TC in /testcases
 	from selenium import webdriver

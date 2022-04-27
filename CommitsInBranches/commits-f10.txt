@@ -1,0 +1,13 @@
+﻿privlab:
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+
+worklab:
+C:\Users\Lap126\Documents\GitHub\SeleniumPython
+
+repo
+https://github.com/martinberlin2/SeleniumPython
+
+f10_Report_Aufbau: openReports() geht jetzt, Länge 80 Zeichen
+TODO: Längere Exception-Texte
+
+merged to develop
