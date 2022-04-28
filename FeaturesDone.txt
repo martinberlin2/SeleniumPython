@@ -8,3 +8,5 @@ Reporting: aus einem String von TCs 	#Utilities/Reporter.py
 ActionChains, hover						#Mouse over - Tooltip von title
 Config-Objekt, z.B. für lokale Pfade	#Utilities/readCfg
 Text vom tooltip = elem.get_attribute("title") , aber keine Abfrage bei mouse-over möglich!									#Mouse over - Tooltip von title
+f10_Report_Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
+	Eine Zeile pro Test, 80 Zeichen - done	#Utilities/Reporter.py
