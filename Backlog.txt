@@ -15,7 +15,7 @@ data driven -- nach Modell TC
 
 f10_Report_Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
 	Eine Zeile pro Test, 80 Zeichen - done
----->f11_Laengere_Exception_Texte mit Zeilenumbruch
+----> f11_Laengere_Exception_Texte mit Zeilenumbruch
 
 Report_AddStats: TC geben Passed, Failed:<otherResult> oder Error<ExceptionText> zurück
 f8 - Rename: TC_2_topline - Mouse over --> Mouse over - Tooltip von title
