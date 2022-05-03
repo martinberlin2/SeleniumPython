@@ -24,11 +24,20 @@ logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO
 def start(): # collects unexpected exceptions from main 
 	# print("Started")
 	try:
-		reporter.openReport()
-		main()
+		dataDrivenTC()
+		# main()
 		# one_tc(tc_name)
 	except Exception as ex:
 		logging.error("EXC main level: " + str(ex))
+
+def dataDrivenTC():
+	# import TestData.ReadAndWriteExcelOpenpyxl
+	from ExecLayerScripts import ReadAndWriteCSV 
+	try:
+		ReadAndWriteCSV.readAll()
+	except BaseException as be:
+		print(str(be))
+
 
 def one_tc(tc_name): # returns: None; nur developen + debug
 	
