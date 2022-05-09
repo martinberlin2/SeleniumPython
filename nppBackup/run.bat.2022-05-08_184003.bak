@@ -1,4 +1,4 @@
 @echo off
-cls
+rem cls
 python -m start
-rem echo 
+echo 

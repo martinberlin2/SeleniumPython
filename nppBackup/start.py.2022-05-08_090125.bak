@@ -15,10 +15,10 @@ import importlib
 
 config = readConfig("./config.txt")
 SeleniumRoot = config.get("SeleniumRoot")
-# print(SeleniumRoot)
+print(SeleniumRoot)
 
 logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO) 
-# print("kommt hier hin")
+print("kommt hier hin")
 
 	
 def start(): # collects unexpected exceptions from main 
@@ -34,9 +34,9 @@ def dataDrivenTC():
 	# import TestData.ReadAndWriteExcelOpenpyxl
 	from ExecLayerScripts import ReadAndWriteCSV 
 	try:
-		ReadAndWriteCSV.run()
+		ReadAndWriteCSV.readAll()
 	except BaseException as be:
-		print("dataDrivenTC: " + str(be))
+		print(str(be))
 
 
 def one_tc(tc_name): # returns: None; nur developen + debug

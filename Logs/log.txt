@@ -1,9 +1,1 @@
-ERROR:root:EXC main level: No module named 'TestDatax'
-ERROR:root:EXC main level: cannot import name 'ReadAndWriteCSV' from 'TestData' (unknown location)
-ERROR:root:EXC main level: unexpected indent (ReadAndWriteCSV.py, line 25)
-ERROR:root:EXC main level: unexpected indent (ReadAndWriteCSV.py, line 25)
-ERROR:root:EXC main level: unexpected indent (ReadAndWriteCSV.py, line 25)
-ERROR:root:EXC main level: unexpected indent (ReadAndWriteCSV.py, line 25)
-ERROR:root:EXC main level: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape (ReadAndWriteCSV.py, line 10)
-ERROR:root:EXC main level: unterminated string literal (detected at line 10) (ReadAndWriteCSV.py, line 10)
-ERROR:root:EXC main level: unindent does not match any outer indentation level (ReadAndWriteCSV.py, line 18)
+ERROR:root:EXC main level: list index out of range

@@ -1,6 +1,9 @@
 config.txt
-__pycache__/
 geckodriver.log
+__pycache__/
 DontCommit/
 TestCases/__pycache__
+ExecLayerScripts/nppBackup
+ExecLayerScripts/__pycache__
+Logs/nppBackup
 Logs/log.txt
