@@ -1,1 +1,2 @@
 ERROR:root:EXC main level: list index out of range
+ERROR:root:EXC main level: expected an indented block after function definition on line 30 (ReadCsvTestdataWithFuncNames.py, line 34)

@@ -1,0 +1,42 @@
+ModuleName	 DIV					
+TestcaseName	URL	refresh	ExpectedResult	Param1	Param2	
+t1			6	30	5	NoHeaderForThis
+t2			606	6666	11	
+t3			DivByZero	34	0	
+t4			7	42	6	
+						
+ModuleName	 CollatzStep					
+TestcaseName	URL	refresh	ExpectedResult	Param1		
+Odd1			16	5		
+Odd2			17	52		
+Even1			16	8		
+Even2			2	1		
+						
+						
+NotAfterTwoEmptyLines						
+====================================
+
+momentan: result = module.tc(driver) # module : testcase.py
+
+URL nicht als Parameter, TC kennt URL und ob refreshed werden muss
+Setup-TC vorweg 
+
+
+Ziel:     result = module.tc(TCName, ER, params)
+	TCName leer: Kein DDTC, TCName wird wie bisher = ModuleName
+		sonst = TCName 
+	refresh: URL zu Beginn des TC neu laden?
+	ModuleName = nur Dateiname ohne Pfad (muss global angesteuert worden sein)
+
+
+Einzel-TC + Suite: Driver wird Ã¼bergeben
+DDTC: URL wird Ã¼bergeben, TCs mÃ¼ssen unabhÃ¤ngig sein
+
+Expected 
+
+
+result = CollatzStep("Odd1", 16, 5)
+result = CollatzStep("Odd2", 17, 52)
+result = CollatzStep("Even1", 16, 8)
+result = CollatzStep("Even2", 2, 1)
+

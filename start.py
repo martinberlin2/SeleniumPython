@@ -32,9 +32,9 @@ def start(): # collects unexpected exceptions from main
 
 def dataDrivenTC():
 	# import TestData.ReadAndWriteExcelOpenpyxl
-	from ExecLayerScripts import ReadAndWriteCSV 
+	from ExecLayerScripts import ReadCsvTestdataWithFuncNames 
 	try:
-		ReadAndWriteCSV.run()
+		ReadCsvTestdataWithFuncNames.run()
 	except BaseException as be:
 		print("dataDrivenTC: " + str(be))
 
@@ -60,7 +60,6 @@ def main():	# alle TC in /testcases
 	from selenium import webdriver
 	from selenium.webdriver.common.keys import Keys
 	
-	import time 
 	driverpath = config.get("gecko")
 	driver = webdriver.Firefox(executable_path=driverpath)
 	
