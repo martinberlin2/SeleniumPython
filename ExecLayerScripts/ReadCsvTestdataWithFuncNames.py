@@ -20,14 +20,51 @@ td_filename = SeleniumRoot + pfadfile
 def run():
 	params = howManyParams()
 	readAll(params)
-	status = "Empty"
+	
+	
+	LastLine = "Empty"
 	with open(td_filename, newline='') as f:
 		testdata = csv.reader(f, delimiter = ";")
 		for row in testdata:
-			print(status + "#" + str(row))
-			if status == "Empty" and row[0] == "":
+			print(LastLine + "#" + str(row))
+			if LastLine == "ModuleName":
+				if row[0] == "":
+					erg = "Error in testdata" # TODO line, file...
+					print (erg)
+					return erg
+				TestcaseName = row[1]
+				if TestcaseName == "": 
+					erg = "Empty TestcaseName" # TODO line, file...
+					print (erg)
+					return erg
+				ExpectedResult = row[2]
+				if ExpectedResult == "": 
+					erg = "Empty ExpectedResult" # TODO line, file...
+					print (erg)
+					return erg
 				
 				
+				LastLine = "TestcaseName"
+			
+			
+			
+			
+			if LastLine == "Empty" :
+				if row[0] == "":
+					print ("--- Ende Testdata ---")
+					break
+				if row[0] != "ModuleName": 
+					erg = "Error in testdata" # TODO line, file...
+					print (erg)
+					return erg
+				ModuleName = row[1]
+				if ModuleName == "": 
+					erg = "Empty ModuleName" # TODO line, file...
+					print (erg)
+					return erg
+				LastLine = "ModuleName"
+			
+			
 			
 			c = 2
 			while c < numOfParams + 2:
