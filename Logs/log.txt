@@ -1,2 +1,6 @@
 ERROR:root:EXC main level: list index out of range
 ERROR:root:EXC main level: expected an indented block after function definition on line 30 (ReadCsvTestdataWithFuncNames.py, line 34)
+ERROR:root:EXC main level: invalid syntax (ReadCsvTestdataWithFuncNames.py, line 121)
+ERROR:root:EXC main level: can only concatenate str (not "int") to str
+ERROR:root:EXC main level: I/O operation on closed file.
+ERROR:root:EXC main level: 'break' outside loop (ReadCsvTestdataWithFuncNames.py, line -1)

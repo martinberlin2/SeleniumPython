@@ -18,67 +18,69 @@ td_filename = SeleniumRoot + pfadfile
 ## print (str(td_filename))
 
 def run():
-	params = howManyParams()
-	readAll(params)
-	
+	# params = howManyParams()
+	# readAll(params)
 	
 	LastLine = "Empty"
 	with open(td_filename, newline='') as f:
 		testdata = csv.reader(f, delimiter = ";")
 		for row in testdata:
 			print(LastLine + "#" + str(row))
+			if LastLine == "TestcaseName":
+				TestcaseName = row[0]
+				if TestcaseName == "":
+					erg = "TestcaseName empty" # TODO line, file...
+					print (erg)
+					LastLine = "Empty"
+					continue 
+				else:	
+					ExpectedResult = row[1]  # darf leer sein
+					c=2
+					while c <= cols:
+						print(row[c])
+						c = c + 1
 			if LastLine == "ModuleName":
-				if row[0] == "":
-					erg = "Error in testdata" # TODO line, file...
+				header = row[0]
+				if header != "TestcaseName": 
+					erg = "Error TestcaseName header" # TODO line, file...
 					print (erg)
 					return erg
-				TestcaseName = row[1]
-				if TestcaseName == "": 
-					erg = "Empty TestcaseName" # TODO line, file...
+				header = row[1]
+				if header != "ExpectedResult": 
+					erg = "Error ExpectedResult header" # TODO line, file...
 					print (erg)
 					return erg
-				ExpectedResult = row[2]
-				if ExpectedResult == "": 
-					erg = "Empty ExpectedResult" # TODO line, file...
-					print (erg)
-					return erg
-				
-				
+				c = 2
+				while row[c] != "":
+					print(row[c])
+					c = c + 1
+				cols = c - 1
+				print ("cols gesetzt: " + str(cols))
 				LastLine = "TestcaseName"
-			
-			
-			
-			
 			if LastLine == "Empty" :
-				if row[0] == "":
+				header = row[0]
+				if header == "":
 					print ("--- Ende Testdata ---")
 					break
-				if row[0] != "ModuleName": 
-					erg = "Error in testdata" # TODO line, file...
+				if header != "ModuleName": 
+					erg = "Error ModuleName header" # TODO line, file...
 					print (erg)
 					return erg
-				ModuleName = row[1]
-				if ModuleName == "": 
-					erg = "Empty ModuleName" # TODO line, file...
+				header = row[1]
+				if header == "":
+					erg = "Error functionName header" # TODO line, file...
 					print (erg)
 					return erg
-				LastLine = "ModuleName"
-			
-			
-			
-			c = 2
-			while c < numOfParams + 2:
-				print(row[c])
-				c = c + 1
-			print("-------")
+				LastLine = "ModuleName"	
 		print("---- Ende Testdata ----")
-	
+		return 
+	# Ende with open(td_filename, newline='')
 	
 	# ddtc_exec.py öffnen
-	nextMod = getNextModule() # "" oder Modulname
-	while nextMod != "":
-		next = processTC(nextMod) # TC Daten lesen + schreiben; 
-		nextMod = getNextModule()
+	# nextMod = getNextModule() # "" oder Modulname
+	# while nextMod != "":
+		# next = processTC(nextMod) # TC Daten lesen + schreiben; 
+		# nextMod = getNextModule()
 		
 # def getNextModule():
 	
@@ -89,13 +91,13 @@ def run():
 	# für jede Zeile : Schreiben in ddtc_exec.py
 
 	
-def isLineEmpty(numOfParams, line): 
-	i = 0
-	while i < numOfParams + 2:
-		if line[i] != "":
-			return False
-		i = i + 1
-	return True
+# def isLineEmpty(numOfParams, line): 
+	# i = 0
+	# while i < numOfParams + 2:
+		# if line[i] != "":
+			# return False
+		# i = i + 1
+	# return True
 	
 	
 	
@@ -117,23 +119,7 @@ def readAll(numOfParams):
 			print("-------")
 		print("---- Ende Testdata ----")
 			
-	for testdata:
-	row = readLine  # leer, Headers, Data
-	LOOP
-		if row[0] != "ModuleName": Error
-		ModuleName == row[1]
-		if ModuleName == "": Error
-		readLine
-		if row[0] != "TestcaseName": Error
-		cols = 0
-		while row[cols] != "":
-			cols = cols + 1
-		if cols < 3: "Error? No Parameters, why data driven?"
-		readLine
-		while row[0] != "":
-			processTestdata
-			readLine
-		
+
 	# endloop
 			
 
