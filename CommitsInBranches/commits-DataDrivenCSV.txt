@@ -2,3 +2,4 @@
 
 Lesen CSV ok, Parameter werden erkannt, Nur Spalten mit Headers, Bis Leerzeile
 
+CSV wird gelesen, Parameter werden gefüllt. Jetzt: Beispiel herstellen

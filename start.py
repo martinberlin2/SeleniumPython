@@ -88,27 +88,9 @@ def main():	# alle TC in /testcases
 					module_name = onefile[0:len(onefile)-3]
 					module_name = root + "\\" + module_name    
 						# läuft in Windows TODO ... Linux, Unix: Pfad erst umfummeln
-					# print ("module_name = " + module_name) #  Pfad ohne .py
-				
 					module_name = module_name[len(myroot)+1: len(module_name)]
 					module_name = module_name.replace("\\", ".", 100)
-
-					# print ("module_name = " + module_name) #  Pfad ohne .py
-				#C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_1_popup_cookies_deny#
-					
-					## String befummeln: DONE 2.12.
-					## myroot = C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
-					## No module named 'C:\\Users\\laoch\\OneDrive\\Dokumente\\Meins\\Eigenes_F\\auticon\\Python\\SeleniumPython\\TestCases\\TC_1_1_popup_cookies_deny'
-					## 1. StrAfterStr(str, startstr)     
-					## 2. StrAfterStr(module_name, myroot) --> TestCases\TC_1_1_popup_cookies_deny
-					## 3. replace \ -> .
-					
-					
-					# module_name = "TestCases.TC_1_1_popup_cookies_deny"    # so gehts
-					
-					
-					## von main()
-					# module_name = "TestCases.TC_1_2_popup_openPositions"
+					print ("module_name = " + module_name) 
 					module = importlib.import_module(module_name, package=None) 
 					result = module.tc(driver)
 					
