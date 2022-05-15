@@ -31,30 +31,29 @@ def start(): # collects unexpected exceptions from main
 		logging.error("EXC main level: " + str(ex))
 
 def dataDrivenTC():
-	# import TestData.ReadAndWriteExcelOpenpyxl
 		
 	# Aufruf:
-	import TestCases.CollatzStep as TC 
-	tc_name = "CollatzStep"
+	# import TestCases.CollatzStep as TC 
+	# tc_name = "CollatzStep"
 	
-	result = TC.tc(None, 2,4)
-	print(result)
-	reporter.report(tc_name, result, "")
+	# result = TC.tc(None, 2,4)
+	# print(result)
+	# reporter.report(tc_name, result, "")
 	
-	result = TC.tc(None, 16,5)
-	print(result)
-	reporter.report(tc_name, result, "")
+	# result = TC.tc(None, 16,5)
+	# print(result)
+	# reporter.report(tc_name, result, "")
 	
-	import TestCases.DIV as TC 
-	tc_name = "DIV"
-	result = TC.tc(None, 4.0,16,4)
-	print(result)
+	# import TestCases.DIV as TC 
+	# tc_name = "DIV"
+	# result = TC.tc(None, 4.0,16,4)
+	# print(result)
 	
-	reporter.report(tc_name, result, "")
-	result = TC.tc(None, "Div by zero", 16,0)
-	print(result)
-	reporter.report(tc_name, result, "")
-	return 
+	# reporter.report(tc_name, result, "")
+	# result = TC.tc(None, "Div by zero", 16,0)
+	# print(result)
+	# reporter.report(tc_name, result, "")
+	
 	from ExecLayerScripts import ReadCsvTestdataWithFuncNames 
 	try:
 		ReadCsvTestdataWithFuncNames.run()
