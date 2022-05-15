@@ -1,2 +1,32 @@
-Testcase                       Result     Reason                                  
-----------------------------------------------------------------------------------
+¨¹berschrift ?  Reporter.openReport()
+
+CollatzStep................... Failed: result = 2.0                                         
+CollatzStep................... passed                                             
+CollatzStep................... Failed: result = 2.0                                         
+CollatzStep................... passed                                             
+CollatzStep................... Failed: result = 2.0                                         
+CollatzStep................... passed                                             
+CollatzStep................... Failed: result = 2.0                                         
+CollatzStep................... passed                                             
+CollatzStep................... Failed: result = 2.0                                         
+CollatzStep................... passed                                             
+CollatzStep................... Failed: result = 2.0                                         
+CollatzStep................... passed                                             
+DIV........................... Failed: result = 4.0                                         
+DIV........................... Failed: result = Div by zero                                         
+CollatzStep................... Failed: result = 2.0                                         
+CollatzStep................... passed                                             
+DIV........................... Failed: result = 4.0                                         
+DIV........................... passed                                             
+CollatzStep................... Failed: result = 2.0                                         
+CollatzStep................... passed                                             
+DIV........................... passed                                             
+DIV........................... passed                                             
+CollatzStep................... Failed: result = 2                                         
+CollatzStep................... passed                                             
+DIV........................... passed                                             
+DIV........................... passed                                             
+CollatzStep................... passed                                             
+CollatzStep................... passed                                             
+DIV........................... passed                                             
+DIV........................... passed                                             

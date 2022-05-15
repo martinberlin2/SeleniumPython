@@ -7,6 +7,7 @@ Modell-TC : max. mögl. Reporting, Struktur try - catch-block
 	TCs müssen nicht numeriert sein
 	Result-Typ: expected = "123", result = 123 ist fail, wird bei str(result) aber maskiert
 		besser: Typ-Auswertung bei expected
+	returns String, notfalls str(result)
 StubTC (ER, params) für später data driven 
 	params als Liste
 	Dummy Aktionen 

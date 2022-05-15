@@ -4,3 +4,11 @@ ERROR:root:EXC main level: invalid syntax (ReadCsvTestdataWithFuncNames.py, line
 ERROR:root:EXC main level: can only concatenate str (not "int") to str
 ERROR:root:EXC main level: I/O operation on closed file.
 ERROR:root:EXC main level: 'break' outside loop (ReadCsvTestdataWithFuncNames.py, line -1)
+ERROR:root:EXC main level: invalid syntax (CollatzStep.py, line 8)
+ERROR:root:EXC main level: name 'tc_name' is not defined
+ERROR:root:EXC main level: name 'tc_name' is not defined
+ERROR:root:EXC main level: can only concatenate str (not "float") to str
+ERROR:root:EXC main level: can only concatenate str (not "float") to str
+ERROR:root:EXC main level: tc() takes 3 positional arguments but 4 were given
+ERROR:root:EXC main level: tc() takes 3 positional arguments but 4 were given
+	ERROR:root:EXC main level: tc() takes 3 positional arguments but 4 were given
