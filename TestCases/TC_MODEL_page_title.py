@@ -1,14 +1,18 @@
 import logging 
 
-def tc(driver): # -> bool
-	tc_name = "TC_MODEL_page_title"
-	## print(tc_name)
-	try:
-		tit = driver.titlex 
-	except Exception as ex:
-		logging.error ("EXC " +  tc_name + ": " + str(ex))
-		return False
+tc_name = "TC_MODEL_page_title"
+ER = "Home - auticon"
 
-	if driver.title == "Home - auticon":
-		return True
-	return False
+def tc(tc_name, ER, page): # -> bool
+	print(tc_name)
+	
+	try:
+		titel = page.title 
+	except Exception as ex:
+		ret = ("EXC " +  tc_name + ": " + str(ex))
+		logging.error(ret)
+		return ret
+
+	if titel == ER:
+		return "passed"
+	return "Fail: Titel = " + titel

@@ -4,9 +4,12 @@ Ideen was mein SE können soll
 TC: lädt die Seite selbst (Feature TODO: LoadPage(url) -> Page ist PageObject
 
 !!! f9 Modell-TC : max. mögl. Reporting, Struktur try - catch-block
+	16.5. Parameter! Keine URL, aber TC(TC_name, ER, params)
+		Page oder URL kann ein Parameter sein 
 	noch keine Locators, weil das pageObjekte sein müssen
+		mehrere Buttons: für einen schreiben, ID's werden Parameter
 	gut: title
-	TC(ER, params)
+	
 	TCs müssen nicht numeriert sein
 	Result-Typ: expected = "123", result = 123 ist fail, wird bei str(result) aber maskiert
 		besser: Typ-Auswertung bei expected

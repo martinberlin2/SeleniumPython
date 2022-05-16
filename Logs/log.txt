@@ -1,4 +1,2 @@
 ERROR:root:EXC TC_MODEL_page_title: 'WebDriver' object has no attribute 'titlex'
 bin beim Aufrf start, wie Parameter, dann in den TC 
-
-1900 go 

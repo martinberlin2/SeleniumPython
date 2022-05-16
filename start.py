@@ -1,6 +1,8 @@
 # Pfad Reporting manuell ändern - noch
 
-# start für selenium python Test
+# Start für Selenium python Test
+
+print("ab 15.6. neuer Consultant Tilman")
 
 # Erste Quelle https://www.selenium.dev/selenium/docs/api/py/api.html
 # Zweite https://selenium-python.readthedocs.io/api.html
@@ -19,13 +21,12 @@ SeleniumRoot = config.get("SeleniumRoot")
 
 logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO) 
 # print("kommt hier hin")
-
 	
 def start(): # collects unexpected exceptions from main 
 	# print("Started")
 	try:
 		# main()   # laeuft wie 26.4. nach merge mit f8 
-		one_tc("TC_MODEL_page_title", "This is expected", ["p1String", 4711, "pageObject"])
+		one_tc("TC_MODEL_page_title", "Home - auticon", ["p1String", 4711, "pageObject"])
 	except Exception as ex:
 		logging.error("EXC main level: " + str(ex))
 
