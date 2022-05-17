@@ -27,11 +27,12 @@ if os.path.isfile(script_filename) == True:
 def run():
 	LastLine = "Empty"
 	with open(td_filename, newline='') as td, open(script_filename, "a") as dd_script:
-		dd_script.write("\n\nData Driven Test Exec Script")
+		dd_script.write("\n\nData Driven Test Exec Script\n")
 		testdata = csv.reader(td, delimiter = ";")
-		TestcaseName = "init"
-		ExpectedResult = "init"
-		params = "init"
+		TestcaseName = "Tinit"
+		ExpectedResult = "Einit"
+		params = "Pinit"
+		ModuleName = "Minit"
 		for row in testdata:
 			# print(LastLine + "#" + str(row))
 			if LastLine == "TestcaseName":
@@ -43,12 +44,22 @@ def run():
 					continue 
 				else:	
 					ExpectedResult = row[1]  # darf leer sein
-					c=2
-					while c <= cols:
-						# print(row[c])
+					c = 2
+					params = []
+					while c <= cols: # row[c] != "":
+						print(str(row[c]))
+						params.append(row[c])
+						print("params: " + str(params))
 						c = c + 1
+					# cols = c - 1
+					# while c <= cols:
+						# print(row[c])
+						# c = c + 1
 						
 			if LastLine == "ModuleName":
+				TestcaseName = "init"
+				ExpectedResult = "init"
+				params = "init"
 				header = row[0]
 				if header != "TestcaseName": 
 					erg = "Error TestcaseName header" # TODO line, file...
@@ -60,13 +71,15 @@ def run():
 					print (erg)
 					return erg
 				c = 2
-				params = "["
+				params = []
 				while row[c] != "":
-					print(row[c])
-					params = params + row[c]
+					print(str(row[c]))
+					params.append(row[c])
+					print("params: " + str(params))
 					c = c + 1
 				cols = c - 1
-				params = params + "]"
+				print ("cols = " + str(cols))
+				# params = params + "]"
 				# print ("cols gesetzt: " + str(cols))
 				LastLine = "TestcaseName"
 			if LastLine == "Empty" :
@@ -78,13 +91,13 @@ def run():
 					erg = "Error ModuleName header" # TODO line, file...
 					print (erg)
 					return erg
-				header = row[1]
+				ModuleName = row[1]
 				if header == "":
 					erg = "Error functionName header" # TODO line, file...
-					print (erg)
+					print (str(erg))
 					return erg
 				LastLine = "ModuleName"	
-				dd_script.write(LastLine + " " + TestcaseName + " " + ExpectedResult + " " + params)
+			dd_script.write(LastLine + " " + ModuleName + " " + TestcaseName + " " + ExpectedResult + " " + str(params) + "\n")
 		print("---- Ende Testdata ----")
 		return 
 	# Ende with open(td_filename, newline='')
