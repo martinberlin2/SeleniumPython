@@ -3,6 +3,8 @@ git merge second-branch
 
 second-branch INTO master 
 
+git checkout -b <branch-name>   neuer Branch
+
 merge dev in fea: "already up to date" wenn keine Änderungen in dev, whrend man im fea war
 sofort zurück u dev und git merge fea 
 ##############################
