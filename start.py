@@ -25,18 +25,18 @@ def start(): # collects unexpected exceptions from main
 	# print("Started")
 	try:
 		main()
-		# one_tc(tc_name)
+		# one_tc()
 	except Exception as ex:
 		logging.error("EXC main level: " + str(ex))
 
-def one_tc(tc_name): # returns: None; nur developen + debug
+def one_tc(): # returns: None; nur developen + debug
 	
 	from selenium import webdriver
 	driverpath = config.get("gecko")
 	driver = webdriver.Firefox(executable_path=driverpath)
 		
 	driver.get("https://auticon.de") 
-
+	return 
 	from TestCases import TC_1_1_popup_cookies_deny as testcase 
 	result = testcase.tc(driver)
 	## print(tc_name + ": " + str(result))
@@ -71,7 +71,7 @@ def main():	# alle TC in /testcases
 	for root, directories, file in os.walk(path): # root = path 
 		## print("\nroot: " + str(root))
 		## print("directories: " + str(directories))
-		## print("file: " + str(file))
+		## print("file: " + str(file) + " jetztReturn\n")   ## alle Dateien 
 
 		for onefile in file: 
 			if root != ignorePath:
@@ -84,7 +84,7 @@ def main():	# alle TC in /testcases
 					module_name = module_name[len(myroot)+1: len(module_name)]
 					module_name = module_name.replace("\\", ".", 100)
 
-					# print ("module_name = " + module_name) #  Pfad ohne .py
+					# print ("module_name = " + module_name + "\n") #  Pfad ohne .py, das wird verwendet
 				#C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_1_popup_cookies_deny#
 					
 					## String befummeln: DONE 2.12.
@@ -102,7 +102,6 @@ def main():	# alle TC in /testcases
 					# module_name = "TestCases.TC_1_2_popup_openPositions"
 					module = importlib.import_module(module_name, package=None) 
 					result = module.tc(driver)
-					
 					# module_name = "root.dir.subdir." + module_name 
 					# print(module_name)
 					tc_name_parts = module_name.split(".", -1)
@@ -121,6 +120,26 @@ def main():	# alle TC in /testcases
 					# result =  # TC_1_2_popup_openPositions
 					# print(os.path.join(root,file))
 			# else: print("ignorePath")	
+			
+	# from TestCases import Mouse_over_-_Tooltip_von_title as testcase   # Syntax !
+	# result = testcase.tc(driver)
+	# print(tc_name + ": " + str(result))
+			
+	module_name = "TestCases.Mouse_over_-_Tooltip_von_title"
+	module = importlib.import_module(module_name, package=None) 
+	result = module.tc(driver)
+	print(module_name + ": " + str(result) +"\n")
+	
+	tc_name_parts = module_name.split(".", -1)
+	tc_name = tc_name_parts[len(tc_name_parts) - 1]
+	# tc_name = lastpart(module_name, ".")
+	# print(tc_name + ": " + str(result))
+	if result == "Passed":
+		passed = passed + 1
+		reporter.report(tc_name, result, "")
+	else:
+		failed = failed + 1
+		reporter.report(tc_name, "FAILED", result)
 	driver.close()
 	driver.quit()
 	reporter.addStats(passed, failed, errors)

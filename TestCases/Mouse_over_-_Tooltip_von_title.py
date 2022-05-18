@@ -1,8 +1,5 @@
 
 
-print("Mouse over - Tooltip von title ist umbenannt!!")
-
-
 import logging 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
@@ -19,7 +16,6 @@ import time
 # angezeigt bei mouse over (elem)
 
 def tc(driver): # -> bool
-	return
 	TC_name = "Mouse over - Tooltip von title"
 	expectedResult = "Home_1_DE"
 	# print(TC_name)
@@ -30,12 +26,14 @@ def tc(driver): # -> bool
 			# mouse-over
 			hover = ActionChains(driver).move_to_element(elem)
 			hover.perform()
-			time.sleep(2)  # zeigt Tooltip an ! manuell sichtbar
+			time.sleep(5)  # zeigt Tooltip an ! manuell sichtbar
+			# !!! vor Firefox-Update nicht sichtbar ! danach auch nicht ! 
 			# für title - Abfrage aber egal
 			# # if elem == None: 
 				# # print(TC_name + ": elem == None")
 		except NoSuchElementException as nsee:
 			toReturn = "FAILED: NSE EXC " + TC_name + ": " + str(nsee)
+			logging.error(toReturn)
 			# print(toReturn)
 			return toReturn
 		except Exception as e: 

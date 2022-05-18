@@ -1,6 +1,8 @@
 Backlog.txt
 Ideen was mein SE können soll
 
+wegen mouse-over: Manuell - setzbare TCs 
+
 Modell-TC : max. mögl. Reporting, Struktur try - catch-block
 	gut: title
 	TC(ER, params)

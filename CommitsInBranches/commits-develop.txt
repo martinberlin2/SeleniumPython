@@ -129,3 +129,12 @@ Büro kleine Änderungen; git-lern-Datei wird jetzt committed
 
 --> next nach remerge f8: f9_Modell_TC mit title-TC 
   remerge f8 erfolgreich
+  
+noch vor Merge mit Modell_TC: Mouse_over_-_Tooltip_von_title so umbenannt
+
+Mouse_over_-_Tooltip_von_title: kein mouse-over mehr sichtbar, und kein tooltip 
+--> eigenes Feature dafür. 
+https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/initMouseEvent ??
+--> Manuell bewertbare TCs 
+--> f4 rausnehmen
+--> TC-Reihenfolge!
