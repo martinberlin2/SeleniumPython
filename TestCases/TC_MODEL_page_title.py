@@ -3,7 +3,8 @@ import logging
 tc_name = "TC_MODEL_page_title"
 ER = "Home - auticon"
 
-def tc(tc_name, ER, page): # -> bool
+
+def tc(URL, tc_name, ER, params): # -> String
 	print(tc_name)
 	
 	try:

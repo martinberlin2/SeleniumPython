@@ -4,6 +4,7 @@ Ideen was mein SE können soll
 TC: lädt die Seite selbst (Feature TODO: LoadPage(url) -> Page ist PageObject
 
 !!! f9 Modell-TC : max. mögl. Reporting, Struktur try - catch-block
+	TC (ER, params) als Modell TC, Ansteuerung aus Excel
 	16.5. Parameter! Keine URL, aber TC(TC_name, ER, params)
 		Page oder URL kann ein Parameter sein 
 	noch keine Locators, weil das pageObjekte sein müssen
@@ -17,9 +18,47 @@ LoadPage(url) -> Page ist PageObject
 StubTC (ER, params) für später data driven 
 	params als Liste
 	Dummy Aktionen 
-data driven -- nach Modell TC 
-	TC (ER, params) als Modell TC, Ansteuerung aus Excel
 
+HomeMA:
+-- ein csv pro testcase
+data driven -- nach Modell TC 
+
+Serienbrief:
+- ein Brief an einen (z.B. Erinnerung Beitrag 10.- seit 1.4.22 )   	== normaler TC()
+-> parametrisierter Brief (Adressat, Anrede, Betrag, Seit)  	   	== TC(params)
+-> Parametertabelle mit x Zeilen								   	== CSV
+-> Programm, das x Briefe erzeugt (Brief, Parametertabelle)			== !! Skript für x Aufrufe erzeugen, 
+																		nicht x TCs schreiben
+-> Alle Briefe austragen											== alle TCs ausführen
+
+	
+
+	1. TC normal: TC(): wenn "Button(konkreterLocator1) click und nach 1,3 sek kommt Fenster(konkreterLocator2) da ist, passed"
+	bzw. TC() "gib ein Zaehler 10, Nenner 5, erwarte 2"
+	
+	2. als DD-TC : TC (Loc1, waitSec, Loc2) : wenn "Button(Loc1) click und nach (waitSec) sek kommt Fenster(Loc2) da ist, passed"
+	bzw. TC(ER, z,n) ("gib ein Zaehler z, Nenner n, erwarte ER"
+	
+	Start main: 
+	Unterordner "dataDrivenTests", VOR main:
+	DDTC - Skriptwriter(csvFileWithPath)
+	schreibt aus csvFile TCname - ER - z - n:
+	
+	3. urspr. TC() ruft dann DD-TC auf 
+	DDTC - Skriptwriter(csvFileWithPath)
+	schreibt aus csvFile TCname - ER - z - n:
+	import TC 
+	TC(ER1, z1,n1) --> Reporting, wie normaler TC vorher 
+	TC(ER2, z2,n2)
+    ...
+	und kein Reporting-Aufruf, 
+		--- eigenes Feature: zählt selbst mit wieviel Failed und schreibt in DDTC-Report 
+	passed, wenn alle Teil-TC passed
+	
+	
+	4. Aufruf: 
+	
+	
 Report - Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
 	Eine Zeile pro Test, 80 Zeichen 
 		Zeilenumbrüche ok

@@ -1,2 +1,5 @@
 ERROR:root:EXC TC_MODEL_page_title: 'WebDriver' object has no attribute 'titlex'
 bin beim Aufrf start, wie Parameter, dann in den TC 
+ERROR:root:EXC main level: Message: Process unexpectedly closed with status 0
+
+ERROR:root:EXC main level: tc() missing 3 required positional arguments: 'tc_name', 'ER', and 'params'

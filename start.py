@@ -2,8 +2,6 @@
 
 # Start für Selenium python Test
 
-print("ab 15.6. neuer Consultant Tilman")
-
 # Erste Quelle https://www.selenium.dev/selenium/docs/api/py/api.html
 # Zweite https://selenium-python.readthedocs.io/api.html
 
@@ -25,7 +23,7 @@ logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO
 def start(): # collects unexpected exceptions from main 
 	# print("Started")
 	try:
-		# main()   # laeuft wie 26.4. nach merge mit f8 
+		# main()   # laeuft wie 26.4. nach merge mit f8 --- # alle TC in /testcases, rekursiv 
 		one_tc("TC_MODEL_page_title", "Home - auticon", ["p1String", 4711, "pageObject"])
 	except Exception as ex:
 		logging.error("EXC main level: " + str(ex))
@@ -47,7 +45,7 @@ def one_tc(tc_name, ER, params): # returns: None; nur developen + debug
 	# reporter.addStats(passed, failed, errors)
 	# reporter.closeReport()
 	
-def main():	# alle TC in /testcases
+def main():	# alle TC in /testcases, rekursiv
 	from selenium import webdriver
 	from selenium.webdriver.common.keys import Keys
 	
@@ -63,11 +61,11 @@ def main():	# alle TC in /testcases
 	import os
 	import importlib 
 	myroot = config.get("SeleniumRoot")
-	# print ("myroot = " + myroot)
+	## print ("myroot = " + myroot)
 	path = myroot + r'\TestCases'
-	# print ("path = " + path)
+	## print ("path = " + path)
 	ignorePath = path + '\__pycache__'
-	# print("ignorePath: " + ignorePath)
+	## print("ignorePath: " + ignorePath)
 	
 	for root, directories, file in os.walk(path): # root = path 
 		## print("\nroot: " + str(root))
