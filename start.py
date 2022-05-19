@@ -5,9 +5,6 @@
 # Erste Quelle https://www.selenium.dev/selenium/docs/api/py/api.html
 # Zweite https://selenium-python.readthedocs.io/api.html
 
-# git checkout zielbranch
-# git merge branchderreinsoll
-
 import logging
 from Utilities.readCfg import readConfig # as readConfig
 import Utilities.Reporter as reporter
@@ -18,19 +15,10 @@ SeleniumRoot = config.get("SeleniumRoot")
 # print(SeleniumRoot)
 
 logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO) 
-# print("kommt hier hin")
 	
 def start(): # collects unexpected exceptions from main 
 	# print("Started")
 	try:
-# ### <<<<<<< HEAD
-		# # main()   # laeuft wie 26.4. nach merge mit f8 --- # alle TC in /testcases, rekursiv 
-		# one_tc("TC_MODEL_page_title", "Home - auticon", ["p1String", 4711, "pageObject"])
-	# except Exception as ex:
-		# logging.error("EXC main level: " + str(ex))
-
-# def one_tc(tc_name, ER, params): # returns: None; nur developen + debug
-# ### =======
 		reporter.openReport()
 		main()  # laeuft alle TC in /testcases, rekursiv 
 		# one_tc()
@@ -38,18 +26,11 @@ def start(): # collects unexpected exceptions from main
 		logging.error("EXC main level: " + str(ex))
 
 def one_tc(): # returns: None; nur developen + debug
-### >>>>>>> develop
-	
 	from selenium import webdriver
 	driverpath = config.get("gecko")
 	driver = webdriver.Firefox(executable_path=driverpath)
 		
 	driver.get("https://auticon.de") 
-# ### <<<<<<< HEAD
-
-	# from TestCases import TC_MODEL_page_title as testcase 
-# =======
-###	return 
 	from TestCases import TC_1_1_popup_cookies_deny as testcase 
 	result = testcase.tc(driver)
 	print(tc_name + ": " + str(result))
@@ -74,51 +55,40 @@ def main():	# alle TC in /testcases, rekursiv
 	import os
 	import importlib 
 	myroot = config.get("SeleniumRoot")
-	## print ("myroot = " + myroot)
+					## print ("myroot = " + myroot)
 	path = myroot + r'\TestCases'
-	## print ("path = " + path)
+					## print ("path = " + path)
 	ignorePath = path + '\__pycache__'
-	## print("ignorePath: " + ignorePath)
+					## print("ignorePath: " + ignorePath)
 	
 	for root, directories, file in os.walk(path): # root = path 
-		## print("\nroot: " + str(root))
-		## print("directories: " + str(directories))
-		## print("file: " + str(file) + " jetztReturn\n")   ## alle Dateien 
+					## print("\nroot: " + str(root))
+					## print("directories: " + str(directories))
+					## print("file: " + str(file) + " jetztReturn\n")   ## alle Dateien 
 
 		for onefile in file: 
 			if root != ignorePath:
 				if(onefile.endswith(".py")):
 					module_name = onefile[0:len(onefile)-3]
 					module_name = root + "\\" + module_name    
-						# läuft in Windows TODO ... Linux, Unix: Pfad erst umfummeln
-					# print ("module_name = " + module_name) #  Pfad ohne .py
+									# läuft in Windows TODO ... Linux, Unix: Pfad erst umfummeln
+									# print ("module_name = " + module_name) #  Pfad ohne .py
 				
 					module_name = module_name[len(myroot)+1: len(module_name)]
 					module_name = module_name.replace("\\", ".", 100)
 
-					## print ("module_name = " + module_name + "\n") #  Pfad ohne .py, das wird verwendet
-				#C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython\TestCases\TC_1_1_popup_cookies_deny#
-					
-					## String befummeln: DONE 2.12.
-					## myroot = C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
-					## No module named 'C:\\Users\\laoch\\OneDrive\\Dokumente\\Meins\\Eigenes_F\\auticon\\Python\\SeleniumPython\\TestCases\\TC_1_1_popup_cookies_deny'
-					## 1. StrAfterStr(str, startstr)     
-					## 2. StrAfterStr(module_name, myroot) --> TestCases\TC_1_1_popup_cookies_deny
-					## 3. replace \ -> .
-					
+									# print ("module_name = " + module_name + "\n") #  Pfad ohne .py, das wird verwendet
+				
+					## String befummeln: DONE 2.12. usw Gelöscht 19.5.
 					
 					# module_name = "TestCases.TC_1_1_popup_cookies_deny"    # so gehts
-					
-					
-					## von main()
-					# module_name = "TestCases.TC_1_2_popup_openPositions"
 					module = importlib.import_module(module_name, package=None) 
-					result = module.tc(driver)
-					# module_name = "root.dir.subdir." + module_name 
-					# print(module_name)
+					if module_name != "TestCases.Mouse_over_-_Tooltip_von_title" :
+						print ("module_name = " + module_name + "\n") 
+						result = module.tc(driver)
+					
 					tc_name_parts = module_name.split(".", -1)
 					tc_name = tc_name_parts[len(tc_name_parts) - 1]
-					# tc_name = lastpart(module_name, ".")
 					# print(tc_name + ": " + str(result))
 					if result == "Passed":
 						passed = passed + 1
@@ -128,24 +98,19 @@ def main():	# alle TC in /testcases, rekursiv
 						reporter.report(tc_name, "FAILED", result)
 					
 					
-					# import modulename
-					# result =  # TC_1_2_popup_openPositions
-					# print(os.path.join(root,file))
-			# else: print("ignorePath")	
 	
 	# +++++++++++++++ nachgeschobener TC ++++++++++++++
 	module_name = "TestCases.Mouse_over_-_Tooltip_von_title"
-	# try:
-	module = importlib.import_module(module_name, package=None) 
-	# except BaseException as be:
-		# print("TestCases.Mouse_over_-_Tooltip_von_title " + str(be))
+	try:
+		module = importlib.import_module(module_name, package=None) 
+	except BaseException as be:
+		print("TestCases.Mouse_over_-_Tooltip_von_title " + str(be))
 	
 	result = module.tc(driver)
-	## print(module_name + ": " + str(result) +"\n")
+	print(module_name + ": " + str(result) +"\n")
 	
 	tc_name_parts = module_name.split(".", -1)
 	tc_name = tc_name_parts[len(tc_name_parts) - 1]
-	# tc_name = lastpart(module_name, ".")
 	# print(tc_name + ": " + str(result))
 	if result == "Passed":
 		passed = passed + 1
@@ -162,7 +127,7 @@ def main():	# alle TC in /testcases, rekursiv
 # execAllTestcases()	
 start()
 
+# so in meinem Python-Unit-Test:
 # def execFuncWithExc(functionName, args): # -> result, Exception given as String from Exception. functionName not in "" 
 	# try:
 		# result = functionName(*args)
-

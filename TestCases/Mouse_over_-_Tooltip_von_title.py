@@ -9,6 +9,7 @@ import time
 # TC ist abhängig davon, dass die Popups weg sind
 	# TC_1_1_popup_cookies_deny
 	# TC_1_2_popup_openPositions
+	# Und der TC darf nicht vorher schon mal gelaufen sein, so dass die Maus schon da ist 
 # -- TODO Blocked TC einführen
 
 # title="Home_1_DE" 
@@ -29,8 +30,8 @@ def tc(driver): # -> bool
 			time.sleep(5)  # zeigt Tooltip an ! manuell sichtbar
 			# !!! vor Firefox-Update nicht sichtbar ! danach auch nicht ! 
 			# für title - Abfrage aber egal
-			# # if elem == None: 
-				# # print(TC_name + ": elem == None")
+			if elem == None: 
+				print(TC_name + ": elem == None")
 		except NoSuchElementException as nsee:
 			toReturn = "FAILED: NSE EXC " + TC_name + ": " + str(nsee)
 			logging.error(toReturn)
@@ -45,11 +46,11 @@ def tc(driver): # -> bool
 		
 		# evalTest(expectedResult, actualResult)
 		if expectedResult == actualResult:
-			return "PASSED"
+			return "Passed"
 		return "FAILED: Result = " + str(actualResult)
 	
 	except Exception as ex:
 		toReturn = "FAILED: EXC " + TC_name + ": " + str(ex)
 		# print(toReturn)
 		return toReturn
-	return "PASSED"
+	return "Passed, but dead code here!"
