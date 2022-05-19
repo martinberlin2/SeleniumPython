@@ -66,7 +66,6 @@ def main():	# alle TC in /testcases, rekursiv
 	import time 
 	driverpath = config.get("gecko")
 	driver = webdriver.Firefox(executable_path=driverpath)
-	
 	# https://stackoverflow.com/questions/49929374/notadirectoryerror-winerror-267-the-directory-name-is-invalid-error-while-inv	 
 	driver.get("https://auticon.de") 
 	passed = 0
