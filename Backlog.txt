@@ -13,16 +13,20 @@ StubTC (ER, params) für später data driven
 	params als Liste
 	Dummy Aktionen 
 data driven -- nach Modell TC 
+	---> f11_ReadAndWriteExcelOpenpyxl
+	Read_DDCF  (Data Driven Control File)
 	TC (ER, params) als Modell TC, Ansteuerung aus Excel
 
-Report - Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
-	Eine Zeile pro Test, 80 Zeichen 
-		Zeilenumbrüche ok
-f8 - Rename: TC_2_topline - Mouse over --> Mouse over - Tooltip von title
+ 
+SPÄTER Reporting:	Laengere_Exception_Texte mit Zeilenumbruch : wenn das mal vorkommt...
+
+Report_AddStats: TC geben Passed, Failed:<otherResult> oder Error<ExceptionText> zurück
+
+
 TC_1_2_popup_openPositions: sleep mit isNotVisible
 TC_1_2_popup_openPositions: Logging nur Exceptions
 ExceptionHandling - was macht try - finally ? auch für catch-block?
-mouse over -- jetzt in f6 und TC_2_topline - Mouse over - Tooltip von title
+
 Lerndatei, MyCodeExamples
 
 
