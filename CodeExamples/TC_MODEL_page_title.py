@@ -1,10 +1,6 @@
 import logging 
 
-tc_name = "TC_MODEL_page_title"
-ER = "Home - auticon"
-
-
-def tc(URL, tc_name, ER, params): # -> String
+def tc(URL, tc_name, ER, params): # -> String     KÖNNTE SO AUSSEHEN-...
 	print(tc_name)
 	
 	try:

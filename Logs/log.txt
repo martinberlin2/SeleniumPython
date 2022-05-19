@@ -1,5 +1,7 @@
-ERROR:root:EXC TC_MODEL_page_title: 'WebDriver' object has no attribute 'titlex'
-bin beim Aufrf start, wie Parameter, dann in den TC 
-ERROR:root:EXC main level: Message: Process unexpectedly closed with status 0
 
+INFO:root:TC_4_menuLinksObenSort
+ERROR:root:EXC TC4: 'list' object has no attribute 'click'
 ERROR:root:EXC main level: tc() missing 3 required positional arguments: 'tc_name', 'ER', and 'params'
+INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
+INFO:root:TC_4_menuLinksObenSort
+ERROR:root:EXC TC4: 'list' object has no attribute 'click'

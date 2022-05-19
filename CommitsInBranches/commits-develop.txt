@@ -124,8 +124,24 @@ Next: Reporting verbessern
 
 Büro kleine Änderungen; git-lern-Datei wird jetzt committed
 
---> f8: Rename: TC_2_topline - Mouse over --> Mouse over - Tooltip von title
-		wartet auf remerge
+f8: Rename: TC_2_topline - Mouse over --> Mouse over - Tooltip von title
+		wartet auf remerge - done 
 
---> next nach remerge f8: f9_Modell_TC_mit_title-TC 
+--> next nach remerge f8: f9_Modell_TC mit title-TC 
   remerge f8 erfolgreich
+  
+noch vor Merge mit Modell_TC: Mouse_over_-_Tooltip_von_title so umbenannt
+
+Mouse_over_-_Tooltip_von_title: kein mouse-over mehr sichtbar, und kein tooltip 
+--> eigenes Feature dafür. 
+https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/initMouseEvent ??
+--> Manuell bewertbare TCs 
+--> f4 rausnehmen
+--> TC-Reihenfolge!
+
+f10_Report_Aufbau: remerge - done 
+
+--> f11_ReadAndWriteExcelOpenpyxl 
+.. weg, das läuft jetzt mit csv, Feature an HomePC
+
+Model-TestCase gelöscht, erst data driven zuende 

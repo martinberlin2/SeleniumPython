@@ -24,7 +24,7 @@ def tc(driver): # -> bool
 		burger.click()
 		subelem = driver.find_elements(By.CLASS_NAME, 'mob-menu-left-bg-holder')
 		subelem.click()   # -- NPE ?
-		
+		# --> ERROR:root:EXC TC4: 'list' object has no attribute 'click'
 	except Exception as ex:
 		logging.error("EXC TC4: " + str(ex))
 		return False
