@@ -1,72 +1,11 @@
-TC_1_1_popup_cookies_deny..... FAILED     False                                                  
-TC_1_2_popup_openPositions.... Passed                                                            
-TC_1_title.................... FAILED     True                                                   
-TC_2_topline.................. FAILED     PASSED                                                 
-TC_4_menuLinksObenSort........ FAILED     False                                                  
-===============================================================================================
-Passed: 1, Failed: 4, Errors: 0
-
-XXXXXXXXXYXXXXXXXXXYXXXXXXXXXYXXXXXXXXXYXXXXXXXXXYXXXXXXXXXYXXXXXXXXXYXXXXXXXXXY
-Mouse over - Tooltip von title FAILED     PASSED                                                 
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-TC_1_1_popup_cookies_deny..... FAILED     True                                                   
-TC_1_2_popup_openPositions.... Passed                                                            
-TC_1_title.................... FAILED     True                                                   
-TC_4_menuLinksObenSort........ FAILED     False                                                  
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-===============================================================================================
-Passed: 1, Failed: 6, Errors: 0
-Mouse over - Tooltip von title FAILED     PASSED                                                 
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-TC_1_1_popup_cookies_deny..... FAILED     True                                                   
-TC_1_2_popup_openPositions.... Passed                                                            
-TC_1_title.................... FAILED     True                                                   
-TC_4_menuLinksObenSort........ FAILED     False                                                  
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-===============================================================================================
-Passed: 1, Failed: 6, Errors: 0
-Mouse over - Tooltip von title FAILED     None                                                   
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-TC_1_1_popup_cookies_deny..... FAILED     True                                                   
-TC_1_2_popup_openPositions.... Passed                                                            
-TC_1_title.................... FAILED     True                                                   
-TC_4_menuLinksObenSort........ FAILED     False                                                  
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-===============================================================================================
-Passed: 1, Failed: 6, Errors: 0
-Mouse over - Tooltip von title FAILED     None                                                   
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-TC_1_1_popup_cookies_deny..... FAILED     True                                                   
-TC_1_2_popup_openPositions.... Passed                                                            
-TC_1_title.................... FAILED     True                                                   
-TC_4_menuLinksObenSort........ FAILED     False                                                  
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-===============================================================================================
-Passed: 1, Failed: 6, Errors: 0
-Mouse over - Tooltip von title FAILED     None                                                   
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-TC_1_1_popup_cookies_deny..... FAILED     True                                                   
-TC_1_2_popup_openPositions.... Passed                                                            
-TC_1_title.................... FAILED     True                                                   
-TC_4_menuLinksObenSort........ FAILED     False                                                  
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-===============================================================================================
-Passed: 1, Failed: 6, Errors: 0
-Mouse over - Tooltip von title FAILED     None                                                   
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-TC_1_1_popup_cookies_deny..... FAILED     True                                                   
-TC_1_2_popup_openPositions.... Passed                                                            
-TC_1_title.................... FAILED     True                                                   
-TC_4_menuLinksObenSort........ FAILED     False                                                  
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-===============================================================================================
-Passed: 1, Failed: 6, Errors: 0
-Mouse over - Tooltip von title FAILED     None                                                   
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-TC_1_1_popup_cookies_deny..... FAILED     True                                                   
-TC_1_2_popup_openPositions.... Passed                                                            
-TC_1_title.................... FAILED     True                                                   
-TC_4_menuLinksObenSort........ FAILED     False                                                  
-Mouse_over_-_Tooltip_von_title FAILED     PASSED                                                 
-===============================================================================================
+Testcase                       Result     Reason                                  
+----------------------------------------------------------------------------------
+Mouse over - Tooltip von title FAILED     None                                    
+Mouse_over_-_Tooltip_von_title FAILED     PASSED                                  
+TC_1_1_popup_cookies_deny..... FAILED     True                                    
+TC_1_2_popup_openPositions.... Passed                                             
+TC_1_title.................... FAILED     True                                    
+TC_4_menuLinksObenSort........ FAILED     False                                   
+Mouse_over_-_Tooltip_von_title FAILED     PASSED                                  
+==================================================================================
 Passed: 1, Failed: 6, Errors: 0
