@@ -32,8 +32,6 @@ Serienbrief:
 																		nicht x TCs schreiben
 -> Alle Briefe austragen											== alle TCs ausführen
 
-	
-
 	1. TC normal: TC(): wenn "Button(konkreterLocator1) click und nach 1,3 sek kommt Fenster(konkreterLocator2) da ist, passed"
 	bzw. TC() "gib ein Zaehler 10, Nenner 5, erwarte 2"
 	
