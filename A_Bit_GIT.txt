@@ -12,7 +12,7 @@ sofort zurück u dev und git merge fea
 Msg nach Mergeproblem:
 https://stackoverflow.com/questions/19085807/please-enter-a-commit-message-to-explain-why-this-merge-is-necessary-especially
 
-neu: git checkout - b fea f9_Modell_TC_mit_title-TC 
+neu: git checkout - b f12_Scrolling_Elem_Present_not_Visible
 
 ##############################
 Bevor du Änderungen zusammenführst, kannst du dir die Differenzen auch anschauen:
