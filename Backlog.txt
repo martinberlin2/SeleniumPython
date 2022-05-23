@@ -1,10 +1,15 @@
 Backlog.txt
 Ideen was mein SE können soll
+FEA Feature: neue Fähigkeit 
+DEF Defect - z.B. nach Merge eines neuen Features, der in eigenem Branch gefixt werden muss 
+DEB Technical Debt - Defect, der erstmal toleriert wird
+	DEB für jeden TC einzeln, dernach Merge nicht läuft
 
-++++ Thema Modell - TC /// Data Driven 
-TC: lädt die Seite selbst (Feature TODO: LoadPage(url) -> Page ist PageObject
+FEA ++++ Thema Modell - TC /// Data Driven 
+	TC: lädt die Seite selbst (Feature TODO: LoadPage(url) -> Page ist PageObject
 
 !!! Modell-TC : max. mögl. Reporting, Struktur try - catch-block
+		dort doku, welche Measures geliefert werden müssen
 	TC (ER, params) als Modell TC, Ansteuerung aus Excel
 	16.5. Parameter! Keine URL, aber TC(TC_name, ER, params)
 		Page oder URL kann ein Parameter sein 
@@ -13,16 +18,13 @@ TC: lädt die Seite selbst (Feature TODO: LoadPage(url) -> Page ist PageObject
 
 
 	TCs müssen nicht numeriert sein
-	Result-Typ: expected = "123", result = 123 ist fail, wird bei str(result) aber maskiert
+
 		besser: Typ-Auswertung bei expected
 LoadPage(url) -> Page ist PageObject
 StubTC (ER, params) für später data driven 
 	params als Liste
 	Dummy Aktionen 
 
-HomeMA:
--- ein csv pro testcase
-data driven -- nach Modell TC 
 
 Serienbrief:
 - ein Brief an einen (z.B. Erinnerung Beitrag 10.- seit 1.4.22 )   	== normaler TC()
@@ -58,19 +60,25 @@ Serienbrief:
 	4. Aufruf: 
 ++++ Thema Modell - TC /// Data Driven Ende	
 
+DEB	Result-Typ: expected = "123", result = 123 ist fail, wird bei str(result) aber maskiert
 
-wegen mouse-over: Manuell - setzbare TCs 
+
+FEA wegen mouse-over: Manuell - setzbare TCs 
 
 	
 Report - Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
 	Eine Zeile pro Test, 80 Zeichen 
 	
-SPÄTER Reporting:	Laengere_Exception_Texte mit Zeilenumbruch : wenn das mal vorkommt...
+
+DEB  Reporting:	Laengere_Exception_Texte mit Zeilenumbruch : wenn das mal vorkommt...
 
 Report_AddStats: TC geben Passed, Failed:<otherResult> oder Error<ExceptionText> zurück
 
+FEA deprecated - Messages abfangen
 
-TC_1_2_popup_openPositions: sleep mit isNotVisible
+TC_1_2_popup_openPositions: sleep mit isNotVisible- liefert Zeit zurück, notfalls im Text 
+	
+	
 TC_1_2_popup_openPositions: Logging nur Exceptions
 ExceptionHandling - was macht try - finally ? auch für catch-block?
 
@@ -81,16 +89,17 @@ evalTC(3, "len1", execFuncWithExc(lcs, ["abc", "daf"]) ,[1,"a"]) -- geht das in 
 
 Cookies gesetzt?
 
-- Returning anpassen:
+DEB - Returning anpassen:
 	TC_1_1_popup_cookies_deny 
 	TC_1_title
 	TC_2_topline
 	TC_4_menuLinksObenSort
-- wo sind Exceptions im Report ?
+- wo sind Exceptions im Report ?  WEG 
 - start: driver.close() UND driver.quit()....wozu ?
 - Execution List: Folder Execution getrennt von Folder TC-Repo 
   beliebige Reihenfolge 
-- Harness für Suiten: Reihenfolge
+FEA - Harness für Suiten: Reihenfolge PRIO ! Beispiel: mouse-over, Load Page: Cookies wegklicken
+
 Preconditions, u.a. Blocked TCs einrichten
 	Mouse over - Tooltip von title: braucht das 
 
@@ -100,19 +109,20 @@ isNotVisible : step berechnen. und isNotVisibleAfterTime
 TC bool ---> "Passed " oder reason-String
 
 	addStats-Funktion... welche Measures noch?
-Alle TCs laufen für das Reporting
+DEB Alle TCs laufen für das Reporting --- weg !! DEB für jeden TC einzeln, s.o.
 TC_1_1_popup_cookies_deny 
 PageObject
 	lazy fetch
 PageObject als Param in Modell-TC
-Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lösung -- in LIB
+Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lösung -->> in LIB
 !! Framework / Script muss Exc aus TC abfangen !
   !!! Klasse von Exceptions anzeigen lassen
 + Konfig - Programm
 - Framework zur Testausführung, start.py aufräumen
--- Stringvergleich über mehrere Zeilen
-Reportname = Report_JJJJ_mmm_tt_hh:mm
-Vergleichender Report : mit Vorgänger, bzw. mit letzter Ausführung des TC (also für jeden TC, auch ältere Reports)
+
+FEA -- Stringvergleich über mehrere Zeilen
+FEA Reportname = Report_JJJJ_mmm_tt_hh:mm
+FEA Vergleichender Report : mit Vorgänger, bzw. mit letzter Ausführung des TC (also für jeden TC, auch ältere Reports)
 
 
 weiter
@@ -128,4 +138,5 @@ find element
 	left click 
 	right click
 	wait 
+	Scrolling
 durch website gehen und Aktionen / Elementtypen sammeln

@@ -7,6 +7,10 @@ git checkout -b <branch-name>   neuer Branch
 
 merge dev in fea: "already up to date" wenn keine Änderungen in dev, whrend man im fea war
 sofort zurück u dev und git merge fea 
+-- test in fea ! wenn ok aber Änderungen in dev: Entscheidung sofort nachziehen oder als debt_ US in Backlog
+
+Msg nach Mergeproblem:
+https://stackoverflow.com/questions/19085807/please-enter-a-commit-message-to-explain-why-this-merge-is-necessary-especially
 
 neu: git checkout - b fea f9_Modell_TC_mit_title-TC 
 
