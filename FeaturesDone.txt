@@ -1,12 +1,15 @@
 FeaturesDone
 
-auf Elem klicken						#TC_1_1_popup_cookies_deny
-isNotVisible(driver, cssSelector, 0.5)	#TC_1_1_popup_cookies_deny
-EC.visibility_of_element_located		# 
+auf Elem klicken									#TC_1_1_popup_cookies_deny
+isNotVisible(driver, cssSelector, 0.5)				#TC_1_1_popup_cookies_deny
+driver.find_element(By.CSS_SELECTOR, cssSelector)	#TC_1_1_popup_cookies_deny
+EC.visibility_of_element_located					# 
 find_element in anderem Elem openPositionsAlertBox	#TC_1_2_popup_openPositions
-Reporting: aus einem String von TCs 	#Utilities/Reporter.py
-ActionChains, hover						#Mouse over - Tooltip von title
-Config-Objekt, z.B. für lokale Pfade	#Utilities/readCfg
-Text vom tooltip = elem.get_attribute("title") , aber keine Abfrage bei mouse-over möglich!									#Mouse over - Tooltip von title
+Reporting: aus einem String von TCs 				#Utilities/Reporter.py
+ActionChains, hover									#Mouse over - Tooltip von title
+Config-Objekt, z.B. für lokale Pfade				#Utilities/readCfg
+
+Text vom tooltip = elem.get_attribute("title") , aber keine Abfrage bei mouse-over möglich!												#Mouse_over_-_Tooltip_von_title
+
 Report_Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
-	Eine Zeile pro Test, 80 Zeichen - done	#Utilities/Reporter.py
+	Eine Zeile pro Test, 80 Zeichen - done			#Utilities/Reporter.py

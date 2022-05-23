@@ -10,3 +10,7 @@ https://github.com/martinberlin2/SeleniumPython
 
 TC_5_Scrolling_Elem_Present_not_Visible
 TC angelegt, Harness_by_NameOrder geht: Vorbedigungstestfälle werden zuerst ausgeführt
+bis hier noch auf develop!
+--> ModellTC: Mehrere Expectations, z.B. Link -> Text auf dem Link + Funktioniert Link 
+Suche nach Locator, und was sagt Locator not found aus - muss ich scrollen oder findet er nix ?
+erstmal Scrollen probieren, Suchergebnisse gesammelt und Code vorbereitet. Scroll geht schon, Element finden noch nicht
