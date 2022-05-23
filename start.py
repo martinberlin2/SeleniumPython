@@ -20,7 +20,7 @@ def start(): # collects unexpected exceptions from main
 	# print("Started")
 	try:
 		reporter.openReport()
-		main()  # laeuft alle TC in /testcases, rekursiv 
+		main()  # startet nacheinander alle TC in /testcases, rekursiv; kein Harness
 		# one_tc()
 	except Exception as ex:
 		logging.error("EXC main level: " + str(ex))

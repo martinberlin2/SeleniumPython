@@ -1,0 +1,12 @@
+﻿privlab:
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+
+worklab:
+C:\Users\Lap126\Documents\GitHub\SeleniumPython
+
+repo
+https://github.com/martinberlin2/SeleniumPython
+
+
+TC_5_Scrolling_Elem_Present_not_Visible
+TC angelegt, Harness_by_NameOrder geht: Vorbedigungstestfälle werden zuerst ausgeführt

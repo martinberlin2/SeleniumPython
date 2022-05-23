@@ -68,6 +68,9 @@ FEA wegen mouse-over: Manuell - setzbare TCs
 	
 Report - Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
 	Eine Zeile pro Test, 80 Zeichen 
+	Reporting: 
+- TC-Name zu lang -- TC_5_Scrolling_Elem_Present_not_Visible -- auch mehrzeilig; Max-Längen portabel
+- Reason zu lang -- auch mehrzeilig Max-Längen portabel
 	
 
 DEB  Reporting:	Laengere_Exception_Texte mit Zeilenumbruch : wenn das mal vorkommt...

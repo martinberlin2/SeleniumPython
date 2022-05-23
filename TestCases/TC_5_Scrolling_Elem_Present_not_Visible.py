@@ -1,4 +1,9 @@
 # TC_5_Scrolling_Elem_Present_not_Visible
+# Desktop Modus, Vollbild und Teilbild 
+# TC ist abhängig davon, dass die Popups weg sind
+	# TC_1_1_popup_cookies_deny
+	# TC_1_2_popup_openPositions	
+# erstmal durch zufälliges Harness gelöst: TC_5_ ist letzter TC
 
 # Selenium / Python imports
 import logging 
@@ -7,8 +12,8 @@ from selenium.webdriver.common.by import By
 import time 
 
 def tc(driver): # -> bool
-	TC = "TC_1_2_popup_openPositions" # TODO dynamisch - als Modulname
-	## print(TC + " start")
+	TC = "TC_5_Scrolling_Elem_Present_not_Visible" # TODO dynamisch - als Modulname
+	print(TC + " start")
 	try:
 		openPositionsAlertBox = driver.find_element(By.ID, 'popmake-41440')
 	except NoSuchElementException  as nsex:
@@ -17,7 +22,7 @@ def tc(driver): # -> bool
 	except Exception as ex:
 		logging.error(TC + ": " + str(ex))
 		return str(ex) 
-	# hier: Kasten für Offene Stellen existiert
+	
 	text1 = openPositionsAlertBox.text
 	expectString = "Wir stellen ein!\nIT- und BackOffice-Mitarbeiter*innen gesucht!\nMehr Infos\nX"
 	if text1 != expectString:
