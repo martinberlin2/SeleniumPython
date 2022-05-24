@@ -4,5 +4,5 @@ Lesen CSV ok, Parameter werden erkannt, Nur Spalten mit Headers, Bis Leerzeile
 
 CSV wird gelesen, Parameter werden gefüllt. Jetzt: Beispiel herstellen
 
-next 
 Beispiel DIV und CollatzStep angelegt und läuft. 
+Fehler in der Ansteuerung gefunden. Skript für csv-Testfälle werden mit einer Zeile pro Testfall geschrieben. Jetzt execTC-Prozedur, auch für normale Testfälle

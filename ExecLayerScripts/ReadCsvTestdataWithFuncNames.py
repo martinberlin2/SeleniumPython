@@ -34,33 +34,50 @@ def run():
 		if csv == None:
 			print("if csv == None:")
 		# existTestdata() ; nein -> cols = 0, ja -> cols = 1
-		ModuleName = "Testcases.CollatzStep"
+		TcModuleName = "Testcases.CollatzStep"
 		dd_script.write("\n\n# Data Driven Test Exec Script\n")
-		dd_script.write("\nimport " + ModuleName + " as TC  \n")
+		dd_script.write("import ExecLayerScripts.")
+		dd_script.write("\nimport " + TcModuleName + " as TCM  \n")
 		# testdata = csv.reader(td, delimiter = ";")
 		# csv.reader(csvfile, dialect='excel', **fmtparams)
 		rows = 1
 		for row in testdata:
+			print(str(row) + "\n")
 			if rows > 2:
-				print(row[0] + "\n")
-				if row[0] == None: # "":
+				if row == None: # "":
 					print("## Ende ## + row[0]")
 					break
-				out  = "exec(" + ModuleName + ".tc, ["
+				# out  = "exec(" + ModuleName + ".tc + ["
+				out  = "exec(TCM.tc (["
 				# wenn Testdaten: if existTestdata()
 				c = 0
+				comma = ", "
 				while c < cols:
-					out = out + ", " + str(row[c])
+					if c == cols - 1:
+						comma = ""
+					out = out + str(row[c] + comma)
 					c=c+1	
-				out = out + "])"
+				out = out + "]))"
 				dd_script.write(out + "\n")
+				print(out + " col: " + str(cols))
 			if rows == 2:
 				cols = 0
-				while row[cols] != "":
-					# print(row[cols] + "\n")
+				
+				# while row[cols] != None:
+				while cell(row, cols) != None:
+					print(str(row[cols] + " " + str(cols) + "\n"))
 					cols = cols + 1
 				# cols = cols - 1
+				print("Cols ermittelt: " + str(cols) + "\n")
 				rows = rows + 1
 			if rows == 1:
 				rows = rows + 1
+				print("rows == 1")
 		# script_filename.close 
+
+def cell(row, cols):
+	try: 
+		return row[cols]
+	except BaseException as be:
+		print("cell NULL: " + str(be))
+		return None

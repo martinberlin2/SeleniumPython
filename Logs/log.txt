@@ -1,7 +1,1 @@
-ERROR:root:EXC main level: invalid character '¶' (U+00B6) (ReadCsvTestdataWithFuncNames.py, line 40)
-ERROR:root:EXC main level: positional argument follows keyword argument (ReadCsvTestdataWithFuncNames.py, line 39)
-ERROR:root:EXC main level: No module named 'csv.reader'; 'csv' is not a package
-ERROR:root:EXC main level: invalid syntax (ReadCsvTestdataWithFuncNames.py, line 6)
-ERROR:root:EXC main level: invalid syntax (ReadCsvTestdataWithFuncNames.py, line 6)
-ERROR:root:EXC main level: No module named 'CSV'
-ERROR:root:EXC main level: No module named 'CSV'
+ERROR:root:EXC main level: unmatched ')' (ReadCsvTestdataWithFuncNames.py, line 57)

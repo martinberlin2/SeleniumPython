@@ -4,35 +4,4 @@ Odd1;16;5
 Odd2;4;1
 Even1;16;8;;
 Even2;5;10;;
-
-DDTC_Prepare.py erzeugt:
--> exec(Testcases.CollatzStep, [Odd1, 16, 5])
--> exec(Testcases.CollatzStep, [Odd2, 4, 1])
-exec dann incl reporting-Aufruf
-
-ohne Testdaten (normaler TC):
--> exec(Testcases.CollatzStep,[])
-
---------------------------------
-DDTC_Prepare.py
-
-Für alle .py as aktPy in Execution List:
-	existTestdata() ?
-	Zeile 1: wie viele Cols 
-	outstart =  "exec(" + ModuleName + ", [")
-	für alle Zeile 2 bis Ende
-		out = "exec(" + ModuleName + ", [")
-		wenn Testdaten: if existTestdata()
-			c = 0
-			while c < cols:
-				out = out + ", " str(tab[c])
-				c=c+1	
-		out = out + "])"
-		write out 
-
-
-
-ModuleName: 
-für alle .py in Execution List:
-	gibt es .csv im passenden Testdatenverzeichnis der ExecutionList  (es könnte mehrere geben)
-		ja -> ModuleName gefunden. Testdaten müssen im gleichen Verz. wie der Testfall sein
+xc
