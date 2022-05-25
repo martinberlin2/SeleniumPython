@@ -1,40 +1,17 @@
 INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
 INFO:root:TC_4_menuLinksObenSort deaktiviert
----
 INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
 INFO:root:TC_4_menuLinksObenSort deaktiviert
-INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
-INFO:root:TC_4_menuLinksObenSort deaktiviert
-INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
-INFO:root:TC_4_menuLinksObenSort deaktiviert
-INFO:root:TC_5_Scrolling_Elem_Present_not_Visible: anderer Text:
 
 INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
 INFO:root:TC_4_menuLinksObenSort deaktiviert
-ERROR:root:TC_5_Scrolling_Elem_Present_not_VisibleAndere Exception: type object 'By' has no attribute 'css_selector'
+ERROR:root:EXC main level: name 'link_loc' is not defined
 INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
 INFO:root:TC_4_menuLinksObenSort deaktiviert
-INFO:root:TC_5_Scrolling_Elem_Present_not_Visible: NoSuchElementException
+ERROR:root:EXC main level: 'WebDriver' object has no attribute 'get_full_page_screenshot_as_file'
 INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
 INFO:root:TC_4_menuLinksObenSort deaktiviert
-ERROR:root:TC_5_Scrolling_Elem_Present_not_VisibleAndere Exception: Message: unknown variant `ELEMENT`, expected one of `css selector`, `link text`, `partial link text`, `tag name`, `xpath` at line 1 column 20
-
+ERROR:root:EXC main level: cannot import name 'get_full_page_screenshot_as_file' from 'selenium.webdriver' (C:\Users\Lap126\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\__init__.py)
 INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
 INFO:root:TC_4_menuLinksObenSort deaktiviert
-ERROR:root:TC_5_Scrolling_Elem_Present_not_VisibleAndere Exception: Message: unknown variant `ELEMENT`, expected one of `css selector`, `link text`, `partial link text`, `tag name`, `xpath` at line 1 column 20
-
-INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
-INFO:root:TC_4_menuLinksObenSort deaktiviert
-ERROR:root:TC_5_Scrolling_Elem_Present_not_VisibleAndere Exception: Message: unknown variant `ELEMENT`, expected one of `css selector`, `link text`, `partial link text`, `tag name`, `xpath` at line 1 column 20
-
-INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
-INFO:root:TC_4_menuLinksObenSort deaktiviert
-ERROR:root:TC_5_Scrolling_Elem_Present_not_VisibleAndere Exception: Message: unknown variant `ELEMENT`, expected one of `css selector`, `link text`, `partial link text`, `tag name`, `xpath` at line 1 column 20
-
-INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
-INFO:root:TC_4_menuLinksObenSort deaktiviert
-INFO:root:TC_5_Scrolling_Elem_Present_not_Visible: NoSuchElementException
-INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
-INFO:root:TC_4_menuLinksObenSort deaktiviert
-INFO:root:TC_5_Scrolling_Elem_Present_not_Visible: NoSuchElementException - jetzt Scroll
-INFO:root:TC_5_Scrolling_Elem_Present_not_Visible: NoSuchElementException nach Scroll
+ERROR:root:EXC main level: 'WebDriver' object has no attribute 'get_full_page_screenshot_as_file'
