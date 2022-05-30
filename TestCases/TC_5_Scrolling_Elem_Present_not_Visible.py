@@ -15,17 +15,33 @@ from selenium.webdriver.common.by import By
 import selenium.webdriver 
 import time 
 
-# text-2 > div:nth-child(1) > p:nth-child(1) > a:nth-child(1)   -- gibt nse 
-
-#text-2 > div:nth-child(1) > p:nth-child(1) > a:nth-child(1)
+# driver wird kein zwingender Parameter mehr sein
+# hier Test mit https://dilbert.com/ , die hat Endlos-Scroll 
+	
 # Link: AGB , unten auf Homepage
 # Link zu: https://auticon.de/allgemeine-geschaeftsbedingungen-agb/
-# ohne Scrollen: NoSuchElementException
+# kein test auf Nicht-Sichtbarkeit vor Scroll, SE liest DOM
+from datetime import date
 
 def tc(driver): # -> bool
+	today = date.today()
+	print("Today's date:", today)
+	URL = "https://dilbert.com/"
+	driver.get(URL)
+	lnks=driver.find_elements_by_tag_name("a")
+	# traverse list
+	for lnk in lnks:
+		# get_attribute() to get all href
+		attr = lnk.get_attribute("href")
+		strattr = str(attr)
+		if strattr.startswith("https://dilbert.com/strip/") :
+			if strattr.endswith(str(today)):
+				print(attr)
+				lnk.click()
+	return "passed"
 	TC = "TC_5_Scrolling_Elem_Present_not_Visible" # TODO dynamisch - als Modulname
 	print(TC + " start")
-	cssSelector = '#text-2 > div:nth-child(1) > p:nth-child(1) > a:nth-child(1)'
+	cssSelector = ''
 	AGB_link = None
 	try:
 		AGB_link = driver.find_element(By.CSS_SELECTOR, cssSelector)
@@ -38,9 +54,9 @@ def tc(driver): # -> bool
 		return str(ex) 
 	# AGB_link.click() # scrollt selbst und klickt. Link geht. Kein test für visible
 	# if AGB_link.is_displayed(): # == True: # Kein test für visible
-	
+	# isClickable(AGB_link)  # Kein test für visible 
 	# link_loc = AGB_link.location_once_scrolled_into_view   # link_loc = {'x': 309, 'y': 852}; gleich nach Scroll 
-	
+	isClickable(AGB_link)
 	elemIsThere = isVisibleAfter(driver, cssSelector, 5) # Returns float seconds, or bool: cssSelector visible after seconds on loaded webpage in driver. At once visible (no wait needed): 0. After timeout not visible: False
 	if elemIsThere != False:
 		print("Kein test für visible" + str(elemIsThere))
@@ -54,10 +70,11 @@ def tc(driver): # -> bool
 	# hover = ActionChains(driver).move_to_element(elem)
 			# hover.perform()
 
+	#    #### SCROLL ####
 	driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 	time.sleep(5)
 	
-	
+	isClickable(AGB_link)
 	elemIsThere = isVisibleAfter(driver, cssSelector, 5) # Returns float seconds, or bool: cssSelector visible after seconds on loaded webpage in driver. At once visible (no wait needed): 0. After timeout not visible: False
 	if elemIsThere == False:
 		print("Nach Scroll nicht da" + str(elemIsThere))
@@ -112,7 +129,7 @@ def isVisibleAfter(driver, cssSelector, timeout): # Returns float seconds, or bo
 	s = 0
 	step = 0.01
 	while s < timeout:
-		try:
+		try:	
 			elem = WebDriverWait(driver, step).until(
 			EC.visibility_of_element_located((By.CSS_SELECTOR, cssSelector)))
 			return s 
@@ -120,3 +137,13 @@ def isVisibleAfter(driver, cssSelector, timeout): # Returns float seconds, or bo
 			s = s + step
 	# print ("FALSE elem still visible after seconds " + str(s))
 	return False 
+
+def isClickable(elem):
+	from selenium.common.exceptions import WebDriverException
+	try:
+		elem.click()
+		print ("Element is clickable")
+	except WebDriverException:
+		print ("Element is not clickable")
+		return False
+	return True

@@ -19,9 +19,9 @@ logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO
 def start(): # collects unexpected exceptions from main 
 	# print("Started")
 	try:
-		reporter.openReport()
-		main()  # startet nacheinander alle TC in /testcases, rekursiv; kein Harness
-		# one_tc()
+		# reporter.openReport()
+		# main()  # startet nacheinander alle TC in /testcases, rekursiv; kein Harness
+		one_tc()
 	except Exception as ex:
 		logging.error("EXC main level: " + str(ex))
 
@@ -29,16 +29,17 @@ def one_tc(): # returns: None; nur developen + debug
 	from selenium import webdriver
 	driverpath = config.get("gecko")
 	driver = webdriver.Firefox(executable_path=driverpath)
-		
-	driver.get("https://auticon.de") 
-	from TestCases import TC_1_1_popup_cookies_deny as testcase 
+	# driver.get("https://auticon.de") 
+	# from TestCases import TC_1_1_popup_cookies_deny as testcase 
+	# result = testcase.tc(driver)
+	from TestCases import TC_5_Scrolling_Elem_Present_not_Visible as testcase 
 	result = testcase.tc(driver)
-	print(tc_name + ": " + str(result))
+	print(str(result))
 	
 	driver.quit()
 	
-	reporter.addStats(passed, failed, errors)
-	reporter.closeReport()
+	# reporter.addStats(passed, failed, errors)
+	# reporter.closeReport()
 	
 def main():	# alle TC in /testcases, rekursiv
 	from selenium import webdriver

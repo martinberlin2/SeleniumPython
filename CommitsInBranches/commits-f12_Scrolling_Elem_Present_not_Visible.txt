@@ -1,0 +1,11 @@
+﻿privlab:
+C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+
+worklab:
+C:\Users\Lap126\Documents\GitHub\SeleniumPython
+
+repo
+https://github.com/martinberlin2/SeleniumPython
+
+Dilbert-Seite lädt, Datum erhalten, welcher von beiden Link-Treffern ist es...
+brauce erst Step, um die Cookies wegzumachen
