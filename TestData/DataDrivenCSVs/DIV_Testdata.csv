@@ -1,6 +1,0 @@
-WEG ModuleName;Testcases.DIV;;;;
-TestcaseName;ExpectedResult;Param1;Param2;   
-t1;None;6;30;5;NoHeaderForThis
-t2;None;606;6666;101;
-t3;None;DivByZero;34;0;
-t4;None;7;42;6;
