@@ -9,3 +9,6 @@ https://github.com/martinberlin2/SeleniumPython
 
 Dilbert-Seite lädt, Datum erhalten, welcher von beiden Link-Treffern ist es...
 brauce erst Step, um die Cookies wegzumachen
+
+31.5. hier abgebrochen, weil das neue Projekt Cypress nutzt. Letzter Punkt: 
+Studium xpath, und Elemente ansprechen. Eigentliches Non-Visible-Thema noch nicht erreicht, Popups müssen erst weggeklickt sein

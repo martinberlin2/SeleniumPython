@@ -1,10 +1,11 @@
 
 
+## driver.find_elements(By.XPATH, "//*")   alle
+
 # TC_5_Scrolling_Elem_Present_not_Visible
 # Desktop Modus, Vollbild und Teilbild 
 # TC ist abhängig davon, dass die Popups weg sind
-	# TC_1_1_popup_cookies_deny
-	# TC_1_2_popup_openPositions	
+	# momentan Teil dieses TC 
 # erstmal durch zufälliges Harness gelöst: TC_5_ ist letzter TC
 
 # Selenium / Python imports
@@ -22,12 +23,54 @@ import time
 # Link zu: https://auticon.de/allgemeine-geschaeftsbedingungen-agb/
 # kein test auf Nicht-Sichtbarkeit vor Scroll, SE liest DOM
 from datetime import date
+import time 
 
 def tc(driver): # -> bool
 	today = date.today()
 	print("Today's date:", today)
-	URL = "https://dilbert.com/"
+	URL = "https://dilbert.com/"  # jedes Reload bei Scroll : 3 neue Comics
 	driver.get(URL)
+	time.sleep(2)
+	
+	
+	# Strategie 1 element.find_element bis es passt
+	# Strategie 2 find_element nach mehreren Klassen  By.CLASS_NAME, ''
+	
+	# elems = driver.find_elements_by_xpath("//*[@class='message-component' or @class='message-component']")
+	
+	all_nodes = driver.find_elements(By.XPATH,"//*[contains(@class, 'container-fluid')]")
+	## elems = driver.find_elements_by_class_name('message-component') Kein Treffer
+	for node in all_nodes:
+		print("Found: ")
+		print(node)
+	all_nodes = driver.find_elements_by_class_name('container-fluid')
+	for node in all_nodes:
+		print("Found: ")
+		print(node)
+			## TRY: 
+			## = elem.get_attribute("title")
+	
+	# Popup wegclicken
+	# ---- Container lokalisieren
+	# lastID = driver.find_element(By.ID, "notice") --NSE
+	
+	# ---- Manage Preferences
+	
+	# <button title="Manage Preferences" class="message-component message-button no-children focusable pm-button sp_choice_type_12" style="padding: 10px 15px; margin: 10px; border-width: 1px; border-color: rgb(0, 0, 0); border-radius: 20px; border-style: solid; font-size: 14px; font-weight: 600; color: rgb(55, 58, 60); font-family: arial, helvetica, sans-serif; width: auto; background: rgb(255, 255, 255) none repeat scroll 0% 0%;">Manage Preferences</button>
+	return "bis_hier_TC_durch"
+	
+	cssManPrefButton = "button.message-component:nth-child(1)"
+	ManPrefButton = lastID.find_element(By.CSS_SELECTOR, cssManPrefButton)
+	ManPrefButton.click()
+	time.sleep(2)
+	
+	# -- Reject All
+	cssRejectAllButton = ".sp_choice_type_REJECT_ALL"
+	RejectAllButton = driver.find_element(By.CSS_SELECTOR, cssRejectAllButton)
+	RejectAllButton.click()
+	# Popup ist weg 
+	
+	time.sleep(2)
 	lnks=driver.find_elements_by_tag_name("a")
 	# traverse list
 	for lnk in lnks:
@@ -38,7 +81,8 @@ def tc(driver): # -> bool
 			if strattr.endswith(str(today)):
 				print(attr)
 				lnk.click()
-	return "passed"
+	return "bis_hier"
+	
 	TC = "TC_5_Scrolling_Elem_Present_not_Visible" # TODO dynamisch - als Modulname
 	print(TC + " start")
 	cssSelector = ''

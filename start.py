@@ -36,7 +36,7 @@ def one_tc(): # returns: None; nur developen + debug
 	result = testcase.tc(driver)
 	print(str(result))
 	
-	driver.quit()
+	# driver.quit()
 	
 	# reporter.addStats(passed, failed, errors)
 	# reporter.closeReport()
