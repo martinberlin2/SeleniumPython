@@ -1,8 +1,2 @@
 Testcase                       Result     Reason                                  
 ----------------------------------------------------------------------------------
-Mouse over - Tooltip von title FAILED     None                                    
-Mouse_over_-_Tooltip_von_title FAILED     None                                    
-TC_1_1_popup_cookies_deny..... FAILED     True                                    
-TC_1_2_popup_openPositions.... Passed                                             
-TC_1_title.................... FAILED     True                                    
-TC_4_menuLinksObenSort........ FAILED     at the moment disabled, has never worked yet

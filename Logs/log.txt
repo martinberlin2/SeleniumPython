@@ -1,6 +1,0 @@
-INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
-INFO:root:TC_4_menuLinksObenSort deaktiviert
-ERROR:root:EXC main level: name 'elem' is not defined
-INFO:root:TC_1_2_popup_openPositions: PASSED X beendet Popup
-INFO:root:TC_4_menuLinksObenSort deaktiviert
-ERROR:root:EXC main level: 'WebDriver' object has no attribute 'get_full_page_screenshot_as_file'
