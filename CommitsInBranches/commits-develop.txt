@@ -150,3 +150,5 @@ Model-TestCase gelöscht, erst data driven zuende
 	Lösung: TestHarness; nötige Reihenfolge im Testfall dokumentiert. - start.py aufgeräumt
 
 Next: Scrolling. Jetzt andere Dateien aufgeräumt. Backlog: US sind FEA Feature, DEF Defects, DEB Technical Debts
+
+120823 alles nicht Committed in f12... gesammelt und nach develop
