@@ -16,3 +16,12 @@ git diff <quell_branch> <ziel_branch>
 git add --all 
 Alle Änderungen 
 git add Verz/*.*   geht !
+
+COMMIT
+Msg in commit file schreiben
+COPY 
+git status
+git add --all 
+git commit 
+:i 
+msg pasten
