@@ -10,5 +10,23 @@ https://github.com/martinberlin2/SeleniumPython
 Dilbert-Seite lädt, Datum erhalten, welcher von beiden Link-Treffern ist es...
 brauce erst Step, um die Cookies wegzumachen
 
-31.5. hier abgebrochen, weil das neue Projekt Cypress nutzt. Letzter Punkt: 
+31.5.22 hier abgebrochen, weil das neue Projekt Cypress nutzt. Letzter Punkt: 
 Studium xpath, und Elemente ansprechen. Eigentliches Non-Visible-Thema noch nicht erreicht, Popups müssen erst weggeklickt sein
+
+12.8.23 aufgeräumt, Richtung jetzt : Bahn, 1. only-essential cookies; Backlog:
+- TC und Harness in Suite-Ordner 
+- Ordnername = Name der Suite = Ordnername.py, enthaelt Harness() Methode 
+- Steuerung für alle Suites unter Testcases-Ordner
+- TCs returnen msg und secs 
+- Reporting: Spalte secs, auf 0.01
+- Reporting: Zeilenumbruch innerhalb Spalte
+- Reporting: erst TCs schreiben, am Ende Report lesen und Summen bilden
+	# passed = 0
+	# failed = 0  # Erwartete Fehler 
+	# errors = 0  # Exceptions
+- commonLocator: cssSelector-Strings 
+--- Locator-Methode: Parser HTML-> cssSelector !!?? Damit "stabile" TCs - oder gerade nicht?
+AC:
+Locators stored in the class CommonLocators
+are uniquely across the codebase (and not defined again elsewhere)
+(exclusively) make use of the data-testid (corner cases where this is not possible may exist). This means that the frontend code may need to be touched !!?!

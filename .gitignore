@@ -1,5 +1,6 @@
 config.txt
 __pycache__/
+*.bak
 geckodriver.log
 DontCommit/
 TestCases/__pycache__

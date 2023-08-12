@@ -1,0 +1,19 @@
+
+==================================================================================
+Passed: 1, Failed: 7, Errors: 0
+Mouse over - Tooltip von title FAILED     None                                    
+Mouse_over_-_Tooltip_von_title FAILED     None                                    
+TC_1_1_popup_cookies_deny..... FAILED     True                                    
+TC_1_2_popup_openPositions.... FAILED     TC_1_2_popup_openPositions: Popup kommt nicht
+TC_1_title.................... FAILED     False                                   
+TC_4_menuLinksObenSort........ FAILED     at the moment disabled, has never worked yet
+TC_6_JumpPage................. Passed                                             
+Mouse_over_-_Tooltip_von_title FAILED     FAILED: NSE EXC Mouse over - Tooltip von title: Message: Unable to locate element: .vc_custom_1542025788808 > figure:nth-child(1) > a:nth-child(1) > img:nth-child(1)
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:183:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:395:5
+element.find/</<@chrome://remote/content/marionette/element.sys.mjs:134:16
+
+==================================================================================
+Passed: 1, Failed: 7, Errors: 0

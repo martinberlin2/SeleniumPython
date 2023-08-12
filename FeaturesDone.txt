@@ -14,4 +14,4 @@ Text vom tooltip = elem.get_attribute("title") , aber keine Abfrage bei mouse-ov
 Report_Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
 	Eine Zeile pro Test, 80 Zeichen - done			#Utilities/Reporter.py
 	
-# TC_5_Scrolling_Elem_Present_not_Visible
+Weiterleitung auf andere Seite bei Aufruf 			#TC_6_JumpPage	

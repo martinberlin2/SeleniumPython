@@ -1,0 +1,6 @@
+ModuleName;Testcases.CollatzStep
+TestcaseName;ExpectedResult;Param1
+Odd1;16;5
+Odd2;4;1
+Even1;16;8
+Even2;5;10

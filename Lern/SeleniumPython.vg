@@ -1,0 +1,9 @@
+SeleniumPython.vg.txt
+https://selenium-python.readthedocs.io/installation.html
+
+https://www.youtube.com/watch?v=gRMbCvQgOoU&t=390s Locate elements
+
+TC_4_menuLinksObenSort
+EXC TC2: 'list' object has no attribute 'click'    failed
+ 
+ 

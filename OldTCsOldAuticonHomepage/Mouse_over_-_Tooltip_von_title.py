@@ -22,7 +22,7 @@ def tc(driver): # -> bool
 	# print(TC_name)
 	try:
 		elem = None
-		try: 	
+		try: 
 			elem = driver.find_element(By.CSS_SELECTOR, '.vc_custom_1542025788808 > figure:nth-child(1) > a:nth-child(1) > img:nth-child(1)' ) 
 			# mouse-over
 			hover = ActionChains(driver).move_to_element(elem)

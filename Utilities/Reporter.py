@@ -46,7 +46,6 @@ def report(TCname, result, reason): # Param: String TCname, String result "Passe
 		result = fillString(result, resultLen, " ")
 		reason = fillString(reason, reasonLen, " ")
 		line = TCname + " " + result + " " + reason
-		
 		reportFile.write(line + "\n")
 		
 		

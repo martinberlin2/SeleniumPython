@@ -48,6 +48,7 @@ def readConfig(filename): # Param: relativer Dateiname; Datei= "Kategorie<TAB>We
 	cfg = CFG()
 	while True:	 # for line in cfgFile:
 		line = cfgFile.readline()
+		# print(line)
 		if not line:    #check if line is null
 			break
 		if line[0] != "#":			

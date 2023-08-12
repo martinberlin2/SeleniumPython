@@ -1,10 +1,23 @@
 FeatureBranches
+
+
+
+----- 2022 -----
+GIT: 
+f12_Scrolling_Elem_Present_not_Visible ... läuft das ?
+   home: mit Dilbert 
+Auf Büro - Rechner aktueller?
+Läuft data-driven?
+
+
+
 f12
 
 Büro
 f12_Scrolling_Elem_Present_not_Visible
 auticon.de: AGB | Datenschutzerklärung nach der DSGVO | Nutzungsbedingungen | Impressum | © Copyright 2021
 nur sichtbar nach Scrolling Vollbild Desktop
+
 
 Home 
 data_driven

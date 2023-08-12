@@ -1,0 +1,14 @@
+Diese Kenntnisse weisen Sie mit der A4Q Selenium 4 Zertifizierung nach:
+
+    Verständnis für verschiedene Selenium-Automatisierungswerkzeuge und Testautomatisierungslösungen, die mit Selenium 4 implementiert werden können
+	
+    Verständnis für die zugrundeliegenden Webtechnologien und wie sie in Selenium eingesetzt werden können.
+	
+    Verständnis über den Einsatz von Praktiken beim Onboarding von Selenium-Automatisierungsprojekten
+	
+    Verständnis über die Maximierung des Return on Investment für Automatisierungsprojekte
+	
+    Ausführung von Selenium WebDriver-Tests ohne Aufsicht
+	
+    Anwendung von Testautomatisierungsprinzipien, um eine wartbare Testautomatisierungslösung aufzubauen.
+	

@@ -32,6 +32,21 @@ def tc(driver): # -> bool
 	driver.get(URL)
 	time.sleep(2)
 	
+	########
+	# Cookies
+	# class="message-component text no-children text-box" 
+	elems = driver.find_elements_by_class_name('message-component')
+	
+	
+	# <a class="img-comic-link" href="https://dilbert.com/strip/2023-03-12" title="Click to see the comic strip App Error">
+          # <img class="img-responsive img-comic" alt="App Error - Dilbert by Scott Adams" src="https://assets.amuniversal.com/5aae77308566013be233005056a9545d" width="900" height="439">
+        # </a>
+	# # ein Comic Bild
+	
+	# <a class="img-comic-link" href="https://dilbert.com/strip/2023-03-11" title="Click to see the comic strip Dave Gives Update">
+          # <img class="img-responsive img-comic" alt="Dave Gives Update - Dilbert by Scott Adams" src="https://assets.amuniversal.com/558298a095f7013be79b005056a9545d" width="900" height="280">
+        # </a>
+	# # 2. Bild 
 	
 	# Strategie 1 element.find_element bis es passt
 	# Strategie 2 find_element nach mehreren Klassen  By.CLASS_NAME, ''

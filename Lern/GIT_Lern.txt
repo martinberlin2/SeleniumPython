@@ -1,0 +1,18 @@
+SeleniumPython.vg.txt
+ 
+Please enter a commit message to explain why this merge is necessary, especially if it merges an updated upstream into a topic branch
+-_> 
+    press "i" (i for insert)
+    write your merge message
+    press "esc" (escape)
+    write ":wq" (write & quit)
+    then press enter
+
+
+GIT
+Bevor du Änderungen zusammenführst, kannst du dir die Differenzen auch anschauen:
+git diff <quell_branch> <ziel_branch>
+
+git add --all 
+Alle Änderungen 
+git add Verz/*.*   geht !

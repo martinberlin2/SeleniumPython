@@ -1,0 +1,22 @@
+C:\Python310\Lib
+C:\Users\laoch\AppData\Local\Programs\Python\Python310\Scripts\pip3.exe
+
+
+Only allow necessary cookies    innerHtml
+
+<button class="btn btn--secondary js-accept-essential-cookies">Only allow necessary cookies</button>
+
+outerHtml
+
+
+//*[@id="consent-layer"]     Xpath fuer ganzes Popup-Window
+
+
+wait = WebDriverWait(driver, 10)
+ele = wait.until(EC.element_to_be_clickable((By.
+
+
+				driver.switchTo().frame("klarna-checkout-iframe");    ist bei mir keiner
+				
+WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div.fc-consent-root button[aria-label='Consent'] p.fc-button-label")))    als chain: dahinter  ".click()"
+
