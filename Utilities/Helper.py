@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
 
-def expand_shadow_element(drv, element):
+def expand_shadow_element(drv, element): # -> shadow_root: returns tree under element = das ueber shadow open in HTML
 	shadow_root = drv.execute_script('return arguments[0].shadowRoot', element)
 	# shadow_root = drv.execute_script('return arguments[0].shadowRoot.firstChild', element)
 	return shadow_root
@@ -28,7 +28,7 @@ def isNotVisible(driver, cssSelector, seconds): # cssSelector weg nach max secon
 	# print ("FALSE elem still visible after seconds " + str(s))
 	return False 
 
-def getElem(driver, mode, timeout, cssSelector): # -> (seconds, elem, msg) : cssSelector available after seconds with errors = msg (none = "NoErrors"), returns elem, too. mode: "e" = existence, "v" = visibility, "c" = clickability
+def getElem(driver, mode, timeout, cssSelector): # -> (seconds, elem, msg) : cssSelector available after seconds with errors = msg (none = "NoErrors"), returns elem, too. mode: "e" = existence, "v" = visibility (NYI), "c" = clickability
 	import time 
 	from datetime import datetime, timedelta
 					# time.sleep(20) 
@@ -43,14 +43,13 @@ def getElem(driver, mode, timeout, cssSelector): # -> (seconds, elem, msg) : css
 	# return 99, None, msg
 	#### elem = None    # muss das ?
 	# step = timeout/100
-	while datetime.now() < finishplan:
+	while datetime.now() <= finishplan:
 		match mode:
 			case "e": # Läuft auch ohne WebDriverWait, mit shadowDom
 			# if mode == "e":
 				try:
 					elems = driver.find_elements(By.CSS_SELECTOR,cssSelector)
-					print(msg + str(len(elems)))
-						
+					print(msg + " " + str(len(elems)))
 					neededSecs = datetime.now() - start
 					msg = "getElem: Element found after seconds: " + str(neededSecs)
 					if len(elems) > 1:

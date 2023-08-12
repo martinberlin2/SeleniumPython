@@ -154,3 +154,5 @@ Next: Scrolling. Jetzt andere Dateien aufgeräumt. Backlog: US sind FEA Feature,
 120823 alles nicht Committed in f12... gesammelt und nach develop
 
 develop tested: TC_ButtonOnlyEssentialCookiesin BahnReise läuft 
+
+Helper: getElem verbessert
