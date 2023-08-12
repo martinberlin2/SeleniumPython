@@ -60,6 +60,7 @@ def harness():	# alle TC in einer Suite = einem Ordner, wird in diesem Ordner li
 	
 def execTC(driver, TC_moduleName):
 	import importlib
+	
 		# TC_moduleName = "TC_InDevelopment"
 			# Contrived example of generating a module named as a string
 			# full_module_name = "mypackage." + "mymodule"
@@ -70,6 +71,7 @@ def execTC(driver, TC_moduleName):
 	# import TC_InDevelopment as TCmodule 
 	tc_name = TC_moduleName  	# TODO seconds in Report 
 								# TODO 'TC_name' aus Testcase -- ONGOING
+	
 	result, seconds = TCmodule.tc(driver)					
 	
 	if result == "Passed":

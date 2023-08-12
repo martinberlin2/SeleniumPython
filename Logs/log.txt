@@ -12,3 +12,5 @@ ERROR:root:EXC main level: name 'tc_name' is not defined
 ERROR:root:EXC main level: name 'module_name' is not defined
 ERROR:root:EXC main level: name 'TC_moduleName' is not defined
 ERROR:root:EXC main level: name 'driver' is not defined
+ERROR:root:EXC main level: Message: Process unexpectedly closed with status 0
+
