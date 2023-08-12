@@ -1,0 +1,257 @@
+Backlog.txt
+Ideen was mein SE können soll
+FEA Feature: neue Fähigkeit 
+DEF Defect - z.B. nach Merge eines neuen Features, der in eigenem Branch gefixt werden muss 
+DEB Technical Debt - Defect, der erstmal toleriert wird
+	DEB für jeden TC einzeln, dernach Merge nicht läuft
+------------------------------------------------------------------
+DEB Alle Testfälle geben String zurück
+
++ Harness: für eine Suite, die in einem Ordner liegt
+	geht mit einem TC 
+- TC und Harness in Suite-Ordner 
+- Ordnername = Name der Suite = Ordnername.py, enthaelt Harness() Methode 
+- Steuerung für alle Suites unter Testcases-Ordner
+- TCs returnen msg und secs 
+- Reporting: Spalte secs, auf 0.01
+- Reporting: Zeilenumbruch innerhalb Spalte
+- Reporting: erst TCs schreiben, am Ende Report lesen und Summen bilden
+	# passed = 0
+	# failed = 0  # Erwartete Fehler 
+	# errors = 0  # Exceptions
+- commonLocator: cssSelector-Strings 
+--- Locator-Methode: Parser HTML-> cssSelector !!?? Damit "stabile" TCs - oder gerade nicht?
+AC:
+Locators stored in the class CommonLocators
+are uniquely across the codebase (and not defined again elsewhere)
+(exclusively) make use of the data-testid (corner cases where this is not possible may exist). This means that the frontend code may need to be touched !!?!
+
+
+TC  TC_Jetzt_Next_DB_erleben
+    Button:   "zurück zu bahn.de"   Text contains! 
+      
+FEA find-elem-Muster als Funktion
+FEA VisibleAfter, FindAfter, ClickableAfter Unterscheidung
+
+FEA 2 Reports - ManRep: Statistik, DevRep: Fehlermeldungen/Exceptions
+DEF Report macht Stats nicht 
+FEA ++++ Thema Modell - TC /// Data Driven 
+	TC: lädt die Seite selbst (Feature TODO: LoadPage(url) -> Page ist PageObject
+
+FEA Mouse_over_-_Tooltip_von_title: sollte mit C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Historisch\Home - auticon laufen ---> Aufruf Offline-Pages
+
+FEA deprecated - Messages abfangen
+    in f12 aktuell 1.3.23
+FEA Alle Fehlermeldungen ins Log
+
+FEA Weiterleitung einer Page, Beispiel auticon.de   TC_6_JumpPage
+
+!!! Modell-TC : max. mögl. Reporting, Struktur try - catch-block
+		dort doku, welche Measures geliefert werden müssen
+	TC (ER, params) als Modell TC, Ansteuerung aus Excel
+	16.5. Parameter! Keine URL, aber TC(TC_name, ER, params)
+		Page oder URL kann ein Parameter sein 
+	noch keine Locators, weil das pageObjekte sein müssen
+		mehrere Buttons: für einen schreiben, ID's werden Parameter
+
+
+	TCs müssen nicht numeriert sein
+
+		besser: Typ-Auswertung bei expected
+LoadPage(url) -> Page ist PageObject
+StubTC (ER, params) für später data driven 
+	params als Liste
+	Dummy Aktionen 
+
+
+Serienbrief:
+- ein Brief an einen (z.B. Erinnerung Beitrag 10.- seit 1.4.22 )   	== normaler TC()
+-> parametrisierter Brief (Adressat, Anrede, Betrag, Seit)  	   	== TC(params)
+-> Parametertabelle mit x Zeilen								   	== CSV
+-> Programm, das x Briefe erzeugt (Brief, Parametertabelle)			== !! Skript für x Aufrufe erzeugen, 
+																		nicht x TCs schreiben
+-> Alle Briefe austragen											== alle TCs ausführen
+
+	1. TC normal: TC(): wenn "Button(konkreterLocator1) click und nach 1,3 sek kommt Fenster(konkreterLocator2) da ist, passed"
+	bzw. TC() "gib ein Zaehler 10, Nenner 5, erwarte 2"
+	
+	2. als DD-TC : TC (Loc1, waitSec, Loc2) : wenn "Button(Loc1) click und nach (waitSec) sek kommt Fenster(Loc2) da ist, passed"
+	bzw. TC(ER, z,n) ("gib ein Zaehler z, Nenner n, erwarte ER"
+	
+	Start main: 
+	Unterordner "dataDrivenTests", VOR main:
+	DDTC - Skriptwriter(csvFileWithPath)
+	schreibt aus csvFile TCname - ER - z - n:
+	
+	3. urspr. TC() ruft dann DD-TC auf 
+	DDTC - Skriptwriter(csvFileWithPath)
+	schreibt aus csvFile TCname - ER - z - n:
+	import TC 
+	TC(ER1, z1,n1) --> Reporting, wie normaler TC vorher 
+	TC(ER2, z2,n2)
+    ...
+	und kein Reporting-Aufruf, 
+		--- eigenes Feature: zählt selbst mit wieviel Failed und schreibt in DDTC-Report 
+	passed, wenn alle Teil-TC passed
+	
+	
+	4. Aufruf: 
+++++ Thema Modell - TC /// Data Driven Ende	
+
+DEB	Result-Typ: expected = "123", result = 123 ist fail, wird bei str(result) aber maskiert
+
+
+FEA wegen mouse-over: Manuell - setzbare TCs 
+
+	
+Report - Aufbau: TC-Name dynamisch rein, wird im dyn. TC-Aufruf ermittelt
+	Eine Zeile pro Test, 80 Zeichen 
+	Reporting: 
+- TC-Name zu lang -- TC_5_Scrolling_Elem_Present_not_Visible -- auch mehrzeilig; Max-Längen portabel 
+   Später; in auticon.de nicht mehr, dilbert kein Testfall mehr 
+
+
+- Reason zu lang -- auch mehrzeilig Max-Längen portabel
+	
+
+DEB  Reporting:	Laengere_Exception_Texte mit Zeilenumbruch : wenn das mal vorkommt...
+
+Report_AddStats: TC geben Passed, Failed:<otherResult> oder Error<ExceptionText> zurück
+
+
+
+TC_1_2_popup_openPositions: sleep mit isNotVisible- liefert Zeit zurück, notfalls im Text 
+	
+	
+TC_1_2_popup_openPositions: Logging nur Exceptions
+ExceptionHandling - was macht try - finally ? auch für catch-block?
+
+Lerndatei, MyCodeExamples
+
+
+evalTC(3, "len1", execFuncWithExc(lcs, ["abc", "daf"]) ,[1,"a"]) -- geht das in Selenium ?
+
+Cookies gesetzt?
+
+DEB - Returning anpassen:
+	TC_1_1_popup_cookies_deny 
+	TC_1_title
+	TC_2_topline
+	TC_4_menuLinksObenSort
+- wo sind Exceptions im Report ?  WEG 
+- start: driver.close() UND driver.quit()....wozu ?
+- Execution List: Folder Execution getrennt von Folder TC-Repo 
+  beliebige Reihenfolge 
+FEA - Harness für Suiten: Reihenfolge PRIO ! Beispiel: mouse-over, Load Page: Cookies wegklicken
+
+Preconditions, u.a. Blocked TCs einrichten
+	Mouse over - Tooltip von title: braucht das 
+
+Manuelle TCs ? User muss Dialog haben um zu bestätigen, dass Tooltip da war
+	Mouse over - Tooltip von title
+isNotVisible : step berechnen. und isNotVisibleAfterTime
+TC bool ---> "Passed " oder reason-String
+
+	addStats-Funktion... welche Measures noch?
+DEB Alle TCs laufen für das Reporting --- weg !! DEB für jeden TC einzeln, s.o.
+TC_1_1_popup_cookies_deny 
+PageObject
+	lazy fetch
+PageObject als Param in Modell-TC
+Eigenentwicklung notVisible(cssSelector, seconds) für Promise-Lösung -->> in LIB
+!! Framework / Script muss Exc aus TC abfangen !
+  !!! Klasse von Exceptions anzeigen lassen
++ Konfig - Programm
+- Framework zur Testausführung, start.py aufräumen
+
+FEA -- Stringvergleich über mehrere Zeilen
+FEA Reportname = Report_JJJJ_mmm_tt_hh:mm
+FEA Vergleichender Report : mit Vorgänger, bzw. mit letzter Ausführung des TC (also für jeden TC, auch ältere Reports)
+
+
+FEA mein TAS: blockierte TC. TC bekommt andere TCs als Prec
+
+
+######################################################
+Measures
+
+for my selenium
+		The measured TAS metrics typically include the following:
+			--· External TAS metrics
+			--· Automation benefits
+			--· Effort to build automated tests
+			--· Effort to analyze automated test incidents
+			--· Effort to maintain automated tests
+			--· Ratio of failures to defects
+			--· Time to execute automated tests
+			--· Number of automated test cases
+			--· Number of pass and fail results
+			--· Number of false-fail and false-pass results
+			--· Code coverage
+			--· Internal TAS metrics
+			--· Tool scripting metrics
+			--· Automation code defect density
+			--· Speed and efficiency of TAS components
+
+Non-Functional System Testing
+	Load Testing
+	Performance Testing
+	Stress Testing
+	Security Testing
+	Useability Testing
+	Storage Testing
+	Volume Testing
+	Installability Testing
+	Documentation Testing
+	Recovery Testing
+######################################################################################
+
+
+Certified Professional Selenium Tester (CPST) - Sample Exam
+ 
+Tim kann Python
+
+weiter
+https://selenium-python.readthedocs.io/api.html
+-- Elemente ansprechen
+find element
+	name
+	class
+	...
+
+-- Actions
+	mouse over 
+	left click 
+	right click
+	wait 
+	Scrolling
+durch website gehen und Aktionen / Elementtypen sammeln
+
+
+
+def one_tc(): # returns: None; nur developen + debug
+Umbenannt in data driven Branch?
+
+https://www.youtube.com/watch?v=EtZ7CJwu08w&list=PL0XwEbmS1bQlOVMrxr-H70c6lFas0GZ3M&index=25
+
+
+https://id.atlassian.com/login?continue=https%3A%2F%2Fauticon.atlassian.net%2Flogin%3FredirectCount%3D1%26dest-url%3D%252Fwiki%252Fspaces%252FAA%252Fpages%252F827228439%252FPython%2520lernen%2520ehem.%2520Python%2520Play%2520Board%2520Arbiter%26application%3Dconfluence&application=confluence
+
+
+
+https://www.javacodegeeks.com/2022/01/everything-you-need-to-know-about-page-object-model-and-page-factory-in-selenium.html?utm_source=feedburner&utm_medium=email
+POM...
+Methoden TC_Setup, TC_Teardown
+Klasse BY importieren (Java), geht auch selbst 
+  
+  
+
+SE 
+DataDriven: driver ist erster Parameter - ausser bei Unittest.
+tc bestimmt URL selbst
+SE 
+https://github.com/martinberlin2/SeleniumPython
+
+https://click.mlsend.com/link/c/YT0xOTU1OTI5MDY4Mzk0MjU2MjMyJmM9YTFxMyZlPTE0NDUyMzYzJmI9OTcyNDA4NjQ0JmQ9ZDhqNW81ZQ==.HWbK91ILWGXOIv_THA2JsVvjTl5hp74RsYGC5SvU6oI
+
+https://click.mlsend.com/link/c/YT0xOTU0OTMyNTU1MDA2MzUxMzQwJmM9YThsMyZlPTE0NDUyMzYzJmI9OTcyMTMzNjY3JmQ9aDB6OXE5cQ==.E2zDMMgFsEDJeqq3PgxFJOg2opMp1RiM6Rb17P34TnM

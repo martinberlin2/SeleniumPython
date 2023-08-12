@@ -1,0 +1,13 @@
+# Kommentar vorne, # muss vorne stehen  ...
+#
+# SeleniumRoot: wo dein Projekt lokal liegt. Deshalb diese Konfig nicht committen!
+#
+SeleniumRoot	C:\Users\laoch\OneDrive\Dokumente\Meins\Eigenes_F\auticon\Python\SeleniumPython
+# SeleniumRoot D:\Travel\SeleniumPython # ReiseLab
+LOCATION		Home
+gecko		C:/Users/laoch/OneDrive/Dokumente/Meins/AndereProgramme_G/Work/Drivers/geckodriver.exe
+# Kommentar hinten 
+
+# DeprecationWarning: executable_path has been deprecated, please pass in a Service object 
+
+# C:\Users\laoch\AppData\Local\Programs\Python\Python310

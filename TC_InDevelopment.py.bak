@@ -1,0 +1,67 @@
+
+
+## TC_popup_cookies_deny
+## Weiterleitung bahn.de -> ? https://auticon.com/de/#
+
+##### 26.6.23: Keine Anfangspopups mehr!
+##### 1.7.23: wieder da ! 
+# https://stackoverflow.com/questions/73093929/selenium-consent-to-cookie-pop-up#
+
+# Selenium / Python imports
+# import logging 
+# from selenium.webdriver.common.action_chains import ActionChains
+
+import selenium.webdriver
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from datetime import date
+import datetime 
+
+# from datetime import now as now 
+from Utilities.Helper import getElem as getElem, expand_shadow_element as expand_shadow_element
+import time 
+# import Helper.expand_shadow_element as expand_shadow_element
+
+def tc(driver): # -> string
+	today = date.today()
+	print("TC_popup_cookies_deny -- Today's date:", today)
+	
+	expected_url1 = "https://www.bahn.de/"
+	expected_url2 = "https://next.bahn.de/"
+	# startURL =  "https://selenium-python.readthedocs.io/getting-started.html"
+	startURL = "http://www.bahn.de" 
+	
+	loadStart = datetime.datetime.now()
+	driver.get(startURL)
+	loadEnd = datetime.datetime.now()
+	timeLoading = loadEnd - loadStart
+	print("timeLoading: " + str(timeLoading))
+	time.sleep(3)
+	
+	# cookies: only essentials
+	# cssSelector = 'h1.js-accept-essential-cookies'	
+	# button.btn:nth-child(1)
+	# Button: Only allow necessary cookies
+	ex = "No Exception"
+	try:
+		shadow_host = driver.find_element(By.CSS_SELECTOR,'body > div:nth-child(1)')
+		shadowTree = expand_shadow_element(driver, shadow_host)
+		
+		cssSelector = "button.btn:nth-child(1)"
+		
+		# def getElem(driver, mode, timeout, cssSelector): # -> (seconds, elem, msg) : cssSelector available after seconds with errors = msg (none = "NoErrors"), returns elem, too. mode: "e" = existence, "v" = visibility, "c" = clickability
+		
+		# GESUCHT IST:
+		# <button class="btn btn--secondary js-accept-essential-cookies">Only allow necessary cookies</button>
+		
+		elems = shadowTree.find_elements(By.CSS_SELECTOR, cssSelector)
+		seconds, elem, msg = getElem(shadowTree, "e", 10, cssSelector)
+				
+		print("Seconds: " + str(seconds))
+		print(str(elem))
+		print(msg)	
+	except Exception as ex:
+		msg = ("Button 'Only allow necessary cookies not found' : " + str(ex))
+		seconds = 1000000
+	return msg, seconds

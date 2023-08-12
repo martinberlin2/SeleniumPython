@@ -1,0 +1,61 @@
+## SE 3 -> 4
+## http://
+# WebDriverWait
+## Shadow DOM
+## ShadowDom with SE 4
+## by class name
+
+## SE 3 -> 4
+from selenium import webdriver
+	
+	# driverpath = config.get("gecko")
+	# driver = webdriver.Firefox(executable_path=driverpath) # deprecated: executable_path
+	driver = webdriver.Firefox()   # SE 4
+	# https://www.guru99.com/selenium-python.html#how-to-create-test-scripts-in-selenium-with-python
+	
+	# DeprecationWarning: executable_path has been deprecated, please pass in a Service object driver = webdriver.Firefox(executable_path=driverpath)
+	print("intro done")
+	##  from webdriver_manager.firefox import GeckoDriverManager
+	##  driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())	
+	# selenium 4
+	#   from selenium.webdriver.firefox.service import Service as FirefoxService
+	# from webdriver_manager.firefox import GeckoDriverManager
+	# driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+
+# startURL = "bahn.de"  # nur bahn.de geht nicht , muss http://www. oder https  sein
+
+
+## WebDriverWait geht auch shadowDom, liefert aber nur eins
+					# elems = WebDriverWait(driver, step).until(
+					# EC.visibility_of_element_located((By.CSS_SELECTOR, cssSelector)))
+					
+## Shadow DOM
+# https://www.youtube.com/watch?v=-uMLqBO2x7c
+	# What is Shadow DOM? | How to identify shadow root elements using Selenium 4 | GetShadowRoot method
+	# shadow_host: node that contains shadowTree 
+		# above #shadow_root (open)
+		# den mit xpath ... Locator ... für expand_shadow_element(elem=shadow_host)
+	# 1. shadow tree locaten, then 2. inside the tree elements locaten 
+	# #shadow_root (open) == $0
+	# elements exists under shadowDom #shadow_root (open) 
+		# found only by cssSelector
+	# which is the shadow_host
+	
+	shadow_host = driver.find_element(By.CSS_SELECTOR,'body > div:nth-child(1)')
+	shadowTree = expand_shadow_element(driver, shadow_host)
+	
+## ShadowDom with SE 4
+# https://www.linkedin.com/pulse/automating-shadow-dom-selenium-webdriver-ilor-shurer : by.CSS_SELECTOR geht zum Suchen in shadowTree
+	
+	# SE 4 hat GetShadowRoot 
+	# NICHT GetShadowRoot(elem=shadow_host)
+	# Sondern shadow_host.GetShadowRoot() 
+	
+## by class name
+cname = 'js-accept-essential-cookies'
+		# # cname = "btn"
+	try: 
+		el = shadowTree.find_element(By.CLASS_NAME, cname)
+		print("Found by CLASS_NAME: 1 " + cname) 
+	except Exception as ex:
+		print("Not found by CLASS_NAME: " + cname + " " + str(ex)) 

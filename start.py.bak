@@ -1,0 +1,169 @@
+# Pfad Reporting manuell ändern - noch
+
+# Start für Selenium python Test
+# SE Version 4.8.2.  python -c "import selenium; print(selenium.__version__)"
+
+# Erste Quelle https://www.selenium.dev/selenium/docs/api/py/api.html
+# Zweite https://selenium-python.readthedocs.io/api.html
+
+# print("start") 
+
+import logging
+from Utilities.readCfg import readConfig # as readConfig
+import Utilities.Reporter as reporter
+# import importlib ## what for ?
+
+config = readConfig("./config.txt")
+SeleniumRoot = config.get("SeleniumRoot")
+# print(SeleniumRoot)
+
+logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO) 
+
+def start(): # collects unexpected exceptions from main 
+	print("Started")
+	# print(__name__)  = __main__
+	try: 
+		reporter.openReport()
+		# all_TCs_recursive()  # startet nacheinander alle TC in /testcases, rekursiv; kein Harness
+		harness()
+		# one_tc()
+	except Exception as ex:
+		logging.error("EXC main level: " + str(ex))
+	reporter.closeReport()
+
+def one_tc(): # returns: None; nur developen + debug
+	from selenium import webdriver
+	driver = webdriver.Firefox()   # SE 4, see Solved.txt 
+	# driver = webdriver.Chrome()   # SE 4, see Solved.txt 
+	reporter.openReport()
+	
+	import TC_InDevelopment as testcase 
+	result = testcase.tc(driver)
+	print(result)
+	#reporter-report 
+	if result == "Passed":
+		reporter.report("dev_TC", result, "")
+	else:
+		reporter.report("dev_TC", "FAILED", result)
+	#reporter-close
+	reporter.addStats(passed, failed, errors)
+	reporter.closeReport()
+	# driver.quit()
+	
+	
+def harness():	# alle TC in einer Suite = einem Ordner, wird in diesem Ordner liegen
+	from selenium import webdriver
+	driver = webdriver.Firefox()   # SE 4
+	# driver.get("https://auticon.de") 
+	
+	execTC(driver, "TC_InDevelopment")
+	
+def execTC(driver, TC_moduleName):
+	import importlib
+		# TC_moduleName = "TC_InDevelopment"
+			# Contrived example of generating a module named as a string
+			# full_module_name = "mypackage." + "mymodule"
+
+	# The file gets executed upon import, as expected.
+	TCmodule = importlib.import_module(TC_moduleName)
+	
+	# import TC_InDevelopment as TCmodule 
+	tc_name = TC_moduleName  	# TODO seconds in Report 
+								# TODO 'TC_name' aus Testcase -- ONGOING
+	result, seconds = TCmodule.tc(driver)					
+	
+	if result == "Passed":
+		reporter.report(tc_name, result, "")
+	else:
+		reporter.report(tc_name, "FAILED", result)
+	
+	# driver.close()
+	# driver.quit()
+## execTC(TC_InDevelopment) Ende
+		
+	
+def all_TCs_recursive():	# alle TC in /testcases, rekursiv
+	from selenium import webdriver
+	# from selenium.webdriver.common.keys import Keys
+	
+	import time 
+	# driverpath = config.get("gecko")
+	# driver = webdriver.Firefox(executable_path=driverpath) # deprecated: executable_path
+	driver = webdriver.Firefox()   # SE 4
+	stillanothertestcase = False 
+	# https://stackoverflow.com/questions/49929374/notadirectoryerror-winerror-267-the-directory-name-is-invalid-error-while-inv	 
+	driver.get("https://auticon.de") 
+	import os
+	import importlib 
+	myroot = config.get("SeleniumRoot")
+					## print ("myroot = " + myroot)
+	path = myroot + r'\TestCases'
+					## print ("path = " + path)
+	ignorePath = path + '\__pycache__'
+					## print("ignorePath: " + ignorePath)
+	
+	for root, directories, file in os.walk(path): # root = path 
+					# # print("\nroot: " + str(root))
+					# # print("directories: " + str(directories))
+					# # print("file: " + str(file) + " jetztReturn\n")   ## alle Dateien 
+
+		for onefile in file: 
+			if root != ignorePath:
+				print ("module_name = " + str(onefile) + "\n")
+				if(onefile.endswith(".py")):
+					module_name = onefile[0:len(onefile)-3]
+					module_name = root + "\\" + module_name    
+									# läuft in Windows TODO ... Linux, Unix: Pfad erst umfummeln
+					## print ("module_name = " + module_name) #  Pfad ohne .py
+				
+					module_name = module_name[len(myroot)+1: len(module_name)]
+					module_name = module_name.replace("\\", ".", 100)
+
+									# print ("module_name = " + module_name + "\n") #  Pfad ohne .py, das wird verwendet
+				
+					## String befummeln: DONE 2.12. usw Gelöscht 19.5.
+					
+					# module_name = "TestCases.TC_1_1_popup_cookies_deny"    # so gehts
+					module = importlib.import_module(module_name, package=None) 
+					if module_name != "TestCases.Mouse_over_-_Tooltip_von_title" :
+						## print ("module_name = " + module_name + "\n") 
+						result = module.tc(driver)					
+					tc_name_parts = module_name.split(".", -1)
+					tc_name = tc_name_parts[len(tc_name_parts) - 1]
+					# print(tc_name + ": " + str(result))
+					if result == "Passed":
+						reporter.report(tc_name, result, "")
+					else:
+						reporter.report(tc_name, "FAILED", result)
+					
+	# +++++++++++++++ nachgeschobener TC ++++++++++++++
+	if stillanothertestcase == True:
+		module_name = "TestCases.Mouse_over_-_Tooltip_von_title"
+		try:
+			module = importlib.import_module(module_name, package=None) 
+		except BaseException as be:
+			print("TestCases.Mouse_over_-_Tooltip_von_title " + str(be))
+		
+		result = module.tc(driver)
+		print(module_name + ": " + str(result) +"\n")
+		
+		tc_name_parts = module_name.split(".", -1)
+		tc_name = tc_name_parts[len(tc_name_parts) - 1]
+		# print(tc_name + ": " + str(result))
+		if result == "Passed":
+			reporter.report(tc_name, result, "")
+		else:
+			reporter.report(tc_name, "FAILED", result)
+	# +++++++++++++++ nachgeschobener TC Ende ++++++++++++++
+	driver.close()
+	driver.quit()
+	reporter.addStats(passed, failed, errors)
+	reporter.closeReport()
+			
+# execAllTestcases()	
+start()
+
+# so in meinem Python-Unit-Test:
+# def execFuncWithExc(functionName, args): # -> result, Exception given as String from Exception. functionName not in "" 
+	# try:
+		# result = functionName(*args)
