@@ -1,0 +1,16 @@
+DataDrivenConcept
+
+Testfall tcName ist DDTC, wenn Datei tcName_Testdata.csv existiert
+	sonst normaler Testfall
+	
+Ansteuerung: 
+	Vorwegscript DDTC_prepare:
+	Verzeichnis \TestData\DataDrivenCSVs
+	für alle CSVs tc_Testdata.csv
+		existiert Testcase tc ? nein -> LOG, ignorieren
+	
+	sonst: 	Aufruf schreiben 
+		tcName_Testdata.csv: 
+		TestcaseName;ExpectedResult;Param1;Param2;   
+				t1;None;6;30;5;NoHeaderForThis
+		--> 

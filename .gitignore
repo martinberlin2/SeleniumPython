@@ -5,7 +5,8 @@ geckodriver.log
 DontCommit/
 TestCases/__pycache__
 Logs/log.txt
-
 ExecLayerScripts/__pycache__
 ExecLayerScripts/nppBackup
 Logs/nppBackup
+Utilities/__pycache__/
+Reports/

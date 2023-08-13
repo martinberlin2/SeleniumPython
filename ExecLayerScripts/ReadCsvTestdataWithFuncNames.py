@@ -1,5 +1,3 @@
-
-
 	# ReadAndWriteCSV
 	# https://docs.python.org/3/library/csv.html#reader-objects
 
@@ -90,3 +88,4 @@ def run():
 	# Ende with open(td_filename, newline='')
 
 	# ExpectedResult	Param1	Param2
+

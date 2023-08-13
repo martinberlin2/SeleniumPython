@@ -1,0 +1,4 @@
+@echo off
+rem cls
+python -m start
+echo 

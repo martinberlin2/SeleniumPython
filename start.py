@@ -24,6 +24,7 @@ def start(): # collects unexpected exceptions from main
 	# print(__name__)  = __main__
 	try: 
 		reporter.openReport()
+		# dataDrivenTC()
 		# all_TCs_recursive()  # startet nacheinander alle TC in /testcases, rekursiv; kein Harness
 		harness()
 		# one_tc()
@@ -49,7 +50,36 @@ def one_tc(): # returns: None; nur developen + debug
 	reporter.addStats(passed, failed, errors)
 	reporter.closeReport()
 	# driver.quit()
+
+def dataDrivenTC():		
+	# Aufruf:
+	# import TestCases.CollatzStep as TC 
+	# tc_name = "CollatzStep"
 	
+	# result = TC.tc(None, 2,4)
+	# print(result)
+	# reporter.report(tc_name, result, "")
+	
+	# result = TC.tc(None, 16,5)
+	# print(result)
+	# reporter.report(tc_name, result, "")
+	
+	# import TestCases.DIV as TC 
+	# tc_name = "DIV"
+	# result = TC.tc(None, 4.0,16,4)
+	# print(result)
+	
+	# reporter.report(tc_name, result, "")
+	# result = TC.tc(None, "Div by zero", 16,0)
+	# print(result)
+	# reporter.report(tc_name, result, "")
+	
+	from ExecLayerScripts import ReadCsvTestdataWithFuncNames 
+	try:
+		ReadCsvTestdataWithFuncNames.run()
+	except BaseException as be:
+		print("dataDrivenTC: " + str(be))
+
 
 def harness():	# alle TC in einer Suite = einem Ordner, wird in diesem Ordner liegen
 	from selenium import webdriver
@@ -87,7 +117,6 @@ def execTC(driver, TC_moduleName):
 def all_TCs_recursive():	# alle TC in /testcases, rekursiv
 	from selenium import webdriver
 	# from selenium.webdriver.common.keys import Keys
-	
 	import time 
 	# driverpath = config.get("gecko")
 	# driver = webdriver.Firefox(executable_path=driverpath) # deprecated: executable_path
@@ -126,6 +155,7 @@ def all_TCs_recursive():	# alle TC in /testcases, rekursiv
 					## String befummeln: DONE 2.12. usw Gelöscht 19.5.
 					
 					# module_name = "TestCases.TC_1_1_popup_cookies_deny"    # so gehts
+
 					module = importlib.import_module(module_name, package=None) 
 					if module_name != "TestCases.Mouse_over_-_Tooltip_von_title" :
 						## print ("module_name = " + module_name + "\n") 

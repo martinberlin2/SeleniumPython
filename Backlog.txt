@@ -59,7 +59,7 @@ FEA Weiterleitung einer Page, Beispiel auticon.de   TC_6_JumpPage
 	TCs müssen nicht numeriert sein
 
 		besser: Typ-Auswertung bei expected
-LoadPage(url) -> Page ist PageObject
+
 StubTC (ER, params) für später data driven 
 	params als Liste
 	Dummy Aktionen 

@@ -1,0 +1,7 @@
+TestcaseName;ExpectedResult;Param1;Param2;;
+t1;6;30;5;;KeinHeaderForThis
+t2;606;6666;11;;
+t3;DivByZero;34;0;;
+t4;7;42;6;;
+;;;;;
+;AfterLastLine;  ;;;

@@ -1,3 +1,3 @@
 Testcase                       Result     Reason                                  
 ----------------------------------------------------------------------------------
-TC_InDevelopment.............. FAILED     getElem: Element found after seconds: 0:00:00.001956
+TC_InDevelopment.............. FAILED     getElem: Element found after seconds: 
