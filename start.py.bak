@@ -20,6 +20,7 @@ SeleniumRoot = config.get("SeleniumRoot")
 logging.basicConfig(filename= SeleniumRoot + '/Logs/log.txt', level=logging.INFO) 
 
 def start(): # collects unexpected exceptions from main 
+<<<<<<< HEAD
 	print("Started")
 	# print(__name__)  = __main__
 	try: 
@@ -27,10 +28,18 @@ def start(): # collects unexpected exceptions from main
 		# all_TCs_recursive()  # startet nacheinander alle TC in /testcases, rekursiv; kein Harness
 		harness()
 		# one_tc()
+=======
+	# print("Started")
+	try:
+		dataDrivenTC()
+		# main()
+		# one_tc(tc_name)
+>>>>>>> DataDrivenCSV
 	except Exception as ex:
 		logging.error("EXC main level: " + str(ex))
 	reporter.closeReport()
 
+<<<<<<< HEAD
 def one_tc(): # returns: None; nur developen + debug
 	from selenium import webdriver
 	driver = webdriver.Firefox()   # SE 4, see Solved.txt 
@@ -49,6 +58,40 @@ def one_tc(): # returns: None; nur developen + debug
 	reporter.addStats(passed, failed, errors)
 	reporter.closeReport()
 	# driver.quit()
+=======
+def dataDrivenTC():
+		
+	# Aufruf:
+	# import TestCases.CollatzStep as TC 
+	# tc_name = "CollatzStep"
+	
+	# result = TC.tc(None, 2,4)
+	# print(result)
+	# reporter.report(tc_name, result, "")
+	
+	# result = TC.tc(None, 16,5)
+	# print(result)
+	# reporter.report(tc_name, result, "")
+	
+	# import TestCases.DIV as TC 
+	# tc_name = "DIV"
+	# result = TC.tc(None, 4.0,16,4)
+	# print(result)
+	
+	# reporter.report(tc_name, result, "")
+	# result = TC.tc(None, "Div by zero", 16,0)
+	# print(result)
+	# reporter.report(tc_name, result, "")
+	
+	from ExecLayerScripts import ReadCsvTestdataWithFuncNames 
+	try:
+		ReadCsvTestdataWithFuncNames.run()
+	except BaseException as be:
+		print("dataDrivenTC: " + str(be))
+
+
+def one_tc(tc_name): # returns: None; nur developen + debug
+>>>>>>> DataDrivenCSV
 	
 
 def harness():	# alle TC in einer Suite = einem Ordner, wird in diesem Ordner liegen
@@ -73,8 +116,7 @@ def execTC(driver, TC_moduleName):
 								# TODO 'TC_name' aus Testcase -- ONGOING
 	
 	result, seconds = TCmodule.tc(driver)					
-	print ("geht bis hier")
-	return
+	
 	if result == "Passed":
 		reporter.report(tc_name, result, "")
 	else:
@@ -89,11 +131,17 @@ def all_TCs_recursive():	# alle TC in /testcases, rekursiv
 	from selenium import webdriver
 	# from selenium.webdriver.common.keys import Keys
 	
+<<<<<<< HEAD
 	import time 
 	# driverpath = config.get("gecko")
 	# driver = webdriver.Firefox(executable_path=driverpath) # deprecated: executable_path
 	driver = webdriver.Firefox()   # SE 4
 	stillanothertestcase = False 
+=======
+	driverpath = config.get("gecko")
+	driver = webdriver.Firefox(executable_path=driverpath)
+	
+>>>>>>> DataDrivenCSV
 	# https://stackoverflow.com/questions/49929374/notadirectoryerror-winerror-267-the-directory-name-is-invalid-error-while-inv	 
 	driver.get("https://auticon.de") 
 	import os
@@ -116,6 +164,7 @@ def all_TCs_recursive():	# alle TC in /testcases, rekursiv
 				if(onefile.endswith(".py")):
 					module_name = onefile[0:len(onefile)-3]
 					module_name = root + "\\" + module_name    
+<<<<<<< HEAD
 									# läuft in Windows TODO ... Linux, Unix: Pfad erst umfummeln
 					## print ("module_name = " + module_name) #  Pfad ohne .py
 				
@@ -127,6 +176,12 @@ def all_TCs_recursive():	# alle TC in /testcases, rekursiv
 					## String befummeln: DONE 2.12. usw Gelöscht 19.5.
 					
 					# module_name = "TestCases.TC_1_1_popup_cookies_deny"    # so gehts
+=======
+						# läuft in Windows TODO ... Linux, Unix: Pfad erst umfummeln
+					module_name = module_name[len(myroot)+1: len(module_name)]
+					module_name = module_name.replace("\\", ".", 100)
+					print ("module_name = " + module_name) 
+>>>>>>> DataDrivenCSV
 					module = importlib.import_module(module_name, package=None) 
 					if module_name != "TestCases.Mouse_over_-_Tooltip_von_title" :
 						## print ("module_name = " + module_name + "\n") 

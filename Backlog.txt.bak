@@ -8,7 +8,8 @@ DEB Technical Debt - Defect, der erstmal toleriert wird
 DEB Alle Testfälle geben String zurück
 
 + Harness: für eine Suite, die in einem Ordner liegt
-	geht mit einem TC 
++ geht mit einem TC 
+- GIT 
 - TC und Harness in Suite-Ordner 
 - Ordnername = Name der Suite = Ordnername.py, enthaelt Harness() Methode 
 - Steuerung für alle Suites unter Testcases-Ordner
@@ -58,7 +59,7 @@ FEA Weiterleitung einer Page, Beispiel auticon.de   TC_6_JumpPage
 	TCs müssen nicht numeriert sein
 
 		besser: Typ-Auswertung bei expected
-LoadPage(url) -> Page ist PageObject
+
 StubTC (ER, params) für später data driven 
 	params als Liste
 	Dummy Aktionen 
